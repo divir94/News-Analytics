@@ -4,7 +4,7 @@ import time, imaplib
 from dateutil import parser
 import datetime
 import numpy as np
-import ner
+#import ner
 import bsddb, string
 from nltk.stem import WordNetLemmatizer
 from sklearn import decomposition
