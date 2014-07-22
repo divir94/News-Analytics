@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd">
+  <meta lastmodifieddate="2014-07-18">
+    <creator>Divir Gupta</creator>
+    <description></description>
+  </meta>
+  <graph mode="dynamic" defaultedgetype="undirected" timeformat="float" start="1" end="5">
+    <nodes>
+      <node id="1" label="A">
+      	<spells>
+          <spell start="1" end="2"></spell>
+          <spell start="2" end="3"></spell>
+          <spell start="3" end="4"></spell>
+        </spells>
+      </node>
+      <node id="2" label="B">
+      	<spells>
+          <spell start="1" end="2"></spell>
+          <spell start="3" end="4"></spell>
+        </spells>
+      </node>
+      <node id="3" label="C">
+      	<spells>
+          <spell start="1" end="2"></spell>
+          <spell start="2" end="3"></spell>
+          <spell start="3" end="4"></spell>
+        </spells>
+      </node>
+      <node id="4" label="D">
+      	<spells>
+          <spell start="1" end="2"></spell>
+          <spell start="2" end="3"></spell>
+        </spells>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="1" target="2">
+        <spells>
+          <spell start="1" end="2"></spell>
+          <spell start="3" end="4"></spell>
+        </spells>      
+      </edge>
+      <edge source="1" target="3">
+        <spells>
+          <spell start="1" end="2"></spell>
+        </spells>      
+      </edge>
+      <edge source="1" target="4">
+        <spells>
+          <spell start="2" end="3"></spell>
+        </spells>      
+      </edge>
+      <edge source="2" target="3">
+        <spells>
+          <spell start="3" end="4"></spell>
+        </spells>      
+      </edge>
+      <edge source="3" target="4">
+        <spells>
+          <spell start="1" end="2"></spell>
+        </spells>      
+      </edge>
+    </edges>
+  </graph>
+</gexf>

@@ -1,0 +1,61 @@
+<gexf version="1.1" xmlns="http://www.gexf.net/1.1draft" xmlns:viz="http://www.gexf.net/1.1draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="undirected" mode="dynamic" timeformat="date">
+    <attributes class="edge" mode="dynamic">
+      <attribute id="0" title="heat" type="integer" />
+    </attributes>
+    <nodes>
+      <node id="1" label="1" />
+      <node id="2" label="2" />
+      <node id="3" label="3" />
+      <node id="4" label="4" />
+      <node id="1" label="A" />
+      <node id="3" label="C" />
+      <node id="2" label="B" />
+      <node id="4" label="D" />
+    </nodes>
+    <edges>
+      <edge id="0" source="1" target="2">
+        <spells>
+          <spell end="2014-07-02" start="2014-07-01" />
+          <spell end="2014-07-04" start="2014-07-03" />
+        </spells>
+        <attvalues>
+          <attvalue end="2014-07-02" for="0" start="2014-07-01" value="1" />
+          <attvalue end="2014-07-04" for="0" start="2014-07-03" value="4" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="1" target="3">
+        <spells>
+          <spell end="2014-07-02" start="2014-07-01" />
+        </spells>
+        <attvalues>
+          <attvalue end="2014-07-02" for="0" start="2014-07-01" value="2" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="1" target="4">
+        <spells>
+          <spell end="2014-07-03" start="2014-07-02" />
+        </spells>
+        <attvalues>
+          <attvalue end="2014-07-03" for="0" start="2014-07-02" value="3" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="2" target="3">
+        <spells>
+          <spell end="2014-07-04" start="2014-07-03" />
+        </spells>
+        <attvalues>
+          <attvalue end="2014-07-04" for="0" start="2014-07-03" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="3" target="4">
+        <spells>
+          <spell end="2014-07-02" start="2014-07-01" />
+        </spells>
+        <attvalues>
+          <attvalue end="2014-07-02" for="0" start="2014-07-01" value="5" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

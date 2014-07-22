@@ -1,0 +1,119 @@
+<gexf version="1.1" xmlns="http://www.gexf.net/1.1draft" xmlns:viz="http://www.gexf.net/1.1draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="edge" mode="static">
+      <attribute id="1" title="label" type="integer" />
+    </attributes>
+    <attributes class="node" mode="static">
+      <attribute id="0" title="type" type="string" />
+    </attributes>
+    <nodes>
+      <node id="Lisa Lambert" label="Lisa Lambert">
+        <attvalues>
+          <attvalue for="0" value="Person" />
+        </attvalues>
+      </node>
+      <node id="USD" label="USD">
+        <attvalues>
+          <attvalue for="0" value="Currency" />
+        </attvalues>
+      </node>
+      <node id="Terry McAuliffe" label="Terry McAuliffe">
+        <attvalues>
+          <attvalue for="0" value="Person" />
+        </attvalues>
+      </node>
+      <node id="Virginia" label="Virginia">
+        <attvalues>
+          <attvalue for="0" value="ProvinceOrState" />
+        </attvalues>
+      </node>
+      <node id="Governor" label="Governor">
+        <attvalues>
+          <attvalue for="0" value="Position" />
+        </attvalues>
+      </node>
+      <node id="Mohammad Zargham" label="Mohammad Zargham">
+        <attvalues>
+          <attvalue for="0" value="Person" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Lisa Lambert" target="Terry McAuliffe">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="Lisa Lambert" target="USD">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="Lisa Lambert" target="Mohammad Zargham">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="Lisa Lambert" target="Virginia">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="Lisa Lambert" target="Governor">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="USD" target="Terry McAuliffe">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="USD" target="Mohammad Zargham">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="USD" target="Virginia">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="USD" target="Governor">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="Terry McAuliffe" target="Mohammad Zargham">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="Terry McAuliffe" target="Virginia">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="Terry McAuliffe" target="Governor">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="Virginia" target="Mohammad Zargham">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="Virginia" target="Governor">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="Governor" target="Mohammad Zargham">
+        <attvalues>
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
