@@ -19,7 +19,7 @@ def merge_graph(G, H):
     for edge in edgeList:
         source, target, weight =  edge
         if G.has_edge(source, target):
-            G[source][target]['weight'] += 1
+            G[source][target]['weight'] += H[source][target]['weight']
         else: G.add_edges_from([edge])
 
     return G

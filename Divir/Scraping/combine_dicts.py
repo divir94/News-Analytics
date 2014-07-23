@@ -1,8 +1,8 @@
 import shelve
 
-dates = [1,2,3,4,6]
+dates = range(1, 11)
 dates = ['2014070%s'%date for date in dates] 
-d = shelve.open('July/July')
+d = shelve.open('../Data/July/July')
 
 def combine(d):
      for date in dates:
