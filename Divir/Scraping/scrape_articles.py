@@ -7,28 +7,29 @@ from bs4 import BeautifulSoup
 # db
 import shelve
 
+# time/timeout
+import signal
+from datetime import date, timedelta
+from contextlib import contextmanager
+from time import time
+
 # others
 import itertools
 import sys
 from pprint import pprint
-from time import time
-
-# timeout
-import signal
-from contextlib import contextmanager
-
 
 
 """
-key: date (yy/mm/dd) i.e. 20070701
-value: list of dicts where key is url and value is (title, text) i.e. url: (title, text)
+articles_dict
+key: date (yymmdd) i.e. 20070701
+value: dict with key: val -> url: (title, text)
 """
 
 
 """ ------------- Generic Functions ---------------"""
 # html
 def get_html(url):
-   """"given a url return html"""
+   """"given a url returns html"""
    try:
        html = urllib2.urlopen(url).read()
        return html
@@ -38,8 +39,8 @@ def get_html(url):
 
 # tags
 def find_tags(html, tag_name, class_name=False, a_tag=False):
-   """"find tags using beutifulsoup,
-       options: use class names, get anchor tags"""
+   """"find tags using beautifulsoup,
+       options: use a class name, get anchor tags"""
    soup = BeautifulSoup(html)
    # get tag with class if specified
    if class_name: tags = soup.findAll(tag_name, { "class" : class_name })
@@ -50,7 +51,7 @@ def find_tags(html, tag_name, class_name=False, a_tag=False):
 
 # article
 def get_article(url):
-     """get article title, meta data and text using goose"""
+     """get article title and text using goose"""
      g = Goose()
      article = g.extract(url=url)
      title = article.title
@@ -65,28 +66,52 @@ def timeout(fun, limit, *args ):
             raise TimeoutException, "Timed out!"
         signal.signal(signal.SIGALRM, signal_handler)
         signal.alarm(seconds)
-        try:
-            yield
-        finally:
-            signal.alarm(0)
+        try: yield
+        finally: signal.alarm(0)
     try:
         with time_limit(limit):
             return fun(*args)
     except TimeoutException, msg:
+        print "Function timed out\n"
         return ("", "")
 
-""" ------------- Special Functions ---------------"""
+""" ------------- Scrape Articles ---------------"""
 def article_links_on_date(date):
-     url = "http://www.reuters.com/resources/archive/us/%s.html" % date
+     reuters_date_format = str(date).replace("-","")
+     url = "http://www.reuters.com/resources/archive/us/%s.html" % reuters_date_format
      html = get_html(url)
-
      # all links includes articles + video
      all_links = find_tags(html, 'div', 'headlineMed', a_tag=True)
-     article_links = [i for i in all_links if 'video' not in str(i)]
+     # remove video links
+     article_links = [link for link in all_links if 'video' not in str(link)]
      return article_links
 
+def dates_in_range(start_date, end_date):
+    diff = end_date - start_date
+    dates = [ start_date + timedelta(i) for i in range(diff.days + 1) ]
+    return dates
+# test
+# for date in dates_in_range(date(2014,6,15), date(2014,7,15)): print date
+
+def print_articles_on_dates(start_date, end_date):
+    dates = dates_in_range(start_date, end_date)
+    total_articles = 0
+    for date in dates:
+        num_articles = len(article_links_on_date(date))
+        total_articles += num_articles
+        print "Date: %s, Num articles: %s" % ( str(date), num_articles )
+    print "\nTotal articles: %s" % total_articles
+# test
+# print_articles_on_dates(date(2014,7,1), date(2014,7,10))
+
+""" ------------- Store Articles ---------------"""
+def run_store(date):
+    start_time = time()
+    store_articles(date)
+    print time() - start_time
+
 def store_articles(date):
-     d = shelve.open("../Data/July/" + date, writeback=True)
+     d = shelve.open("../Data/July/" + str(date), writeback=True)
      num_stored = num_missing = 0
 
      # get links to articles
@@ -109,8 +134,10 @@ def store_articles(date):
      d.close()
      return
 
+""" ------------- Printing ---------------"""
+
 def print_article_titles(date):
-     d = shelve.open("../Data/July/" + date)
+     d = shelve.open("../Data/July/" + str(date))
      empty_articles  = 0
      for url, (title, text) in d.iteritems():
         print url, title
@@ -120,20 +147,11 @@ def print_article_titles(date):
      print "Empty articles in dict: %d" % empty_articles
 
 
-def run_store(date):
-    start_time = time()
-    store_articles(date)
-    print time() - start_time
+date = date(2014,7,1)
 
+# print_article_titles(date)
+# run_store(date)
 
-date = "20140702"
-
-#print_article_titles(date)
-#run_store(date)
-
-# d = shelve.open("../Data/July/" + date)
+# d = shelve.open("../Data/July/" + str(date))
 # print len(d)
 
-title, text = get_article("http://feeds.reuters.com/~r/Reuters/worldNews/~3/xuC28q4j0nQ/story01.html")
-
-print text

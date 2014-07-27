@@ -21,8 +21,8 @@ def timeout(fun, limit, *args ):
         return "time out"
 
 def foo(boo):
-    #time.sleep(2)
+    time.sleep(2)
     return boo
 
 out = timeout(foo, 1, "hey")
-print out
+out
