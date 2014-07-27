@@ -128,8 +128,12 @@ def run_store(date):
 
 date = "20140702"
 
-print_article_titles(date)
+#print_article_titles(date)
 #run_store(date)
 
 # d = shelve.open("../Data/July/" + date)
 # print len(d)
+
+title, text = get_article("http://feeds.reuters.com/~r/Reuters/worldNews/~3/xuC28q4j0nQ/story01.html")
+
+print text
