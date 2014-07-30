@@ -35,8 +35,8 @@ nx.draw_networkx_edges(G, pos, edgelist=esmall, width=6, alpha=0.5, edge_color='
 # labels
 nx.draw_networkx_labels(G, pos, font_size=20, font_family='sans-serif')
 
-nx.write_gexf(G, "test.gexf")
+#nx.write_gexf(G, "test.gexf")
 
-plt.axis('off')
+#plt.axis('off')
 plt.savefig("weighted_graph.png")  # save as png
 #plt.show()  # display

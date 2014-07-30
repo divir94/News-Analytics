@@ -1,4 +1,5 @@
 import networkx as nx
+import matplotlib.pyplot as plt
 from pprint import pprint
 from itertools import combinations
 
@@ -41,14 +42,20 @@ def complete_graph_from_list(nodeList):
 
 
 # testing
-'''
-G = complete_graph_from_list(["a", "b", "c", "d"])
-H = complete_graph_from_list(["b", "d", "e"])
 
-C = merge_graph(G, H)
-pprint(C.nodes())
-pprint(C.edges(data=True))
+# G = complete_graph_from_list(["a", "b", "c", "d"])
+# H = complete_graph_from_list(["b", "d", "e"])
+#
+# C = merge_graph(G, H)
+# pprint(C.nodes())
+# pprint(C.edges(data=True))
+#
+# nx.draw_spring(G)
+# plt.show()
 
-A = nx.adjacency_matrix(C, ["a", "b", "c", "d", "e"])
-pprint(A.toarray())
-'''
+# A = nx.adjacency_matrix(C, ["a", "b", "c", "d", "e"])
+# pprint(A.toarray())
+
+nodeList = [("b", {'type': 'stock'}), ("c", {'type': 'food'})]
+G = complete_graph_from_list(nodeList)
+pprint(G.nodes(data=True))

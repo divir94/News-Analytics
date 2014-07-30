@@ -9,7 +9,7 @@ import shelve
 
 # time/timeout
 import signal
-from datetime import date, timedelta
+from datetime import *
 from contextlib import contextmanager
 from time import time
 
@@ -17,6 +17,7 @@ from time import time
 import itertools
 import sys
 from pprint import pprint
+from collections import OrderedDict
 
 
 """
@@ -25,8 +26,8 @@ key: date (yymmdd) i.e. 20070701
 value: dict with key: val -> url: (title, text)
 """
 
+""" ------------- Generic Scraping ---------------"""
 
-""" ------------- Generic Functions ---------------"""
 # html
 def get_html(url):
    """"given a url returns html"""
@@ -75,83 +76,251 @@ def timeout(fun, limit, *args ):
         print "Function timed out\n"
         return ("", "")
 
-""" ------------- Scrape Articles ---------------"""
-def article_links_on_date(date):
-     reuters_date_format = str(date).replace("-","")
-     url = "http://www.reuters.com/resources/archive/us/%s.html" % reuters_date_format
-     html = get_html(url)
-     # all links includes articles + video
-     all_links = find_tags(html, 'div', 'headlineMed', a_tag=True)
-     # remove video links
-     article_links = [link for link in all_links if 'video' not in str(link)]
-     return article_links
 
-def dates_in_range(start_date, end_date):
+""" ----------------- Helper  ------------------"""
+
+def dates_in_interval(start_date, end_date):
+    """ Returns list of calender dates in interval"""
     diff = end_date - start_date
     dates = [ start_date + timedelta(i) for i in range(diff.days + 1) ]
     return dates
-# test
+
 # for date in dates_in_range(date(2014,6,15), date(2014,7,15)): print date
 
-def print_articles_on_dates(start_date, end_date):
+
+def store_num_articles(start_date, end_date):
     dates = dates_in_range(start_date, end_date)
+    num_dates = len(dates)
     total_articles = 0
-    for date in dates:
-        num_articles = len(article_links_on_date(date))
-        total_articles += num_articles
-        print "Date: %s, Num articles: %s" % ( str(date), num_articles )
+    temp_dict = dict()
+
+    # 1
+    main_dict = shelve.open("../Data/num_articles")
+    dates_stored = [date for date in main_dict]
+    main_dict.close()
+
+    for i in range(num_dates):
+        date = str(dates[i])
+        if date in dates_stored:
+            print "Date: %s in dict" % date
+            continue
+
+        try:
+            articles_list = timeout(article_links_on_date, 5, date)
+            if isinstance(articles_list, list):
+                num_articles = len(articles_list)
+                total_articles += num_articles
+                temp_dict[str(date)] = num_articles
+                print "Date: %s, Num articles: %s" % ( date, num_articles )
+        except: "\nFailed to get articles list on date %s\n" % date
+
+        # write to dict
+        if i%20 == 0:
+            main_dict = shelve.open("../Data/num_articles")
+            main_dict.update(temp_dict)
+            main_dict.close()
+            temp_dict = dict()
+            print "\nSuccessfully updated dict, date: %s\n" % ( date )
+
     print "\nTotal articles: %s" % total_articles
-# test
-# print_articles_on_dates(date(2014,7,1), date(2014,7,10))
 
-""" ------------- Store Articles ---------------"""
-def run_store(date):
-    start_time = time()
-    store_articles(date)
-    print time() - start_time
+def print_num_articles():
+    d = shelve.open("../Data/num_articles")
+    total_articles = 0
+    missing_dates = []
+    calender_dates = dates_in_range( date(2007,1,1), date(2014,7,26) )
+    ordered_dict = OrderedDict((datetime.strftime(datetime.strptime(k , '%Y-%m-%d'), '%Y-%m-%d'), v)
+                           for k, v in sorted(d.iteritems()))
 
-def store_articles(date):
-     d = shelve.open("../Data/July/" + str(date), writeback=True)
-     num_stored = num_missing = 0
+    # print ordered dates in dict
+    for my_date, num_articles in ordered_dict.items():
+        total_articles += num_articles
+        print "Date: %s, Num articles: %s" % ( my_date, num_articles )
 
-     # get links to articles
-     article_links = article_links_on_date(date)
+    print "\nNum dates on calender: %d" % len(calender_dates)
+    print "Num dates stored: %d" % len(ordered_dict)
+    print "Total articles: %d" % total_articles
 
-     # store articles
-     for link in article_links:
-        if link not in d or not d[link][0] or not d[link][1]:
+    # print and get missing dates
+    print "\nMissing dates:"
+    for my_date in calender_dates:
+        if str(my_date) not in d:
+            print my_date
+            d[str(my_date)] = len(article_links_on_date(my_date))
+    d.close()
+
+# print_num_articles()
+
+""" --------------- Scraper Class ---------------"""
+
+class ArticleScraper():
+    def __init__(self, date, print_details=True):
+        self.date = date
+        self.date_str = str(date)
+        self.path_to_data = "../Data/July/"
+        self.reuters_article_links = [] # total articles on reuters
+        self.corrupted_keys = [] # failed to read key from db
+        self.pre_stored_links = [] # already stored in db and title not empty
+        self.stored_links = [] # stored in current process
+        self.crashed_links = [] # DB or Goose crashed while extracting
+        self.empty_links = [] # Goose returned w/ empty title
+        self.empty_db_links = []
+        self.print_details = print_details
+
+    def get_article_links(self):
+        """
+        :return: List of article urls for a given date
+        """
+        reuters_date_format = self.date_str.replace("-","")
+        url = "http://www.reuters.com/resources/archive/us/%s.html" % reuters_date_format
+        html = get_html(url)
+        # all links includes articles + video
+        all_links = find_tags(html, 'div', 'headlineMed', a_tag=True)
+        # remove video links
+        self.reuters_article_links = [link for link in all_links if 'video' not in str(link)]
+        return self.reuters_article_links
+
+    def get_pre_stored_links(self, details=False):
+        """
+        :return: List of stored articles for a given date
+        """
+        main_db = shelve.open(self.path_to_data + self.date_str, "r")
+        for link in main_db:
             try:
-                d[link] = timeout(get_article, int(5), link)
-                print link, d[link][0]
-            except: pass
-            #d[link] = get_article(link)
-            num_missing += 1
-        else:
-            num_stored += 1
-
-     print "Stored: %d" % num_stored
-     print "Missing: %d" % num_missing
-     d.close()
-     return
-
-""" ------------- Printing ---------------"""
-
-def print_article_titles(date):
-     d = shelve.open("../Data/July/" + str(date))
-     empty_articles  = 0
-     for url, (title, text) in d.iteritems():
-        print url, title
-        if not title or not text: empty_articles +=1
-     print "\nNum articles on Reuters: %d" % len(article_links_on_date(date))
-     print "Num articles in dict: %d" % len(d)
-     print "Empty articles in dict: %d" % empty_articles
+                title, text = main_db[link]
+                if title: self.log_link(link, "prestored-log", title, details)
+                if title =="" or text == "" or title == None or text == None:
+                    self.log_link(link, "empty-db", title)
+            except:
+                self.log_link(link, "corrupted-key")
+        main_db.close()
+        return self.pre_stored_links
 
 
-date = date(2014,7,1)
+    def store_article(self, link, temp_dict):
+        """
+        :param temp_dict: temp dict to update main db
+        :return: Store and log article
+        """
+        try: title, text = timeout(get_article, 5, link)
+        except:
+            self.log_link(link, "crashed")
+            return
+        if title:
+            temp_dict[link] = ( title, text )
+            self.log_link(link, "stored", title)
+        else: self.log_link(link, "empty")
 
-# print_article_titles(date)
-# run_store(date)
 
-# d = shelve.open("../Data/July/" + str(date))
-# print len(d)
+    def log_link(self, link, status, title="", details=True):
+        """
+        :return: Store links in resp dict and print if asked
+        """
+        if self.print_details and details: print "Status: %s, %s, %s" % (status, link, title)
+        if status == "crashed":
+            self.crashed_links.append(link)
+        elif status == "empty":
+            self.empty_links.append(link)
+        elif status == "stored":
+            self.stored_links.append(link)
+        elif status == "prestored-log":
+            self.pre_stored_links.append(link)
+        elif status == "pprestored-nolog": pass
+        elif status == "corrupted-key":
+            self.corrupted_key.append(link)
+        elif status == "empty-db":
+            self.empty_db_links.append(link)
 
+
+    def update_main_db(self, temp_dict):
+        """
+        :return: Update main db with temp dict to prevent corruption of db
+        """
+        main_dict = shelve.open(self.path_to_data + self.date_str, "wb")
+        main_dict.update(temp_dict)
+        main_dict.close()
+
+
+    def print_read_results(self):
+        """
+        :return: Print results after reading db
+        """
+        if self.print_details:
+            print "\n\nCorrupted keys:"
+            for link in self.corrupted_keys: print link
+
+            print "\n\nEmpty db links:"
+            for link in self.empty_db_links: print link
+
+        print "\nReuter's: %d" % len(self.get_article_links())
+        print "Pre-stored: %d" % len(self.pre_stored_links)
+        print "Empty: %d" % len(self.empty_db_links)
+        print "Corrupted keys: %d" % len(self.corrupted_keys)
+
+
+    def print_store_results(self):
+        """
+        :return: Print results after updating db
+        """
+        if self.print_details:
+            print "\nEmpty articles:"
+            for link in self.empty_links: print link
+            print "\nCrashed articles:"
+            for link in self.crashed_links: print link
+
+        print "\nReuter's: %d" % len(self.reuters_article_links)
+        print "Stored: %d" % len(self.stored_links)
+        print "Crashed: %d" % len(self.crashed_links)
+        print "Empty: %d" % len(self.empty_links)
+
+
+    def test_link(self, link):
+        title, text = get_article(link)
+        print title
+        print text
+
+    def run_read(self):
+        """
+        :return: Print articles in db
+        """
+        print "\n\nDate: %s" % self.date_str
+        self.get_pre_stored_links(details=True)
+        self.print_read_results()
+
+    def run_store(self):
+        """
+        :return: Update main db with temp dict to prevent corruption of db
+        """
+        print "Date: %s" % self.date_str
+        start_time = time()
+        temp_dict = dict()
+        article_links = self.get_article_links()
+        num_articles = len(article_links)
+        pre_stored_articles = self.get_pre_stored_links()
+
+        # store, log and update main db
+        for i in range(num_articles):
+            link = article_links[i]
+            # check if already stored
+            if link in pre_stored_articles:
+                self.log_link(link, "prestored-nolog")
+                continue
+            # store and log
+            self.store_article(link, temp_dict)
+            # open and update main db, clear temp dict
+            if i%20 == 0:
+                self.update_main_db(temp_dict)
+                if self.print_details: print "\nSuccessfully updated dict, i: %d, num links: %d\n" % ( i, num_articles)
+
+        # print results
+        self.print_store_results()
+        print "Time taken: %s sec" % str(time() - start_time)
+
+
+
+""" ------------- Main ---------------"""
+
+for i in range(1,11):
+    my_date = date(2014,7,i)
+    scraper = ArticleScraper(my_date, False)
+    scraper.run_read()
