@@ -128,7 +128,7 @@ class EntitiyGraph():
 
         for link, entities in entities_db.iteritems():
             G = self.add_entities_to_graph(G, entities)
-            print "%d: %s %d" % ( counter, link, len(G) )
+            #print "%d: %s %d" % ( counter, link, len(G) )
             counter +=1
 
         entities_db.close()
@@ -149,7 +149,7 @@ class EntitiyGraph():
 
 
 """ ------------------- Main ------------------"""
-for i in range(1,2):
+for i in [2,3,4,6,7,8,9,10]:
     my_date = date(2014, 7, i)
     extractor = EntitiyGraph(my_date)
     extractor.run_store()
