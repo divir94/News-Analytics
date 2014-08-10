@@ -157,7 +157,7 @@ class ArticleScraper():
     def __init__(self, date, print_details=True):
         self.date = date
         self.date_str = str(date)
-        self.path_to_data = "../Data/July/"
+        self.path_to_data = "../Data/Articles/"
         self.reuters_article_links = [] # total articles on reuters
         self.corrupted_keys = [] # failed to read key from db
         self.pre_stored_links = [] # already stored in db and title not empty
@@ -184,12 +184,13 @@ class ArticleScraper():
         """
         :return: List of stored articles for a given date
         """
-        main_db = shelve.open(self.path_to_data + self.date_str, "r")
+        main_db = shelve.open(self.path_to_data + self.date_str, 'r')
         for link in main_db:
             try:
                 title, text = main_db[link]
-                if title: self.log_link(link, "prestored-log", title, details)
-                if title =="" or text == "" or title == None or text == None:
+                if title and text:
+                    self.log_link(link, "prestored-log", title, details)
+                else:
                     self.log_link(link, "empty-db", title)
             except:
                 self.log_link(link, "corrupted-key")
@@ -227,7 +228,7 @@ class ArticleScraper():
             self.pre_stored_links.append(link)
         elif status == "pprestored-nolog": pass
         elif status == "corrupted-key":
-            self.corrupted_key.append(link)
+            self.corrupted_keys.append(link)
         elif status == "empty-db":
             self.empty_db_links.append(link)
 
@@ -236,9 +237,9 @@ class ArticleScraper():
         """
         :return: Update main db with temp dict to prevent corruption of db
         """
-        main_dict = shelve.open(self.path_to_data + self.date_str, "wb")
-        main_dict.update(temp_dict)
-        main_dict.close()
+        main_db = shelve.open(self.path_to_data + self.date_str, 'c')
+        main_db.update(temp_dict)
+        main_db.close()
 
 
     def print_read_results(self):
@@ -320,7 +321,7 @@ class ArticleScraper():
 
 """ ------------- Main ---------------"""
 
-for i in range(1,11):
+for i in range(3,4):
     my_date = date(2014,7,i)
     scraper = ArticleScraper(my_date, False)
     scraper.run_read()
