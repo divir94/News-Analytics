@@ -1,0 +1,18 @@
+<gexf version="1.1" xmlns="http://www.gexf.net/1.1draft" xmlns:viz="http://www.gexf.net/1.1draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="undirected" mode="static">
+    <nodes>
+      <node id="A" label="A" />
+      <node id="C" label="C" />
+      <node id="B" label="B" />
+      <node id="E" label="E" />
+      <node id="D" label="D" />
+    </nodes>
+    <edges>
+      <edge id="0" source="A" target="C" weight="0.199" />
+      <edge id="1" source="A" target="B" weight="0.267" />
+      <edge id="2" source="C" target="B" weight="0.199" />
+      <edge id="3" source="C" target="E" weight="0.199" />
+      <edge id="4" source="C" target="D" weight="0.199" />
+    </edges>
+  </graph>
+</gexf>
