@@ -170,7 +170,7 @@ class EntitiyGraph():
 
         # filter nodes by size
         print "Graph size before filtering by node size: %d" % len(G)
-        G = self.filter_node_size(G, 1)
+        G = self.filter_node_size(G, 2)
         print "Graph size after filtering by node size: %d" % len(G)
 
         ticker_db = shelve.open(self.path_to_graph + 'ticker')

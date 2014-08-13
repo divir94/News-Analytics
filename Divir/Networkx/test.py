@@ -46,8 +46,9 @@ def get_stock_price(ticker):
 
         # get stock prices
         data = Quandl.get(code, collapse="daily", authtoken="EqhJyL2Ywt3Q-hxydsN3")
-        print data['Open']
-        print data['Open']['2001-07-05']
+        print data.head()
+        # print data['Open']
+        # print data['Open']['2001-07-05']
         # open = data['Open'][date]
         # close = data['Close'][date]
         # price_change = float('%.2f' % ( (close-open)*100 / float(open) ))
@@ -57,4 +58,4 @@ def get_stock_price(ticker):
         print "Exception: Ticker: %s, Price change not found" % (ticker)
         return [ticker]+[0]*3
 
-#get_stock_price('AAPL')
+get_stock_price('BKWX')
