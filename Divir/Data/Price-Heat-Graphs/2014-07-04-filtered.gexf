@@ -1,0 +1,1292 @@
+<gexf version="1.1" xmlns="http://www.gexf.net/1.1draft" xmlns:viz="http://www.gexf.net/1.1draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="entity" type="string" />
+      <attribute id="1" title="type" type="string" />
+      <attribute id="2" title="size" type="integer" />
+      <attribute id="3" title="open" type="double" />
+      <attribute id="4" title="ticker" type="string" />
+      <attribute id="5" title="price_change" type="double" />
+      <attribute id="6" title="close" type="double" />
+    </attributes>
+    <nodes>
+      <node id="Abah Ofon" label="Abah Ofon">
+        <attvalues>
+          <attvalue for="0" value="{u'_type': u'Person', u'name': u'Abah Ofon', '__reference': u'http://d.opencalais.com/pershash-1/7930a2f4-8d81-3c7c-a9c6-ac36a91b0e49', u'commonname': u'Abah Ofon', u'relevance': 0.053, u'nationality': u'N/A', u'persontype': u'economic'}" />
+          <attvalue for="1" value="Person" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="managing director" label="managing director">
+        <attvalues>
+          <attvalue for="0" value="{u'relevance': 0.087, '__reference': u'http://d.opencalais.com/genericHasher-1/9443e26e-d592-3102-a098-4040aaf496c7', u'_type': u'Position', u'name': u'managing director'}" />
+          <attvalue for="1" value="Position" />
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </node>
+      <node id="food crops" label="food crops">
+        <attvalues>
+          <attvalue for="0" value="{u'relevance': 0.073, '__reference': u'http://d.opencalais.com/genericHasher-1/fbdadf10-51dc-3f33-b41a-03959b1410f2', u'_type': u'IndustryTerm', u'name': u'food crops'}" />
+          <attvalue for="1" value="IndustryTerm" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="runner" label="runner">
+        <attvalues>
+          <attvalue for="0" value="{u'relevance': 0.185, '__reference': u'http://d.opencalais.com/genericHasher-1/0dbaaa48-db20-34d3-b32d-6729bce8d7b1', u'_type': u'Position', u'name': u'runner'}" />
+          <attvalue for="1" value="Position" />
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </node>
+      <node id="food staples" label="food staples">
+        <attvalues>
+          <attvalue for="0" value="{u'relevance': 0.111, '__reference': u'http://d.opencalais.com/genericHasher-1/604b8ffa-9c7e-36a9-ac0e-2c4f1b79d690', u'_type': u'IndustryTerm', u'name': u'food staples'}" />
+          <attvalue for="1" value="IndustryTerm" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="food price spikes" label="food price spikes">
+        <attvalues>
+          <attvalue for="0" value="{u'relevance': 0.053, '__reference': u'http://d.opencalais.com/genericHasher-1/d7383e96-5c30-3565-96fe-f2413e913508', u'_type': u'IndustryTerm', u'name': u'food price spikes'}" />
+          <attvalue for="1" value="IndustryTerm" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="President" label="President">
+        <attvalues>
+          <attvalue for="0" value="{u'relevance': 0.308, '__reference': u'http://d.opencalais.com/genericHasher-1/0d87e8a5-fb41-33c9-a1fb-bedf134b384e', u'_type': u'Position', u'name': u'President'}" />
+          <attvalue for="1" value="Position" />
+          <attvalue for="2" value="65" />
+        </attvalues>
+      </node>
+      <node id="food prices" label="food prices">
+        <attvalues>
+          <attvalue for="0" value="{u'relevance': 0.107, '__reference': u'http://d.opencalais.com/genericHasher-1/d57fb71f-c94a-3f60-b7f1-91a4f1e87a9e', u'_type': u'IndustryTerm', u'name': u'food prices'}" />
+          <attvalue for="1" value="IndustryTerm" />
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </node>
+      <node id="Organisation for Economic Cooperation and Development" label="Organisation for Economic Cooperation and Development">
+        <attvalues>
+          <attvalue for="0" value="{u'_type': u'Organization', u'name': u'Organisation for Economic Cooperation and Development', '__reference': u'http://d.opencalais.com/genericHasher-1/2b81da8e-596a-3c82-b63e-8622b02abd0c', u'relevance': 0.319, u'nationality': u'N/A', u'organizationtype': u'N/A'}" />
+          <attvalue for="1" value="Organization" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="agribusiness giants" label="agribusiness giants">
+        <attvalues>
+          <attvalue for="0" value="{u'relevance': 0.094, '__reference': u'http://d.opencalais.com/genericHasher-1/e9dc1ecb-f1f4-3e73-8a08-6edcc442f199', u'_type': u'IndustryTerm', u'name': u'agribusiness giants'}" />
+          <attvalue for="1" value="IndustryTerm" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="American Chamber of Commerce in Indonesia" label="American Chamber of Commerce in Indonesia">
+        <attvalues>
+          <attvalue for="0" value="{u'_type': u'Organization', u'name': u'American Chamber of Commerce in Indonesia', '__reference': u'http://d.opencalais.com/genericHasher-1/0a08cb09-79d3-317e-aa60-95615c4fae76', u'relevance': 0.087, u'nationality': u'American', u'organizationtype': u'N/A'}" />
+          <attvalue for="1" value="Organization" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="analyst" label="analyst">
+        <attvalues>
+          <attvalue for="0" value="{u'relevance': 0.271, '__reference': u'http://d.opencalais.com/genericHasher-1/a12b43d5-d195-35ea-96a9-f710943bdb5a', u'_type': u'Position', u'name': u'analyst'}" />
+          <attvalue for="1" value="Position" />
+          <attvalue for="2" value="14" />
+        </attvalues>
+      </node>
+      <node id="palm oil" label="palm oil">
+        <attvalues>
+          <attvalue for="0" value="{u'relevance': 0.073, '__reference': u'http://d.opencalais.com/genericHasher-1/e82e0c00-b549-3905-8f61-da5efcc12093', u'_type': u'IndustryTerm', u'name': u'palm oil'}" />
+          <attvalue for="1" value="IndustryTerm" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="Prabowo Subianto" label="Prabowo Subianto">
+        <attvalues>
+          <attvalue for="0" value="{u'_type': u'Person', u'name': u'Prabowo Subianto', '__reference': u'http://d.opencalais.com/pershash-1/5cfb8577-c653-31ca-8597-2a519bbacdd1', u'commonname': u'Prabowo Subianto', u'relevance': 0.454, u'nationality': u'Indonesian', u'persontype': u'political'}" />
+          <attvalue for="1" value="Person" />
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </node>
+      <node id="JAKARTA" label="JAKARTA">
+        <attvalues>
+          <attvalue for="0" value="{u'relevance': 0.114, '__reference': u'http://d.opencalais.com/genericHasher-1/8d035db8-2994-312a-8715-4d45ffa32357', u'_type': u'City', u'name': u'JAKARTA', u'resolutions': [{u'name': u'Jakarta,Indonesia', u'longitude': u'106.75', u'latitude': u'-6.1333', u'shortname': u'Jakarta', u'containedbycountry': u'Indonesia', u'id': u'http://d.opencalais.com/er/geo/city/ralg-geo1/6eba4400-3f69-0dbf-f3a0-70e34021f3d3'}]}" />
+          <attvalue for="1" value="City" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="Australia" label="Australia">
+        <attvalues>
+          <attvalue for="0" value="{u'relevance': 0.28, '__reference': u'http://d.opencalais.com/genericHasher-1/84a34c48-25ac-327f-a805-7b81fd570f7d', u'_type': u'Country', u'name': u'Australia', u'resolutions': [{u'latitude': u'-32.34562', u'id': u'http://d.opencalais.com/er/geo/country/ralg-geo1/fb2a54d6-3748-4c4c-a8ad-b2343237b89f', u'longitude': u'141.434598022', u'name': u'Australia'}]}" />
+          <attvalue for="1" value="Country" />
+          <attvalue for="2" value="23" />
+        </attvalues>
+      </node>
+      <node id="Borneo island" label="Borneo island">
+        <attvalues>
+          <attvalue for="0" value="{u'relevance': 0.31, '__reference': u'http://d.opencalais.com/genericHasher-1/70dfd0d3-5078-3f18-a772-47f03032acff', u'_type': u'NaturalFeature', u'name': u'Borneo island'}" />
+          <attvalue for="1" value="NaturalFeature" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="Pawan Kumar" label="Pawan Kumar">
+        <attvalues>
+          <attvalue for="0" value="{u'_type': u'Person', u'name': u'Pawan Kumar', '__reference': u'http://d.opencalais.com/pershash-1/d3a1b66a-7e3b-32dc-85f7-fb0c7fb9183e', u'commonname': u'Pawan Kumar', u'relevance': 0.302, u'nationality': u'N/A', u'persontype': u'economic'}" />
+          <attvalue for="1" value="Person" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="Central Kalimantan" label="Central Kalimantan">
+        <attvalues>
+          <attvalue for="0" value="{u'relevance': 0.31, '__reference': u'http://d.opencalais.com/genericHasher-1/aef58029-0825-3480-9e43-ebe8c32d75d1', u'_type': u'ProvinceOrState', u'name': u'Central Kalimantan', u'resolutions': [{u'name': u'Central Kalimantan,Indonesia', u'longitude': u'113.5', u'latitude': u'-2.0', u'shortname': u'Central Kalimantan', u'containedbycountry': u'Indonesia', u'id': u'http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/fc9395e8-9328-92af-0f17-a5aa645047eb'}]}" />
+          <attvalue for="1" value="ProvinceOrState" />
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </node>
+      <node id="Brazil" label="Brazil">
+        <attvalues>
+          <attvalue for="0" value="{u'relevance': 0.746, '__reference': u'http://d.opencalais.com/genericHasher-1/fe313a08-88a6-33a7-980f-410dd8e740a6', u'_type': u'Country', u'name': u'Brazil', u'resolutions': [{u'latitude': u'-15.6777731062', u'id': u'http://d.opencalais.com/er/geo/country/ralg-geo1/6e5fa4d9-c48c-a921-c0a2-ce1e64c9ae6f', u'longitude': u'-47.4383649658', u'name': u'Brazil'}]}" />
+          <attvalue for="1" value="Country" />
+          <attvalue for="2" value="45" />
+        </attvalues>
+      </node>
+      <node id="Asia" label="Asia">
+        <attvalues>
+          <attvalue for="0" value="{u'relevance': 0.315, '__reference': u'http://d.opencalais.com/genericHasher-1/a5359054-758f-3c20-ac97-d90fbc6a170e', u'_type': u'Continent', u'name': u'Asia'}" />
+          <attvalue for="1" value="Continent" />
+          <attvalue for="2" value="16" />
+        </attvalues>
+      </node>
+      <node id="Standard Chartered" label="Standard Chartered : 0.0">
+        <attvalues>
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="STAN" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="0" value="{u'_type': u'Company', u'name': u'Standard Chartered', '__reference': u'http://d.opencalais.com/comphash-1/7db4ee7e-d9fa-3661-9672-f34aeb1cb5c8', u'relevance': 0.053, u'nationality': u'N/A', u'resolutions': [{u'name': u'STANDARD CHARTERED PLC', u'symbol': u'STAN.L', u'score': 1, u'shortname': u'STD Chartered', u'ticker': u'STAN', u'id': u'http://d.opencalais.com/er/company/ralg-tr1r/015d71ca-0814-319a-ae0a-44390c3670a0'}]}" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="1" value="Company" />
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </node>
+      <node id="Reuters" label="Reuters : 0.0">
+        <attvalues>
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="TRIGP" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="0" value="{u'_type': u'Company', u'name': u'Reuters', '__reference': u'http://d.opencalais.com/comphash-1/4dbfaab6-f8cb-3678-8e0e-bf467e075aa6', u'relevance': 0.714, u'nationality': u'N/A', u'resolutions': [{u'name': u'THOMSON REUTERS GROUP LIMITED', u'symbol': u'TRIGP.UL', u'score': 1, u'shortname': u'Thmsn Reuters', u'ticker': u'TRIGP', u'id': u'http://d.opencalais.com/er/company/ralg-tr1r/dbea25c4-97f0-30cf-9802-66cdda48876d'}]}" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="1" value="Company" />
+          <attvalue for="2" value="205" />
+        </attvalues>
+      </node>
+      <node id="food production" label="food production">
+        <attvalues>
+          <attvalue for="0" value="{u'relevance': 0.197, '__reference': u'http://d.opencalais.com/genericHasher-1/7c2fa3a6-b7b8-3086-aed5-4ee9ea261950', u'_type': u'IndustryTerm', u'name': u'food production'}" />
+          <attvalue for="1" value="IndustryTerm" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="Southeast Asia" label="Southeast Asia">
+        <attvalues>
+          <attvalue for="0" value="{u'relevance': 0.436, '__reference': u'http://d.opencalais.com/genericHasher-1/6ea98b3c-db71-37ee-b9ec-297faa14f172', u'_type': u'Region', u'name': u'Southeast Asia'}" />
+          <attvalue for="1" value="Region" />
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </node>
+      <node id="Suharto" label="Suharto">
+        <attvalues>
+          <attvalue for="0" value="{u'_type': u'Person', u'name': u'Suharto', '__reference': u'http://d.opencalais.com/pershash-1/1f07cb71-5ee0-36d6-b0f0-4921d1ebc786', u'commonname': u'Suharto', u'relevance': 0.31, u'nationality': u'N/A', u'persontype': u'political'}" />
+          <attvalue for="1" value="Person" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="ex-general" label="ex-general">
+        <attvalues>
+          <attvalue for="0" value="{u'relevance': 0.173, '__reference': u'http://d.opencalais.com/genericHasher-1/ad9bd7ca-d86e-33e1-94d6-19289de0484c', u'_type': u'Position', u'name': u'ex-general'}" />
+          <attvalue for="1" value="Position" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="food" label="food">
+        <attvalues>
+          <attvalue for="0" value="{u'relevance': 0.074, '__reference': u'http://d.opencalais.com/genericHasher-1/c16d75d3-6824-32a7-82c2-b8c266572ee5', u'_type': u'IndustryTerm', u'name': u'food'}" />
+          <attvalue for="1" value="IndustryTerm" />
+          <attvalue for="2" value="18" />
+        </attvalues>
+      </node>
+      <node id="United States" label="United States">
+        <attvalues>
+          <attvalue for="0" value="{u'relevance': 0.58, '__reference': u'http://d.opencalais.com/genericHasher-1/a54ac18b-a956-3b5c-b235-0609ca899305', u'_type': u'Country', u'name': u'United States', u'resolutions': [{u'latitude': u'40.4230003233', u'id': u'http://d.opencalais.com/er/geo/country/ralg-geo1/152649df-347e-e289-1a9e-acc883e07d17', u'longitude': u'-98.7372244786', u'name': u'United States'}]}" />
+          <attvalue for="1" value="Country" />
+          <attvalue for="2" value="227" />
+        </attvalues>
+      </node>
+      <node id="Susilo Bambang Yudhoyono" label="Susilo Bambang Yudhoyono">
+        <attvalues>
+          <attvalue for="0" value="{u'_type': u'Person', u'name': u'Susilo Bambang Yudhoyono', '__reference': u'http://d.opencalais.com/pershash-1/61240a9d-c3d3-3d47-8233-81471fa51f61', u'commonname': u'Susilo Bambang Yudhoyono', u'relevance': 0.428, u'nationality': u'N/A', u'persontype': u'N/A'}" />
+          <attvalue for="1" value="Person" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="damaged irrigation systems" label="damaged irrigation systems">
+        <attvalues>
+          <attvalue for="0" value="{u'relevance': 0.185, '__reference': u'http://d.opencalais.com/genericHasher-1/221e06a5-db70-3ada-be3b-b4563f4d2c3e', u'_type': u'IndustryTerm', u'name': u'damaged irrigation systems'}" />
+          <attvalue for="1" value="IndustryTerm" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="Java" label="Java">
+        <attvalues>
+          <attvalue for="0" value="{u'relevance': 0.308, '__reference': u'http://d.opencalais.com/genericHasher-1/18a107ad-319f-3333-a140-44cbf81f395e', u'_type': u'ProgrammingLanguage', u'name': u'Java'}" />
+          <attvalue for="1" value="ProgrammingLanguage" />
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </node>
+      <node id="Olam International" label="Olam International : 1.2">
+        <attvalues>
+          <attvalue for="3" value="2.49" />
+          <attvalue for="4" value="OLAM" />
+          <attvalue for="5" value="1.2" />
+          <attvalue for="0" value="{u'_type': u'Company', u'name': u'Olam International', '__reference': u'http://d.opencalais.com/comphash-1/226de0e7-1d40-3c06-a2d9-f58567f279ab', u'relevance': 0.094, u'nationality': u'N/A', u'resolutions': [{u'name': u'OLAM INTERNATIONAL LIMITED', u'symbol': u'OLAM.SI', u'score': 1, u'shortname': u'Olam', u'ticker': u'OLAM', u'id': u'http://d.opencalais.com/er/company/ralg-tr1r/bc425393-3def-32d3-a3e5-f12d1c06e26d'}]}" />
+          <attvalue for="6" value="2.52" />
+          <attvalue for="1" value="Company" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="Joko Widodo" label="Joko Widodo">
+        <attvalues>
+          <attvalue for="0" value="{u'_type': u'Person', u'name': u'Joko Widodo', '__reference': u'http://d.opencalais.com/pershash-1/040c9fb8-37c4-36ba-a39b-01f1c56af4de', u'commonname': u'Joko Widodo', u'relevance': 0.196, u'nationality': u'N/A', u'persontype': u'sports'}" />
+          <attvalue for="1" value="Person" />
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </node>
+      <node id="Cargill" label="Cargill : 0.0">
+        <attvalues>
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="0" value="{u'_type': u'Company', u'name': u'Cargill', '__reference': u'http://d.opencalais.com/comphash-1/d61148f4-ca32-34ea-b38e-145112fbfdc5', u'relevance': 0.094, u'nationality': u'N/A', u'resolutions': [{u'shortname': u'CARGILL', u'score': 1, u'id': u'http://d.opencalais.com/er/company/ralg-tr1r/07503f46-bc21-35b4-90d5-8ae696b221a5', u'name': u'CARGILL TARIM VE GIDA SANAYI TICARET ANONIM SIRKETI'}]}" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="1" value="Company" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="Rabobank International" label="Rabobank International : 0.0">
+        <attvalues>
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="RABO" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="0" value="{u'_type': u'Company', u'name': u'Rabobank International', '__reference': u'http://d.opencalais.com/comphash-1/23bbbadf-1e16-32e2-abce-8c326def9b0f', u'relevance': 0.295, u'nationality': u'N/A', u'resolutions': [{u'name': u'Cooperatieve Centrale Raiffeisen-Boerenleenbank B.A.', u'symbol': u'RABO.UL', u'score': 1, u'shortname': u'Rabobank Intl', u'ticker': u'RABO', u'id': u'http://d.opencalais.com/er/company/ralg-tr1r/7e32a926-3d12-3213-b173-4788cda7bde6'}]}" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="1" value="Company" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="Agriculture Minister" label="Agriculture Minister">
+        <attvalues>
+          <attvalue for="0" value="{u'relevance': 0.231, '__reference': u'http://d.opencalais.com/genericHasher-1/3ecc972f-434a-30fc-81a9-93cabd725e0d', u'_type': u'Position', u'name': u'Agriculture Minister'}" />
+          <attvalue for="1" value="Position" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="agro-food imports" label="agro-food imports">
+        <attvalues>
+          <attvalue for="0" value="{u'relevance': 0.281, '__reference': u'http://d.opencalais.com/genericHasher-1/d7527e76-c02e-3908-8077-3e0eb928bbf7', u'_type': u'IndustryTerm', u'name': u'agro-food imports'}" />
+          <attvalue for="1" value="IndustryTerm" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="Indonesia" label="Indonesia">
+        <attvalues>
+          <attvalue for="0" value="{u'relevance': 0.743, '__reference': u'http://d.opencalais.com/genericHasher-1/31920b2e-1c01-38e1-8a7d-fb9e30666d21', u'_type': u'Country', u'name': u'Indonesia', u'resolutions': [{u'latitude': u'-3.25906772689', u'id': u'http://d.opencalais.com/er/geo/country/ralg-geo1/cda2c99f-bf5e-19f2-0d33-1299c15a4491', u'longitude': u'109.702752248', u'name': u'Indonesia'}]}" />
+          <attvalue for="1" value="Country" />
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </node>
+      <node id="Andrew White" label="Andrew White">
+        <attvalues>
+          <attvalue for="0" value="{u'_type': u'Person', u'name': u'Andrew White', '__reference': u'http://d.opencalais.com/pershash-1/2626c38c-ba42-3371-91c8-a95cd28fc80d', u'commonname': u'Andrew White', u'relevance': 0.091, u'nationality': u'N/A', u'persontype': u'N/A'}" />
+          <attvalue for="1" value="Person" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="Suswono" label="Suswono">
+        <attvalues>
+          <attvalue for="0" value="{u'_type': u'Person', u'name': u'Suswono', '__reference': u'http://d.opencalais.com/pershash-1/342ffbf5-0aac-35f6-b003-75d91de4a07b', u'commonname': u'Suswono', u'relevance': 0.231, u'nationality': u'N/A', u'persontype': u'political'}" />
+          <attvalue for="1" value="Person" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="USD" label="USD">
+        <attvalues>
+          <attvalue for="0" value="{u'relevance': 0.611, '__reference': u'http://d.opencalais.com/genericHasher-1/736a403d-157b-3e80-86a7-acc404607cb2', u'_type': u'Currency', u'name': u'USD'}" />
+          <attvalue for="1" value="Currency" />
+          <attvalue for="2" value="257" />
+        </attvalues>
+      </node>
+      <node id="Thailand" label="Thailand">
+        <attvalues>
+          <attvalue for="0" value="{u'relevance': 0.263, '__reference': u'http://d.opencalais.com/genericHasher-1/c04cdb5b-508d-372b-9cc4-aaa0ffa4aa4f', u'_type': u'Country', u'name': u'Thailand', u'resolutions': [{u'latitude': u'13.9201940982', u'id': u'http://d.opencalais.com/er/geo/country/ralg-geo1/8689391a-8b93-cd2d-55cc-f3f436eef4e2', u'longitude': u'101.016765829', u'name': u'Thailand'}]}" />
+          <attvalue for="1" value="Country" />
+          <attvalue for="2" value="11" />
+        </attvalues>
+      </node>
+      <node id="General" label="General">
+        <attvalues>
+          <attvalue for="0" value="{u'relevance': 0.173, '__reference': u'http://d.opencalais.com/genericHasher-1/29ce4bc7-ea30-32a6-9e10-195f44e3b771', u'_type': u'Position', u'name': u'General'}" />
+          <attvalue for="1" value="Position" />
+          <attvalue for="2" value="11" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="117" source="Abah Ofon" target="Brazil" weight="0.0" />
+      <edge id="118" source="Abah Ofon" target="Prabowo Subianto" weight="0.0" />
+      <edge id="119" source="Abah Ofon" target="USD" weight="0.0" />
+      <edge id="120" source="Abah Ofon" target="Java" weight="0.0" />
+      <edge id="139" source="Abah Ofon" target="food prices" weight="0.0" />
+      <edge id="121" source="Abah Ofon" target="runner" weight="0.0" />
+      <edge id="122" source="Abah Ofon" target="managing director" weight="0.0" />
+      <edge id="123" source="Abah Ofon" target="ex-general" weight="0.0" />
+      <edge id="124" source="Abah Ofon" target="Asia" weight="0.0" />
+      <edge id="125" source="Abah Ofon" target="Reuters" weight="0.0" />
+      <edge id="126" source="Abah Ofon" target="food price spikes" weight="0.0" />
+      <edge id="127" source="Abah Ofon" target="agribusiness giants" weight="0.0" />
+      <edge id="128" source="Abah Ofon" target="agro-food imports" weight="0.0" />
+      <edge id="129" source="Abah Ofon" target="Australia" weight="0.0" />
+      <edge id="130" source="Abah Ofon" target="Pawan Kumar" weight="0.0" />
+      <edge id="131" source="Abah Ofon" target="Suswono" weight="0.0" />
+      <edge id="132" source="Abah Ofon" target="Andrew White" weight="0.0" />
+      <edge id="133" source="Abah Ofon" target="food staples" weight="0.0" />
+      <edge id="134" source="Abah Ofon" target="food crops" weight="0.0" />
+      <edge id="135" source="Abah Ofon" target="JAKARTA" weight="0.0" />
+      <edge id="136" source="Abah Ofon" target="President" weight="0.0" />
+      <edge id="137" source="Abah Ofon" target="Rabobank International" weight="0.0" />
+      <edge id="138" source="Abah Ofon" target="Agriculture Minister" weight="0.0" />
+      <edge id="146" source="Abah Ofon" target="Olam International" weight="0.0" />
+      <edge id="140" source="Abah Ofon" target="Organisation for Economic Cooperation and Development" weight="0.0" />
+      <edge id="141" source="Abah Ofon" target="Central Kalimantan" weight="0.0" />
+      <edge id="143" source="Abah Ofon" target="food" weight="0.0" />
+      <edge id="144" source="Abah Ofon" target="Joko Widodo" weight="0.0" />
+      <edge id="145" source="Abah Ofon" target="Indonesia" weight="0.0" />
+      <edge id="151" source="Abah Ofon" target="United States" weight="0.0" />
+      <edge id="147" source="Abah Ofon" target="Standard Chartered" weight="0.0" />
+      <edge id="148" source="Abah Ofon" target="Cargill" weight="0.0" />
+      <edge id="149" source="Abah Ofon" target="Thailand" weight="0.0" />
+      <edge id="150" source="Abah Ofon" target="analyst" weight="0.0" />
+      <edge id="142" source="Abah Ofon" target="Suharto" weight="0.0" />
+      <edge id="152" source="Abah Ofon" target="Susilo Bambang Yudhoyono" weight="0.0" />
+      <edge id="153" source="Abah Ofon" target="damaged irrigation systems" weight="0.0" />
+      <edge id="154" source="Abah Ofon" target="Southeast Asia" weight="0.0" />
+      <edge id="155" source="Abah Ofon" target="American Chamber of Commerce in Indonesia" weight="0.0" />
+      <edge id="156" source="Abah Ofon" target="General" weight="0.0" />
+      <edge id="157" source="Abah Ofon" target="food production" weight="0.0" />
+      <edge id="158" source="Abah Ofon" target="palm oil" weight="0.0" />
+      <edge id="159" source="Abah Ofon" target="Borneo island" weight="0.0" />
+      <edge id="33995" source="managing director" target="Prabowo Subianto" weight="0.0" />
+      <edge id="36157" source="managing director" target="Reuters" weight="0.0" />
+      <edge id="52281" source="managing director" target="Rabobank International" weight="0.0" />
+      <edge id="52282" source="managing director" target="Agriculture Minister" weight="0.0" />
+      <edge id="52283" source="managing director" target="Organisation for Economic Cooperation and Development" weight="0.0" />
+      <edge id="42181" source="managing director" target="food" weight="0.0" />
+      <edge id="52285" source="managing director" target="Borneo island" weight="0.0" />
+      <edge id="52328" source="managing director" target="President" weight="0.0" />
+      <edge id="43970" source="managing director" target="Susilo Bambang Yudhoyono" weight="0.0" />
+      <edge id="52290" source="managing director" target="Java" weight="0.0" />
+      <edge id="52291" source="managing director" target="Olam International" weight="0.0" />
+      <edge id="11256" source="managing director" target="JAKARTA" weight="0.0" />
+      <edge id="33320" source="managing director" target="agribusiness giants" weight="0.0" />
+      <edge id="3375" source="managing director" target="runner" weight="0.0" />
+      <edge id="52296" source="managing director" target="agro-food imports" weight="0.0" />
+      <edge id="9295" source="managing director" target="Pawan Kumar" weight="0.0" />
+      <edge id="50227" source="managing director" target="Suswono" weight="0.0" />
+      <edge id="4337" source="managing director" target="food staples" weight="0.0" />
+      <edge id="9378" source="managing director" target="Central Kalimantan" weight="0.0" />
+      <edge id="46434" source="managing director" target="Joko Widodo" weight="0.0" />
+      <edge id="52301" source="managing director" target="Indonesia" weight="0.0" />
+      <edge id="16590" source="managing director" target="United States" weight="0.0" />
+      <edge id="22460" source="managing director" target="Cargill" weight="0.0" />
+      <edge id="52304" source="managing director" target="Suharto" weight="0.0" />
+      <edge id="6736" source="managing director" target="American Chamber of Commerce in Indonesia" weight="0.0" />
+      <edge id="52307" source="managing director" target="Brazil" weight="0.0" />
+      <edge id="35482" source="managing director" target="Asia" weight="0.0" />
+      <edge id="52309" source="managing director" target="Australia" weight="0.0" />
+      <edge id="52311" source="managing director" target="Thailand" weight="0.0" />
+      <edge id="52313" source="managing director" target="Standard Chartered" weight="0.0" />
+      <edge id="52314" source="managing director" target="analyst" weight="0.0" />
+      <edge id="52316" source="managing director" target="damaged irrigation systems" weight="0.0" />
+      <edge id="52317" source="managing director" target="General" weight="0.0" />
+      <edge id="52298" source="managing director" target="food production" weight="0.0" />
+      <edge id="52320" source="managing director" target="USD" weight="0.0" />
+      <edge id="41610" source="managing director" target="ex-general" weight="0.0" />
+      <edge id="35944" source="managing director" target="food price spikes" weight="0.0" />
+      <edge id="52323" source="managing director" target="Andrew White" weight="0.0" />
+      <edge id="1759" source="managing director" target="food crops" weight="0.0" />
+      <edge id="52329" source="managing director" target="food prices" weight="0.0" />
+      <edge id="52333" source="managing director" target="Southeast Asia" weight="0.0" />
+      <edge id="7247" source="managing director" target="palm oil" weight="0.0" />
+      <edge id="1754" source="food crops" target="Brazil" weight="0.0" />
+      <edge id="1755" source="food crops" target="Prabowo Subianto" weight="0.0" />
+      <edge id="1756" source="food crops" target="USD" weight="0.0" />
+      <edge id="1757" source="food crops" target="Java" weight="0.0" />
+      <edge id="1774" source="food crops" target="food prices" weight="0.0" />
+      <edge id="1758" source="food crops" target="runner" weight="0.0" />
+      <edge id="1760" source="food crops" target="ex-general" weight="0.0" />
+      <edge id="1761" source="food crops" target="Asia" weight="0.0" />
+      <edge id="1762" source="food crops" target="Reuters" weight="0.0" />
+      <edge id="1763" source="food crops" target="food price spikes" weight="0.0" />
+      <edge id="1764" source="food crops" target="agribusiness giants" weight="0.0" />
+      <edge id="1765" source="food crops" target="agro-food imports" weight="0.0" />
+      <edge id="1766" source="food crops" target="Australia" weight="0.0" />
+      <edge id="1767" source="food crops" target="Pawan Kumar" weight="0.0" />
+      <edge id="1768" source="food crops" target="Suswono" weight="0.0" />
+      <edge id="1769" source="food crops" target="Andrew White" weight="0.0" />
+      <edge id="1770" source="food crops" target="food staples" weight="0.0" />
+      <edge id="1771" source="food crops" target="President" weight="0.0" />
+      <edge id="1772" source="food crops" target="Rabobank International" weight="0.0" />
+      <edge id="1773" source="food crops" target="Agriculture Minister" weight="0.0" />
+      <edge id="1781" source="food crops" target="Olam International" weight="0.0" />
+      <edge id="1775" source="food crops" target="Organisation for Economic Cooperation and Development" weight="0.0" />
+      <edge id="1776" source="food crops" target="Central Kalimantan" weight="0.0" />
+      <edge id="1778" source="food crops" target="food" weight="0.0" />
+      <edge id="1779" source="food crops" target="Joko Widodo" weight="0.0" />
+      <edge id="1780" source="food crops" target="Indonesia" weight="0.0" />
+      <edge id="1787" source="food crops" target="United States" weight="0.0" />
+      <edge id="1782" source="food crops" target="Standard Chartered" weight="0.0" />
+      <edge id="1783" source="food crops" target="Cargill" weight="0.0" />
+      <edge id="1784" source="food crops" target="Thailand" weight="0.0" />
+      <edge id="1785" source="food crops" target="JAKARTA" weight="0.0" />
+      <edge id="1786" source="food crops" target="analyst" weight="0.0" />
+      <edge id="1777" source="food crops" target="Suharto" weight="0.0" />
+      <edge id="1788" source="food crops" target="Susilo Bambang Yudhoyono" weight="0.0" />
+      <edge id="1789" source="food crops" target="damaged irrigation systems" weight="0.0" />
+      <edge id="1790" source="food crops" target="Southeast Asia" weight="0.0" />
+      <edge id="1791" source="food crops" target="American Chamber of Commerce in Indonesia" weight="0.0" />
+      <edge id="1792" source="food crops" target="General" weight="0.0" />
+      <edge id="1793" source="food crops" target="food production" weight="0.0" />
+      <edge id="1794" source="food crops" target="palm oil" weight="0.0" />
+      <edge id="1795" source="food crops" target="Borneo island" weight="0.0" />
+      <edge id="3370" source="runner" target="Brazil" weight="0.0" />
+      <edge id="3371" source="runner" target="Prabowo Subianto" weight="0.0" />
+      <edge id="3372" source="runner" target="USD" weight="0.0" />
+      <edge id="3373" source="runner" target="Java" weight="0.0" />
+      <edge id="3409" source="runner" target="food prices" weight="0.0" />
+      <edge id="3376" source="runner" target="ex-general" weight="0.0" />
+      <edge id="3378" source="runner" target="Asia" weight="0.0" />
+      <edge id="3381" source="runner" target="Reuters" weight="0.0" />
+      <edge id="3383" source="runner" target="food price spikes" weight="0.0" />
+      <edge id="3388" source="runner" target="agribusiness giants" weight="0.0" />
+      <edge id="3394" source="runner" target="Pawan Kumar" weight="0.0" />
+      <edge id="3395" source="runner" target="Suswono" weight="0.0" />
+      <edge id="3396" source="runner" target="Andrew White" weight="0.0" />
+      <edge id="3397" source="runner" target="food staples" weight="0.0" />
+      <edge id="3390" source="runner" target="agro-food imports" weight="0.0" />
+      <edge id="3403" source="runner" target="President" weight="0.0" />
+      <edge id="3404" source="runner" target="Rabobank International" weight="0.0" />
+      <edge id="3431" source="runner" target="damaged irrigation systems" weight="0.0" />
+      <edge id="3420" source="runner" target="Olam International" weight="0.0" />
+      <edge id="3410" source="runner" target="Organisation for Economic Cooperation and Development" weight="0.0" />
+      <edge id="3411" source="runner" target="Central Kalimantan" weight="0.0" />
+      <edge id="3414" source="runner" target="food" weight="0.0" />
+      <edge id="3416" source="runner" target="Joko Widodo" weight="0.0" />
+      <edge id="3417" source="runner" target="Indonesia" weight="0.0" />
+      <edge id="3426" source="runner" target="United States" weight="0.0" />
+      <edge id="3391" source="runner" target="Australia" weight="0.0" />
+      <edge id="3443" source="runner" target="Borneo island" weight="0.0" />
+      <edge id="3423" source="runner" target="Thailand" weight="0.0" />
+      <edge id="3408" source="runner" target="Agriculture Minister" weight="0.0" />
+      <edge id="3424" source="runner" target="JAKARTA" weight="0.0" />
+      <edge id="3425" source="runner" target="analyst" weight="0.0" />
+      <edge id="3413" source="runner" target="Suharto" weight="0.0" />
+      <edge id="3428" source="runner" target="Susilo Bambang Yudhoyono" weight="0.0" />
+      <edge id="3432" source="runner" target="Southeast Asia" weight="0.0" />
+      <edge id="3434" source="runner" target="American Chamber of Commerce in Indonesia" weight="0.0" />
+      <edge id="3435" source="runner" target="General" weight="0.0" />
+      <edge id="3437" source="runner" target="food production" weight="0.0" />
+      <edge id="3421" source="runner" target="Standard Chartered" weight="0.0" />
+      <edge id="3440" source="runner" target="palm oil" weight="0.0" />
+      <edge id="3422" source="runner" target="Cargill" weight="0.0" />
+      <edge id="4333" source="food staples" target="Brazil" weight="0.0" />
+      <edge id="4334" source="food staples" target="Prabowo Subianto" weight="0.0" />
+      <edge id="4335" source="food staples" target="USD" weight="0.0" />
+      <edge id="4336" source="food staples" target="Java" weight="0.0" />
+      <edge id="4351" source="food staples" target="food prices" weight="0.0" />
+      <edge id="4338" source="food staples" target="ex-general" weight="0.0" />
+      <edge id="4339" source="food staples" target="Asia" weight="0.0" />
+      <edge id="4340" source="food staples" target="Reuters" weight="0.0" />
+      <edge id="4341" source="food staples" target="food price spikes" weight="0.0" />
+      <edge id="4342" source="food staples" target="agribusiness giants" weight="0.0" />
+      <edge id="4343" source="food staples" target="agro-food imports" weight="0.0" />
+      <edge id="4344" source="food staples" target="Australia" weight="0.0" />
+      <edge id="4345" source="food staples" target="Pawan Kumar" weight="0.0" />
+      <edge id="4346" source="food staples" target="Suswono" weight="0.0" />
+      <edge id="4347" source="food staples" target="Andrew White" weight="0.0" />
+      <edge id="4348" source="food staples" target="President" weight="0.0" />
+      <edge id="4349" source="food staples" target="Rabobank International" weight="0.0" />
+      <edge id="4350" source="food staples" target="Agriculture Minister" weight="0.0" />
+      <edge id="4358" source="food staples" target="Olam International" weight="0.0" />
+      <edge id="4352" source="food staples" target="Organisation for Economic Cooperation and Development" weight="0.0" />
+      <edge id="4353" source="food staples" target="Central Kalimantan" weight="0.0" />
+      <edge id="4355" source="food staples" target="food" weight="0.0" />
+      <edge id="4356" source="food staples" target="Joko Widodo" weight="0.0" />
+      <edge id="4357" source="food staples" target="Indonesia" weight="0.0" />
+      <edge id="4364" source="food staples" target="United States" weight="0.0" />
+      <edge id="4359" source="food staples" target="Standard Chartered" weight="0.0" />
+      <edge id="4360" source="food staples" target="Cargill" weight="0.0" />
+      <edge id="4361" source="food staples" target="Thailand" weight="0.0" />
+      <edge id="4362" source="food staples" target="JAKARTA" weight="0.0" />
+      <edge id="4363" source="food staples" target="analyst" weight="0.0" />
+      <edge id="4354" source="food staples" target="Suharto" weight="0.0" />
+      <edge id="4365" source="food staples" target="Susilo Bambang Yudhoyono" weight="0.0" />
+      <edge id="4366" source="food staples" target="damaged irrigation systems" weight="0.0" />
+      <edge id="4367" source="food staples" target="Southeast Asia" weight="0.0" />
+      <edge id="4368" source="food staples" target="American Chamber of Commerce in Indonesia" weight="0.0" />
+      <edge id="4369" source="food staples" target="General" weight="0.0" />
+      <edge id="4370" source="food staples" target="food production" weight="0.0" />
+      <edge id="4371" source="food staples" target="palm oil" weight="0.0" />
+      <edge id="4372" source="food staples" target="Borneo island" weight="0.0" />
+      <edge id="35941" source="food price spikes" target="Brazil" weight="0.0" />
+      <edge id="34000" source="food price spikes" target="Prabowo Subianto" weight="0.0" />
+      <edge id="35942" source="food price spikes" target="USD" weight="0.0" />
+      <edge id="35943" source="food price spikes" target="Java" weight="0.0" />
+      <edge id="35960" source="food price spikes" target="Olam International" weight="0.0" />
+      <edge id="35945" source="food price spikes" target="ex-general" weight="0.0" />
+      <edge id="35581" source="food price spikes" target="Asia" weight="0.0" />
+      <edge id="35946" source="food price spikes" target="Reuters" weight="0.0" />
+      <edge id="6740" source="food price spikes" target="American Chamber of Commerce in Indonesia" weight="0.0" />
+      <edge id="35947" source="food price spikes" target="agro-food imports" weight="0.0" />
+      <edge id="35948" source="food price spikes" target="Australia" weight="0.0" />
+      <edge id="9299" source="food price spikes" target="Pawan Kumar" weight="0.0" />
+      <edge id="35949" source="food price spikes" target="Suswono" weight="0.0" />
+      <edge id="35950" source="food price spikes" target="Andrew White" weight="0.0" />
+      <edge id="35951" source="food price spikes" target="President" weight="0.0" />
+      <edge id="35952" source="food price spikes" target="Rabobank International" weight="0.0" />
+      <edge id="35953" source="food price spikes" target="Agriculture Minister" weight="0.0" />
+      <edge id="35954" source="food price spikes" target="food prices" weight="0.0" />
+      <edge id="35955" source="food price spikes" target="Organisation for Economic Cooperation and Development" weight="0.0" />
+      <edge id="9383" source="food price spikes" target="Central Kalimantan" weight="0.0" />
+      <edge id="35957" source="food price spikes" target="food" weight="0.0" />
+      <edge id="35958" source="food price spikes" target="Joko Widodo" weight="0.0" />
+      <edge id="35959" source="food price spikes" target="Indonesia" weight="0.0" />
+      <edge id="16975" source="food price spikes" target="United States" weight="0.0" />
+      <edge id="7251" source="food price spikes" target="palm oil" weight="0.0" />
+      <edge id="35961" source="food price spikes" target="Standard Chartered" weight="0.0" />
+      <edge id="35969" source="food price spikes" target="Borneo island" weight="0.0" />
+      <edge id="35962" source="food price spikes" target="Thailand" weight="0.0" />
+      <edge id="35963" source="food price spikes" target="analyst" weight="0.0" />
+      <edge id="35956" source="food price spikes" target="Suharto" weight="0.0" />
+      <edge id="35964" source="food price spikes" target="Susilo Bambang Yudhoyono" weight="0.0" />
+      <edge id="35965" source="food price spikes" target="damaged irrigation systems" weight="0.0" />
+      <edge id="35966" source="food price spikes" target="Southeast Asia" weight="0.0" />
+      <edge id="33324" source="food price spikes" target="agribusiness giants" weight="0.0" />
+      <edge id="35967" source="food price spikes" target="General" weight="0.0" />
+      <edge id="35968" source="food price spikes" target="food production" weight="0.0" />
+      <edge id="11295" source="food price spikes" target="JAKARTA" weight="0.0" />
+      <edge id="22464" source="food price spikes" target="Cargill" weight="0.0" />
+      <edge id="34009" source="President" target="Prabowo Subianto" weight="0.0" />
+      <edge id="22470" source="President" target="Cargill" weight="0.0" />
+      <edge id="55103" source="President" target="Suharto" weight="0.0" />
+      <edge id="41615" source="President" target="ex-general" weight="0.0" />
+      <edge id="6746" source="President" target="American Chamber of Commerce in Indonesia" weight="0.0" />
+      <edge id="55078" source="President" target="Agriculture Minister" weight="0.0" />
+      <edge id="42292" source="President" target="food" weight="0.0" />
+      <edge id="55092" source="President" target="agro-food imports" weight="0.0" />
+      <edge id="9305" source="President" target="Pawan Kumar" weight="0.0" />
+      <edge id="9389" source="President" target="Central Kalimantan" weight="0.0" />
+      <edge id="55100" source="President" target="Indonesia" weight="0.0" />
+      <edge id="16765" source="President" target="United States" weight="0.0" />
+      <edge id="53233" source="President" target="Brazil" weight="0.0" />
+      <edge id="35601" source="President" target="Asia" weight="0.0" />
+      <edge id="11299" source="President" target="JAKARTA" weight="0.0" />
+      <edge id="55121" source="President" target="Standard Chartered" weight="0.0" />
+      <edge id="55132" source="President" target="Andrew White" weight="0.0" />
+      <edge id="55139" source="President" target="Olam International" weight="0.0" />
+      <edge id="36212" source="President" target="Reuters" weight="0.0" />
+      <edge id="55159" source="President" target="Borneo island" weight="0.0" />
+      <edge id="43975" source="President" target="Susilo Bambang Yudhoyono" weight="0.0" />
+      <edge id="50231" source="President" target="Suswono" weight="0.0" />
+      <edge id="55188" source="President" target="Thailand" weight="0.0" />
+      <edge id="55076" source="President" target="Rabobank International" weight="0.0" />
+      <edge id="55294" source="President" target="food production" weight="0.0" />
+      <edge id="55198" source="President" target="damaged irrigation systems" weight="0.0" />
+      <edge id="55199" source="President" target="General" weight="0.0" />
+      <edge id="55207" source="President" target="food prices" weight="0.0" />
+      <edge id="55237" source="President" target="Organisation for Economic Cooperation and Development" weight="0.0" />
+      <edge id="55248" source="President" target="Java" weight="0.0" />
+      <edge id="33329" source="President" target="agribusiness giants" weight="0.0" />
+      <edge id="46443" source="President" target="Joko Widodo" weight="0.0" />
+      <edge id="55041" source="President" target="Australia" weight="0.0" />
+      <edge id="55289" source="President" target="analyst" weight="0.0" />
+      <edge id="55297" source="President" target="USD" weight="0.0" />
+      <edge id="55298" source="President" target="Southeast Asia" weight="0.0" />
+      <edge id="7258" source="President" target="palm oil" weight="0.0" />
+      <edge id="53289" source="food prices" target="Brazil" weight="0.0" />
+      <edge id="34012" source="food prices" target="Prabowo Subianto" weight="0.0" />
+      <edge id="64677" source="food prices" target="USD" weight="0.0" />
+      <edge id="62514" source="food prices" target="Java" weight="0.0" />
+      <edge id="41618" source="food prices" target="ex-general" weight="0.0" />
+      <edge id="35603" source="food prices" target="Asia" weight="0.0" />
+      <edge id="36213" source="food prices" target="Reuters" weight="0.0" />
+      <edge id="6749" source="food prices" target="American Chamber of Commerce in Indonesia" weight="0.0" />
+      <edge id="66716" source="food prices" target="Indonesia" weight="0.0" />
+      <edge id="66710" source="food prices" target="agro-food imports" weight="0.0" />
+      <edge id="57186" source="food prices" target="Australia" weight="0.0" />
+      <edge id="9308" source="food prices" target="Pawan Kumar" weight="0.0" />
+      <edge id="50234" source="food prices" target="Suswono" weight="0.0" />
+      <edge id="64261" source="food prices" target="Andrew White" weight="0.0" />
+      <edge id="46446" source="food prices" target="Joko Widodo" weight="0.0" />
+      <edge id="63753" source="food prices" target="Agriculture Minister" weight="0.0" />
+      <edge id="66714" source="food prices" target="Olam International" weight="0.0" />
+      <edge id="55549" source="food prices" target="Organisation for Economic Cooperation and Development" weight="0.0" />
+      <edge id="9392" source="food prices" target="Central Kalimantan" weight="0.0" />
+      <edge id="42294" source="food prices" target="food" weight="0.0" />
+      <edge id="7261" source="food prices" target="palm oil" weight="0.0" />
+      <edge id="57957" source="food prices" target="Standard Chartered" weight="0.0" />
+      <edge id="57467" source="food prices" target="Borneo island" weight="0.0" />
+      <edge id="65051" source="food prices" target="Thailand" weight="0.0" />
+      <edge id="56230" source="food prices" target="analyst" weight="0.0" />
+      <edge id="66161" source="food prices" target="Suharto" weight="0.0" />
+      <edge id="43978" source="food prices" target="Susilo Bambang Yudhoyono" weight="0.0" />
+      <edge id="66719" source="food prices" target="damaged irrigation systems" weight="0.0" />
+      <edge id="66720" source="food prices" target="Southeast Asia" weight="0.0" />
+      <edge id="33332" source="food prices" target="agribusiness giants" weight="0.0" />
+      <edge id="65088" source="food prices" target="General" weight="0.0" />
+      <edge id="66711" source="food prices" target="food production" weight="0.0" />
+      <edge id="11301" source="food prices" target="JAKARTA" weight="0.0" />
+      <edge id="66712" source="food prices" target="Rabobank International" weight="0.0" />
+      <edge id="16768" source="food prices" target="United States" weight="0.0" />
+      <edge id="22473" source="food prices" target="Cargill" weight="0.0" />
+      <edge id="53298" source="Organisation for Economic Cooperation and Development" target="Brazil" weight="0.0" />
+      <edge id="34013" source="Organisation for Economic Cooperation and Development" target="Prabowo Subianto" weight="0.0" />
+      <edge id="55542" source="Organisation for Economic Cooperation and Development" target="USD" weight="0.0" />
+      <edge id="55543" source="Organisation for Economic Cooperation and Development" target="Java" weight="0.0" />
+      <edge id="55550" source="Organisation for Economic Cooperation and Development" target="Olam International" weight="0.0" />
+      <edge id="41619" source="Organisation for Economic Cooperation and Development" target="ex-general" weight="0.0" />
+      <edge id="35497" source="Organisation for Economic Cooperation and Development" target="Asia" weight="0.0" />
+      <edge id="36219" source="Organisation for Economic Cooperation and Development" target="Reuters" weight="0.0" />
+      <edge id="6750" source="Organisation for Economic Cooperation and Development" target="American Chamber of Commerce in Indonesia" weight="0.0" />
+      <edge id="55544" source="Organisation for Economic Cooperation and Development" target="agro-food imports" weight="0.0" />
+      <edge id="55545" source="Organisation for Economic Cooperation and Development" target="Australia" weight="0.0" />
+      <edge id="9309" source="Organisation for Economic Cooperation and Development" target="Pawan Kumar" weight="0.0" />
+      <edge id="50235" source="Organisation for Economic Cooperation and Development" target="Suswono" weight="0.0" />
+      <edge id="55546" source="Organisation for Economic Cooperation and Development" target="Andrew White" weight="0.0" />
+      <edge id="55547" source="Organisation for Economic Cooperation and Development" target="Rabobank International" weight="0.0" />
+      <edge id="55548" source="Organisation for Economic Cooperation and Development" target="Agriculture Minister" weight="0.0" />
+      <edge id="9393" source="Organisation for Economic Cooperation and Development" target="Central Kalimantan" weight="0.0" />
+      <edge id="42307" source="Organisation for Economic Cooperation and Development" target="food" weight="0.0" />
+      <edge id="46447" source="Organisation for Economic Cooperation and Development" target="Joko Widodo" weight="0.0" />
+      <edge id="55552" source="Organisation for Economic Cooperation and Development" target="Indonesia" weight="0.0" />
+      <edge id="16787" source="Organisation for Economic Cooperation and Development" target="United States" weight="0.0" />
+      <edge id="7262" source="Organisation for Economic Cooperation and Development" target="palm oil" weight="0.0" />
+      <edge id="55553" source="Organisation for Economic Cooperation and Development" target="Standard Chartered" weight="0.0" />
+      <edge id="22474" source="Organisation for Economic Cooperation and Development" target="Cargill" weight="0.0" />
+      <edge id="55554" source="Organisation for Economic Cooperation and Development" target="Thailand" weight="0.0" />
+      <edge id="55555" source="Organisation for Economic Cooperation and Development" target="analyst" weight="0.0" />
+      <edge id="55551" source="Organisation for Economic Cooperation and Development" target="Suharto" weight="0.0" />
+      <edge id="43979" source="Organisation for Economic Cooperation and Development" target="Susilo Bambang Yudhoyono" weight="0.0" />
+      <edge id="55556" source="Organisation for Economic Cooperation and Development" target="damaged irrigation systems" weight="0.0" />
+      <edge id="55557" source="Organisation for Economic Cooperation and Development" target="Southeast Asia" weight="0.0" />
+      <edge id="33333" source="Organisation for Economic Cooperation and Development" target="agribusiness giants" weight="0.0" />
+      <edge id="55558" source="Organisation for Economic Cooperation and Development" target="General" weight="0.0" />
+      <edge id="55559" source="Organisation for Economic Cooperation and Development" target="food production" weight="0.0" />
+      <edge id="11247" source="Organisation for Economic Cooperation and Development" target="JAKARTA" weight="0.0" />
+      <edge id="55560" source="Organisation for Economic Cooperation and Development" target="Borneo island" weight="0.0" />
+      <edge id="33316" source="agribusiness giants" target="Brazil" weight="0.0" />
+      <edge id="33317" source="agribusiness giants" target="Prabowo Subianto" weight="0.0" />
+      <edge id="33318" source="agribusiness giants" target="USD" weight="0.0" />
+      <edge id="33319" source="agribusiness giants" target="Java" weight="0.0" />
+      <edge id="33338" source="agribusiness giants" target="Olam International" weight="0.0" />
+      <edge id="33321" source="agribusiness giants" target="ex-general" weight="0.0" />
+      <edge id="33322" source="agribusiness giants" target="Asia" weight="0.0" />
+      <edge id="33323" source="agribusiness giants" target="Reuters" weight="0.0" />
+      <edge id="33325" source="agribusiness giants" target="agro-food imports" weight="0.0" />
+      <edge id="33326" source="agribusiness giants" target="Australia" weight="0.0" />
+      <edge id="9300" source="agribusiness giants" target="Pawan Kumar" weight="0.0" />
+      <edge id="33327" source="agribusiness giants" target="Suswono" weight="0.0" />
+      <edge id="33328" source="agribusiness giants" target="Andrew White" weight="0.0" />
+      <edge id="33330" source="agribusiness giants" target="Rabobank International" weight="0.0" />
+      <edge id="33331" source="agribusiness giants" target="Agriculture Minister" weight="0.0" />
+      <edge id="9384" source="agribusiness giants" target="Central Kalimantan" weight="0.0" />
+      <edge id="33335" source="agribusiness giants" target="food" weight="0.0" />
+      <edge id="33336" source="agribusiness giants" target="Joko Widodo" weight="0.0" />
+      <edge id="33337" source="agribusiness giants" target="Indonesia" weight="0.0" />
+      <edge id="16794" source="agribusiness giants" target="United States" weight="0.0" />
+      <edge id="7252" source="agribusiness giants" target="palm oil" weight="0.0" />
+      <edge id="33339" source="agribusiness giants" target="Standard Chartered" weight="0.0" />
+      <edge id="22465" source="agribusiness giants" target="Cargill" weight="0.0" />
+      <edge id="33340" source="agribusiness giants" target="Thailand" weight="0.0" />
+      <edge id="33341" source="agribusiness giants" target="analyst" weight="0.0" />
+      <edge id="33334" source="agribusiness giants" target="Suharto" weight="0.0" />
+      <edge id="33342" source="agribusiness giants" target="Susilo Bambang Yudhoyono" weight="0.0" />
+      <edge id="33343" source="agribusiness giants" target="damaged irrigation systems" weight="0.0" />
+      <edge id="33344" source="agribusiness giants" target="Southeast Asia" weight="0.0" />
+      <edge id="6766" source="agribusiness giants" target="American Chamber of Commerce in Indonesia" weight="0.0" />
+      <edge id="33345" source="agribusiness giants" target="General" weight="0.0" />
+      <edge id="33346" source="agribusiness giants" target="food production" weight="0.0" />
+      <edge id="11243" source="agribusiness giants" target="JAKARTA" weight="0.0" />
+      <edge id="33347" source="agribusiness giants" target="Borneo island" weight="0.0" />
+      <edge id="6732" source="American Chamber of Commerce in Indonesia" target="Brazil" weight="0.0" />
+      <edge id="6733" source="American Chamber of Commerce in Indonesia" target="Prabowo Subianto" weight="0.0" />
+      <edge id="6734" source="American Chamber of Commerce in Indonesia" target="USD" weight="0.0" />
+      <edge id="6735" source="American Chamber of Commerce in Indonesia" target="Java" weight="0.0" />
+      <edge id="6756" source="American Chamber of Commerce in Indonesia" target="Olam International" weight="0.0" />
+      <edge id="6737" source="American Chamber of Commerce in Indonesia" target="ex-general" weight="0.0" />
+      <edge id="6738" source="American Chamber of Commerce in Indonesia" target="Asia" weight="0.0" />
+      <edge id="6739" source="American Chamber of Commerce in Indonesia" target="Reuters" weight="0.0" />
+      <edge id="6741" source="American Chamber of Commerce in Indonesia" target="agro-food imports" weight="0.0" />
+      <edge id="6742" source="American Chamber of Commerce in Indonesia" target="Australia" weight="0.0" />
+      <edge id="6743" source="American Chamber of Commerce in Indonesia" target="Pawan Kumar" weight="0.0" />
+      <edge id="6744" source="American Chamber of Commerce in Indonesia" target="Suswono" weight="0.0" />
+      <edge id="6745" source="American Chamber of Commerce in Indonesia" target="Andrew White" weight="0.0" />
+      <edge id="6747" source="American Chamber of Commerce in Indonesia" target="Rabobank International" weight="0.0" />
+      <edge id="6748" source="American Chamber of Commerce in Indonesia" target="Agriculture Minister" weight="0.0" />
+      <edge id="6751" source="American Chamber of Commerce in Indonesia" target="Central Kalimantan" weight="0.0" />
+      <edge id="6753" source="American Chamber of Commerce in Indonesia" target="food" weight="0.0" />
+      <edge id="6754" source="American Chamber of Commerce in Indonesia" target="Joko Widodo" weight="0.0" />
+      <edge id="6755" source="American Chamber of Commerce in Indonesia" target="Indonesia" weight="0.0" />
+      <edge id="6762" source="American Chamber of Commerce in Indonesia" target="United States" weight="0.0" />
+      <edge id="6757" source="American Chamber of Commerce in Indonesia" target="Standard Chartered" weight="0.0" />
+      <edge id="6758" source="American Chamber of Commerce in Indonesia" target="Cargill" weight="0.0" />
+      <edge id="6759" source="American Chamber of Commerce in Indonesia" target="Thailand" weight="0.0" />
+      <edge id="6760" source="American Chamber of Commerce in Indonesia" target="JAKARTA" weight="0.0" />
+      <edge id="6761" source="American Chamber of Commerce in Indonesia" target="analyst" weight="0.0" />
+      <edge id="6752" source="American Chamber of Commerce in Indonesia" target="Suharto" weight="0.0" />
+      <edge id="6763" source="American Chamber of Commerce in Indonesia" target="Susilo Bambang Yudhoyono" weight="0.0" />
+      <edge id="6764" source="American Chamber of Commerce in Indonesia" target="damaged irrigation systems" weight="0.0" />
+      <edge id="6765" source="American Chamber of Commerce in Indonesia" target="Southeast Asia" weight="0.0" />
+      <edge id="6767" source="American Chamber of Commerce in Indonesia" target="General" weight="0.0" />
+      <edge id="6768" source="American Chamber of Commerce in Indonesia" target="food production" weight="0.0" />
+      <edge id="6769" source="American Chamber of Commerce in Indonesia" target="palm oil" weight="0.0" />
+      <edge id="6770" source="American Chamber of Commerce in Indonesia" target="Borneo island" weight="0.0" />
+      <edge id="34024" source="analyst" target="Prabowo Subianto" weight="0.0" />
+      <edge id="36241" source="analyst" target="Reuters" weight="0.0" />
+      <edge id="56149" source="analyst" target="Rabobank International" weight="0.0" />
+      <edge id="56153" source="analyst" target="Agriculture Minister" weight="0.0" />
+      <edge id="43986" source="analyst" target="Susilo Bambang Yudhoyono" weight="0.0" />
+      <edge id="56166" source="analyst" target="Java" weight="0.0" />
+      <edge id="56167" source="analyst" target="Olam International" weight="0.0" />
+      <edge id="56173" source="analyst" target="agro-food imports" weight="0.0" />
+      <edge id="9320" source="analyst" target="Pawan Kumar" weight="0.0" />
+      <edge id="50241" source="analyst" target="Suswono" weight="0.0" />
+      <edge id="46456" source="analyst" target="Joko Widodo" weight="0.0" />
+      <edge id="16819" source="analyst" target="United States" weight="0.0" />
+      <edge id="56201" source="analyst" target="Australia" weight="0.0" />
+      <edge id="22483" source="analyst" target="Cargill" weight="0.0" />
+      <edge id="53327" source="analyst" target="Brazil" weight="0.0" />
+      <edge id="35556" source="analyst" target="Asia" weight="0.0" />
+      <edge id="9405" source="analyst" target="Central Kalimantan" weight="0.0" />
+      <edge id="11283" source="analyst" target="JAKARTA" weight="0.0" />
+      <edge id="56208" source="analyst" target="Thailand" weight="0.0" />
+      <edge id="41627" source="analyst" target="ex-general" weight="0.0" />
+      <edge id="56216" source="analyst" target="damaged irrigation systems" weight="0.0" />
+      <edge id="56172" source="analyst" target="General" weight="0.0" />
+      <edge id="56217" source="analyst" target="food production" weight="0.0" />
+      <edge id="56187" source="analyst" target="Suharto" weight="0.0" />
+      <edge id="56220" source="analyst" target="USD" weight="0.0" />
+      <edge id="56183" source="analyst" target="Indonesia" weight="0.0" />
+      <edge id="42335" source="analyst" target="food" weight="0.0" />
+      <edge id="56237" source="analyst" target="Southeast Asia" weight="0.0" />
+      <edge id="56239" source="analyst" target="Andrew White" weight="0.0" />
+      <edge id="56240" source="analyst" target="Standard Chartered" weight="0.0" />
+      <edge id="7272" source="analyst" target="palm oil" weight="0.0" />
+      <edge id="56157" source="analyst" target="Borneo island" weight="0.0" />
+      <edge id="7243" source="palm oil" target="Brazil" weight="0.0" />
+      <edge id="7244" source="palm oil" target="Prabowo Subianto" weight="0.0" />
+      <edge id="7245" source="palm oil" target="USD" weight="0.0" />
+      <edge id="7246" source="palm oil" target="Java" weight="0.0" />
+      <edge id="7268" source="palm oil" target="Olam International" weight="0.0" />
+      <edge id="7248" source="palm oil" target="ex-general" weight="0.0" />
+      <edge id="7249" source="palm oil" target="Asia" weight="0.0" />
+      <edge id="7250" source="palm oil" target="Reuters" weight="0.0" />
+      <edge id="7253" source="palm oil" target="agro-food imports" weight="0.0" />
+      <edge id="7254" source="palm oil" target="Australia" weight="0.0" />
+      <edge id="7255" source="palm oil" target="Pawan Kumar" weight="0.0" />
+      <edge id="7256" source="palm oil" target="Suswono" weight="0.0" />
+      <edge id="7257" source="palm oil" target="Andrew White" weight="0.0" />
+      <edge id="7259" source="palm oil" target="Rabobank International" weight="0.0" />
+      <edge id="7260" source="palm oil" target="Agriculture Minister" weight="0.0" />
+      <edge id="7263" source="palm oil" target="Central Kalimantan" weight="0.0" />
+      <edge id="7265" source="palm oil" target="food" weight="0.0" />
+      <edge id="7266" source="palm oil" target="Joko Widodo" weight="0.0" />
+      <edge id="7267" source="palm oil" target="Indonesia" weight="0.0" />
+      <edge id="7273" source="palm oil" target="United States" weight="0.0" />
+      <edge id="7269" source="palm oil" target="Standard Chartered" weight="0.0" />
+      <edge id="7280" source="palm oil" target="Borneo island" weight="0.0" />
+      <edge id="7271" source="palm oil" target="Thailand" weight="0.0" />
+      <edge id="7264" source="palm oil" target="Suharto" weight="0.0" />
+      <edge id="7274" source="palm oil" target="Susilo Bambang Yudhoyono" weight="0.0" />
+      <edge id="7275" source="palm oil" target="damaged irrigation systems" weight="0.0" />
+      <edge id="7276" source="palm oil" target="Southeast Asia" weight="0.0" />
+      <edge id="7277" source="palm oil" target="General" weight="0.0" />
+      <edge id="7278" source="palm oil" target="food production" weight="0.0" />
+      <edge id="7279" source="palm oil" target="JAKARTA" weight="0.0" />
+      <edge id="7270" source="palm oil" target="Cargill" weight="0.0" />
+      <edge id="33992" source="Prabowo Subianto" target="Brazil" weight="0.0" />
+      <edge id="33993" source="Prabowo Subianto" target="USD" weight="0.0" />
+      <edge id="33994" source="Prabowo Subianto" target="Java" weight="0.0" />
+      <edge id="34020" source="Prabowo Subianto" target="Olam International" weight="0.0" />
+      <edge id="33996" source="Prabowo Subianto" target="ex-general" weight="0.0" />
+      <edge id="33997" source="Prabowo Subianto" target="Asia" weight="0.0" />
+      <edge id="33998" source="Prabowo Subianto" target="Reuters" weight="0.0" />
+      <edge id="34001" source="Prabowo Subianto" target="agro-food imports" weight="0.0" />
+      <edge id="34005" source="Prabowo Subianto" target="Australia" weight="0.0" />
+      <edge id="34006" source="Prabowo Subianto" target="Suswono" weight="0.0" />
+      <edge id="34007" source="Prabowo Subianto" target="Andrew White" weight="0.0" />
+      <edge id="34010" source="Prabowo Subianto" target="Rabobank International" weight="0.0" />
+      <edge id="34011" source="Prabowo Subianto" target="Agriculture Minister" weight="0.0" />
+      <edge id="9374" source="Prabowo Subianto" target="Central Kalimantan" weight="0.0" />
+      <edge id="34016" source="Prabowo Subianto" target="food" weight="0.0" />
+      <edge id="34018" source="Prabowo Subianto" target="Joko Widodo" weight="0.0" />
+      <edge id="34019" source="Prabowo Subianto" target="Indonesia" weight="0.0" />
+      <edge id="16846" source="Prabowo Subianto" target="United States" weight="0.0" />
+      <edge id="34021" source="Prabowo Subianto" target="Standard Chartered" weight="0.0" />
+      <edge id="22457" source="Prabowo Subianto" target="Cargill" weight="0.0" />
+      <edge id="34022" source="Prabowo Subianto" target="Thailand" weight="0.0" />
+      <edge id="34031" source="Prabowo Subianto" target="Borneo island" weight="0.0" />
+      <edge id="34015" source="Prabowo Subianto" target="Suharto" weight="0.0" />
+      <edge id="9292" source="Prabowo Subianto" target="Pawan Kumar" weight="0.0" />
+      <edge id="34027" source="Prabowo Subianto" target="damaged irrigation systems" weight="0.0" />
+      <edge id="34028" source="Prabowo Subianto" target="Southeast Asia" weight="0.0" />
+      <edge id="34029" source="Prabowo Subianto" target="General" weight="0.0" />
+      <edge id="34030" source="Prabowo Subianto" target="food production" weight="0.0" />
+      <edge id="11241" source="Prabowo Subianto" target="JAKARTA" weight="0.0" />
+      <edge id="34025" source="Prabowo Subianto" target="Susilo Bambang Yudhoyono" weight="0.0" />
+      <edge id="11272" source="JAKARTA" target="Brazil" weight="0.0" />
+      <edge id="11254" source="JAKARTA" target="Java" weight="0.0" />
+      <edge id="11268" source="JAKARTA" target="Cargill" weight="0.0" />
+      <edge id="11255" source="JAKARTA" target="Olam International" weight="0.0" />
+      <edge id="11279" source="JAKARTA" target="ex-general" weight="0.0" />
+      <edge id="11274" source="JAKARTA" target="Asia" weight="0.0" />
+      <edge id="11242" source="JAKARTA" target="Reuters" weight="0.0" />
+      <edge id="11258" source="JAKARTA" target="agro-food imports" weight="0.0" />
+      <edge id="11275" source="JAKARTA" target="Australia" weight="0.0" />
+      <edge id="9319" source="JAKARTA" target="Pawan Kumar" weight="0.0" />
+      <edge id="11261" source="JAKARTA" target="Suswono" weight="0.0" />
+      <edge id="11298" source="JAKARTA" target="Andrew White" weight="0.0" />
+      <edge id="11290" source="JAKARTA" target="food production" weight="0.0" />
+      <edge id="11249" source="JAKARTA" target="food" weight="0.0" />
+      <edge id="11245" source="JAKARTA" target="Rabobank International" weight="0.0" />
+      <edge id="11246" source="JAKARTA" target="Agriculture Minister" weight="0.0" />
+      <edge id="9404" source="JAKARTA" target="Central Kalimantan" weight="0.0" />
+      <edge id="11270" source="JAKARTA" target="Suharto" weight="0.0" />
+      <edge id="11266" source="JAKARTA" target="Indonesia" weight="0.0" />
+      <edge id="11267" source="JAKARTA" target="United States" weight="0.0" />
+      <edge id="11281" source="JAKARTA" target="Standard Chartered" weight="0.0" />
+      <edge id="11250" source="JAKARTA" target="Borneo island" weight="0.0" />
+      <edge id="11278" source="JAKARTA" target="Thailand" weight="0.0" />
+      <edge id="11292" source="JAKARTA" target="USD" weight="0.0" />
+      <edge id="11252" source="JAKARTA" target="Susilo Bambang Yudhoyono" weight="0.0" />
+      <edge id="11265" source="JAKARTA" target="Joko Widodo" weight="0.0" />
+      <edge id="11287" source="JAKARTA" target="damaged irrigation systems" weight="0.0" />
+      <edge id="11305" source="JAKARTA" target="Southeast Asia" weight="0.0" />
+      <edge id="11289" source="JAKARTA" target="General" weight="0.0" />
+      <edge id="36269" source="Australia" target="Reuters" weight="0.0" />
+      <edge id="57108" source="Australia" target="Rabobank International" weight="0.0" />
+      <edge id="42190" source="Australia" target="food" weight="0.0" />
+      <edge id="57114" source="Australia" target="Borneo island" weight="0.0" />
+      <edge id="43972" source="Australia" target="Susilo Bambang Yudhoyono" weight="0.0" />
+      <edge id="57125" source="Australia" target="Java" weight="0.0" />
+      <edge id="57126" source="Australia" target="Olam International" weight="0.0" />
+      <edge id="57129" source="Australia" target="agro-food imports" weight="0.0" />
+      <edge id="9302" source="Australia" target="Pawan Kumar" weight="0.0" />
+      <edge id="50229" source="Australia" target="Suswono" weight="0.0" />
+      <edge id="46439" source="Australia" target="Joko Widodo" weight="0.0" />
+      <edge id="16888" source="Australia" target="United States" weight="0.0" />
+      <edge id="22467" source="Australia" target="Cargill" weight="0.0" />
+      <edge id="53210" source="Australia" target="Brazil" weight="0.0" />
+      <edge id="35555" source="Australia" target="Asia" weight="0.0" />
+      <edge id="9386" source="Australia" target="Central Kalimantan" weight="0.0" />
+      <edge id="57162" source="Australia" target="Thailand" weight="0.0" />
+      <edge id="57172" source="Australia" target="damaged irrigation systems" weight="0.0" />
+      <edge id="57173" source="Australia" target="General" weight="0.0" />
+      <edge id="57174" source="Australia" target="food production" weight="0.0" />
+      <edge id="57144" source="Australia" target="Suharto" weight="0.0" />
+      <edge id="57111" source="Australia" target="Agriculture Minister" weight="0.0" />
+      <edge id="57176" source="Australia" target="USD" weight="0.0" />
+      <edge id="41612" source="Australia" target="ex-general" weight="0.0" />
+      <edge id="57138" source="Australia" target="Indonesia" weight="0.0" />
+      <edge id="57182" source="Australia" target="Andrew White" weight="0.0" />
+      <edge id="57192" source="Australia" target="Southeast Asia" weight="0.0" />
+      <edge id="57169" source="Australia" target="Standard Chartered" weight="0.0" />
+      <edge id="53272" source="Borneo island" target="Brazil" weight="0.0" />
+      <edge id="57461" source="Borneo island" target="USD" weight="0.0" />
+      <edge id="57462" source="Borneo island" target="Java" weight="0.0" />
+      <edge id="57470" source="Borneo island" target="Olam International" weight="0.0" />
+      <edge id="41633" source="Borneo island" target="ex-general" weight="0.0" />
+      <edge id="35503" source="Borneo island" target="Asia" weight="0.0" />
+      <edge id="36315" source="Borneo island" target="Reuters" weight="0.0" />
+      <edge id="57463" source="Borneo island" target="agro-food imports" weight="0.0" />
+      <edge id="9327" source="Borneo island" target="Pawan Kumar" weight="0.0" />
+      <edge id="50246" source="Borneo island" target="Suswono" weight="0.0" />
+      <edge id="57464" source="Borneo island" target="Andrew White" weight="0.0" />
+      <edge id="57465" source="Borneo island" target="Rabobank International" weight="0.0" />
+      <edge id="57466" source="Borneo island" target="Agriculture Minister" weight="0.0" />
+      <edge id="9416" source="Borneo island" target="Central Kalimantan" weight="0.0" />
+      <edge id="42256" source="Borneo island" target="food" weight="0.0" />
+      <edge id="46461" source="Borneo island" target="Joko Widodo" weight="0.0" />
+      <edge id="57469" source="Borneo island" target="Indonesia" weight="0.0" />
+      <edge id="17002" source="Borneo island" target="United States" weight="0.0" />
+      <edge id="57471" source="Borneo island" target="Standard Chartered" weight="0.0" />
+      <edge id="22481" source="Borneo island" target="Cargill" weight="0.0" />
+      <edge id="57472" source="Borneo island" target="Thailand" weight="0.0" />
+      <edge id="57468" source="Borneo island" target="Suharto" weight="0.0" />
+      <edge id="43991" source="Borneo island" target="Susilo Bambang Yudhoyono" weight="0.0" />
+      <edge id="57473" source="Borneo island" target="damaged irrigation systems" weight="0.0" />
+      <edge id="57474" source="Borneo island" target="Southeast Asia" weight="0.0" />
+      <edge id="57475" source="Borneo island" target="General" weight="0.0" />
+      <edge id="57476" source="Borneo island" target="food production" weight="0.0" />
+      <edge id="9291" source="Pawan Kumar" target="Brazil" weight="0.0" />
+      <edge id="9293" source="Pawan Kumar" target="USD" weight="0.0" />
+      <edge id="9294" source="Pawan Kumar" target="Java" weight="0.0" />
+      <edge id="9315" source="Pawan Kumar" target="Olam International" weight="0.0" />
+      <edge id="9296" source="Pawan Kumar" target="ex-general" weight="0.0" />
+      <edge id="9297" source="Pawan Kumar" target="Asia" weight="0.0" />
+      <edge id="9298" source="Pawan Kumar" target="Reuters" weight="0.0" />
+      <edge id="9301" source="Pawan Kumar" target="agro-food imports" weight="0.0" />
+      <edge id="9303" source="Pawan Kumar" target="Suswono" weight="0.0" />
+      <edge id="9304" source="Pawan Kumar" target="Andrew White" weight="0.0" />
+      <edge id="9306" source="Pawan Kumar" target="Rabobank International" weight="0.0" />
+      <edge id="9307" source="Pawan Kumar" target="Agriculture Minister" weight="0.0" />
+      <edge id="9310" source="Pawan Kumar" target="Central Kalimantan" weight="0.0" />
+      <edge id="9312" source="Pawan Kumar" target="food" weight="0.0" />
+      <edge id="9313" source="Pawan Kumar" target="Joko Widodo" weight="0.0" />
+      <edge id="9314" source="Pawan Kumar" target="Indonesia" weight="0.0" />
+      <edge id="9321" source="Pawan Kumar" target="United States" weight="0.0" />
+      <edge id="9316" source="Pawan Kumar" target="Standard Chartered" weight="0.0" />
+      <edge id="9318" source="Pawan Kumar" target="Thailand" weight="0.0" />
+      <edge id="9311" source="Pawan Kumar" target="Suharto" weight="0.0" />
+      <edge id="9322" source="Pawan Kumar" target="Susilo Bambang Yudhoyono" weight="0.0" />
+      <edge id="9323" source="Pawan Kumar" target="damaged irrigation systems" weight="0.0" />
+      <edge id="9324" source="Pawan Kumar" target="Southeast Asia" weight="0.0" />
+      <edge id="9325" source="Pawan Kumar" target="General" weight="0.0" />
+      <edge id="9326" source="Pawan Kumar" target="food production" weight="0.0" />
+      <edge id="9317" source="Pawan Kumar" target="Cargill" weight="0.0" />
+      <edge id="9373" source="Central Kalimantan" target="Brazil" weight="0.0" />
+      <edge id="9375" source="Central Kalimantan" target="USD" weight="0.0" />
+      <edge id="9376" source="Central Kalimantan" target="Java" weight="0.0" />
+      <edge id="9399" source="Central Kalimantan" target="Olam International" weight="0.0" />
+      <edge id="9379" source="Central Kalimantan" target="ex-general" weight="0.0" />
+      <edge id="9380" source="Central Kalimantan" target="Asia" weight="0.0" />
+      <edge id="9381" source="Central Kalimantan" target="Reuters" weight="0.0" />
+      <edge id="9385" source="Central Kalimantan" target="agro-food imports" weight="0.0" />
+      <edge id="9387" source="Central Kalimantan" target="Suswono" weight="0.0" />
+      <edge id="9388" source="Central Kalimantan" target="Andrew White" weight="0.0" />
+      <edge id="9390" source="Central Kalimantan" target="Rabobank International" weight="0.0" />
+      <edge id="9391" source="Central Kalimantan" target="Agriculture Minister" weight="0.0" />
+      <edge id="9396" source="Central Kalimantan" target="food" weight="0.0" />
+      <edge id="9397" source="Central Kalimantan" target="Joko Widodo" weight="0.0" />
+      <edge id="9398" source="Central Kalimantan" target="Indonesia" weight="0.0" />
+      <edge id="9400" source="Central Kalimantan" target="Standard Chartered" weight="0.0" />
+      <edge id="9403" source="Central Kalimantan" target="Thailand" weight="0.0" />
+      <edge id="9395" source="Central Kalimantan" target="Suharto" weight="0.0" />
+      <edge id="9407" source="Central Kalimantan" target="Susilo Bambang Yudhoyono" weight="0.0" />
+      <edge id="9409" source="Central Kalimantan" target="damaged irrigation systems" weight="0.0" />
+      <edge id="9410" source="Central Kalimantan" target="Southeast Asia" weight="0.0" />
+      <edge id="9411" source="Central Kalimantan" target="General" weight="0.0" />
+      <edge id="9413" source="Central Kalimantan" target="food production" weight="0.0" />
+      <edge id="9406" source="Central Kalimantan" target="United States" weight="0.0" />
+      <edge id="9402" source="Central Kalimantan" target="Cargill" weight="0.0" />
+      <edge id="36294" source="Brazil" target="Reuters" weight="0.0" />
+      <edge id="53229" source="Brazil" target="Agriculture Minister" weight="0.0" />
+      <edge id="42230" source="Brazil" target="food" weight="0.0" />
+      <edge id="43967" source="Brazil" target="Susilo Bambang Yudhoyono" weight="0.0" />
+      <edge id="53303" source="Brazil" target="Java" weight="0.0" />
+      <edge id="53259" source="Brazil" target="Olam International" weight="0.0" />
+      <edge id="53236" source="Brazil" target="agro-food imports" weight="0.0" />
+      <edge id="53226" source="Brazil" target="Rabobank International" weight="0.0" />
+      <edge id="46431" source="Brazil" target="Joko Widodo" weight="0.0" />
+      <edge id="53241" source="Brazil" target="Indonesia" weight="0.0" />
+      <edge id="22456" source="Brazil" target="Cargill" weight="0.0" />
+      <edge id="53285" source="Brazil" target="General" weight="0.0" />
+      <edge id="16948" source="Brazil" target="United States" weight="0.0" />
+      <edge id="35549" source="Brazil" target="Asia" weight="0.0" />
+      <edge id="53280" source="Brazil" target="Thailand" weight="0.0" />
+      <edge id="53242" source="Brazil" target="Suharto" weight="0.0" />
+      <edge id="53284" source="Brazil" target="damaged irrigation systems" weight="0.0" />
+      <edge id="53330" source="Brazil" target="food production" weight="0.0" />
+      <edge id="53332" source="Brazil" target="USD" weight="0.0" />
+      <edge id="41607" source="Brazil" target="ex-general" weight="0.0" />
+      <edge id="53257" source="Brazil" target="Andrew White" weight="0.0" />
+      <edge id="50224" source="Brazil" target="Suswono" weight="0.0" />
+      <edge id="53338" source="Brazil" target="Southeast Asia" weight="0.0" />
+      <edge id="53251" source="Brazil" target="Standard Chartered" weight="0.0" />
+      <edge id="35480" source="Asia" target="Reuters" weight="0.0" />
+      <edge id="35505" source="Asia" target="Agriculture Minister" weight="0.0" />
+      <edge id="35500" source="Asia" target="food" weight="0.0" />
+      <edge id="35509" source="Asia" target="Susilo Bambang Yudhoyono" weight="0.0" />
+      <edge id="35518" source="Asia" target="Java" weight="0.0" />
+      <edge id="35519" source="Asia" target="Olam International" weight="0.0" />
+      <edge id="35596" source="Asia" target="agro-food imports" weight="0.0" />
+      <edge id="35525" source="Asia" target="Suswono" weight="0.0" />
+      <edge id="35504" source="Asia" target="Joko Widodo" weight="0.0" />
+      <edge id="35593" source="Asia" target="Indonesia" weight="0.0" />
+      <edge id="22462" source="Asia" target="Cargill" weight="0.0" />
+      <edge id="16952" source="Asia" target="United States" weight="0.0" />
+      <edge id="35568" source="Asia" target="Thailand" weight="0.0" />
+      <edge id="35587" source="Asia" target="ex-general" weight="0.0" />
+      <edge id="35563" source="Asia" target="Suharto" weight="0.0" />
+      <edge id="35567" source="Asia" target="Standard Chartered" weight="0.0" />
+      <edge id="35573" source="Asia" target="damaged irrigation systems" weight="0.0" />
+      <edge id="35574" source="Asia" target="General" weight="0.0" />
+      <edge id="35575" source="Asia" target="food production" weight="0.0" />
+      <edge id="35584" source="Asia" target="USD" weight="0.0" />
+      <edge id="35586" source="Asia" target="Southeast Asia" weight="0.0" />
+      <edge id="35616" source="Asia" target="Andrew White" weight="0.0" />
+      <edge id="35570" source="Asia" target="Rabobank International" weight="0.0" />
+      <edge id="57950" source="Standard Chartered" target="USD" weight="0.0" />
+      <edge id="57951" source="Standard Chartered" target="Java" weight="0.0" />
+      <edge id="57960" source="Standard Chartered" target="Olam International" weight="0.0" />
+      <edge id="41625" source="Standard Chartered" target="ex-general" weight="0.0" />
+      <edge id="36298" source="Standard Chartered" target="Reuters" weight="0.0" />
+      <edge id="50239" source="Standard Chartered" target="Suswono" weight="0.0" />
+      <edge id="57953" source="Standard Chartered" target="Andrew White" weight="0.0" />
+      <edge id="57965" source="Standard Chartered" target="food production" weight="0.0" />
+      <edge id="57952" source="Standard Chartered" target="agro-food imports" weight="0.0" />
+      <edge id="22480" source="Standard Chartered" target="Cargill" weight="0.0" />
+      <edge id="57955" source="Standard Chartered" target="Rabobank International" weight="0.0" />
+      <edge id="57956" source="Standard Chartered" target="Agriculture Minister" weight="0.0" />
+      <edge id="42235" source="Standard Chartered" target="food" weight="0.0" />
+      <edge id="46453" source="Standard Chartered" target="Joko Widodo" weight="0.0" />
+      <edge id="57959" source="Standard Chartered" target="Indonesia" weight="0.0" />
+      <edge id="16962" source="Standard Chartered" target="United States" weight="0.0" />
+      <edge id="57961" source="Standard Chartered" target="Thailand" weight="0.0" />
+      <edge id="57958" source="Standard Chartered" target="Suharto" weight="0.0" />
+      <edge id="43984" source="Standard Chartered" target="Susilo Bambang Yudhoyono" weight="0.0" />
+      <edge id="57962" source="Standard Chartered" target="damaged irrigation systems" weight="0.0" />
+      <edge id="57963" source="Standard Chartered" target="Southeast Asia" weight="0.0" />
+      <edge id="57964" source="Standard Chartered" target="General" weight="0.0" />
+      <edge id="36543" source="Reuters" target="Java" weight="0.0" />
+      <edge id="22463" source="Reuters" target="Cargill" weight="0.0" />
+      <edge id="36428" source="Reuters" target="ex-general" weight="0.0" />
+      <edge id="36623" source="Reuters" target="Rabobank International" weight="0.0" />
+      <edge id="36444" source="Reuters" target="food" weight="0.0" />
+      <edge id="36731" source="Reuters" target="agro-food imports" weight="0.0" />
+      <edge id="36637" source="Reuters" target="Indonesia" weight="0.0" />
+      <edge id="16994" source="Reuters" target="United States" weight="0.0" />
+      <edge id="36183" source="Reuters" target="Suharto" weight="0.0" />
+      <edge id="36648" source="Reuters" target="Andrew White" weight="0.0" />
+      <edge id="36477" source="Reuters" target="Olam International" weight="0.0" />
+      <edge id="36378" source="Reuters" target="USD" weight="0.0" />
+      <edge id="36496" source="Reuters" target="Susilo Bambang Yudhoyono" weight="0.0" />
+      <edge id="36667" source="Reuters" target="Suswono" weight="0.0" />
+      <edge id="36517" source="Reuters" target="damaged irrigation systems" weight="0.0" />
+      <edge id="36684" source="Reuters" target="General" weight="0.0" />
+      <edge id="36624" source="Reuters" target="Agriculture Minister" weight="0.0" />
+      <edge id="36391" source="Reuters" target="Southeast Asia" weight="0.0" />
+      <edge id="36554" source="Reuters" target="Joko Widodo" weight="0.0" />
+      <edge id="36678" source="Reuters" target="Thailand" weight="0.0" />
+      <edge id="36376" source="Reuters" target="food production" weight="0.0" />
+      <edge id="64782" source="food production" target="USD" weight="0.0" />
+      <edge id="62522" source="food production" target="Java" weight="0.0" />
+      <edge id="68238" source="food production" target="Olam International" weight="0.0" />
+      <edge id="41632" source="food production" target="ex-general" weight="0.0" />
+      <edge id="68235" source="food production" target="agro-food imports" weight="0.0" />
+      <edge id="50245" source="food production" target="Suswono" weight="0.0" />
+      <edge id="64269" source="food production" target="Andrew White" weight="0.0" />
+      <edge id="68236" source="food production" target="Rabobank International" weight="0.0" />
+      <edge id="63761" source="food production" target="Agriculture Minister" weight="0.0" />
+      <edge id="42338" source="food production" target="food" weight="0.0" />
+      <edge id="46460" source="food production" target="Joko Widodo" weight="0.0" />
+      <edge id="68237" source="food production" target="Indonesia" weight="0.0" />
+      <edge id="17126" source="food production" target="United States" weight="0.0" />
+      <edge id="65048" source="food production" target="Thailand" weight="0.0" />
+      <edge id="66166" source="food production" target="Suharto" weight="0.0" />
+      <edge id="43990" source="food production" target="Susilo Bambang Yudhoyono" weight="0.0" />
+      <edge id="68239" source="food production" target="damaged irrigation systems" weight="0.0" />
+      <edge id="68240" source="food production" target="Southeast Asia" weight="0.0" />
+      <edge id="65085" source="food production" target="General" weight="0.0" />
+      <edge id="22488" source="food production" target="Cargill" weight="0.0" />
+      <edge id="64789" source="Southeast Asia" target="USD" weight="0.0" />
+      <edge id="62520" source="Southeast Asia" target="Java" weight="0.0" />
+      <edge id="68283" source="Southeast Asia" target="Olam International" weight="0.0" />
+      <edge id="41630" source="Southeast Asia" target="ex-general" weight="0.0" />
+      <edge id="65090" source="Southeast Asia" target="General" weight="0.0" />
+      <edge id="68279" source="Southeast Asia" target="agro-food imports" weight="0.0" />
+      <edge id="50243" source="Southeast Asia" target="Suswono" weight="0.0" />
+      <edge id="22486" source="Southeast Asia" target="Cargill" weight="0.0" />
+      <edge id="68280" source="Southeast Asia" target="Rabobank International" weight="0.0" />
+      <edge id="63759" source="Southeast Asia" target="Agriculture Minister" weight="0.0" />
+      <edge id="42347" source="Southeast Asia" target="food" weight="0.0" />
+      <edge id="46458" source="Southeast Asia" target="Joko Widodo" weight="0.0" />
+      <edge id="68281" source="Southeast Asia" target="Indonesia" weight="0.0" />
+      <edge id="17151" source="Southeast Asia" target="United States" weight="0.0" />
+      <edge id="65054" source="Southeast Asia" target="Thailand" weight="0.0" />
+      <edge id="66165" source="Southeast Asia" target="Suharto" weight="0.0" />
+      <edge id="43988" source="Southeast Asia" target="Susilo Bambang Yudhoyono" weight="0.0" />
+      <edge id="68284" source="Southeast Asia" target="damaged irrigation systems" weight="0.0" />
+      <edge id="64267" source="Southeast Asia" target="Andrew White" weight="0.0" />
+      <edge id="64651" source="Suharto" target="USD" weight="0.0" />
+      <edge id="62515" source="Suharto" target="Java" weight="0.0" />
+      <edge id="66163" source="Suharto" target="Olam International" weight="0.0" />
+      <edge id="41620" source="Suharto" target="ex-general" weight="0.0" />
+      <edge id="66159" source="Suharto" target="agro-food imports" weight="0.0" />
+      <edge id="50236" source="Suharto" target="Suswono" weight="0.0" />
+      <edge id="64262" source="Suharto" target="Andrew White" weight="0.0" />
+      <edge id="66160" source="Suharto" target="Rabobank International" weight="0.0" />
+      <edge id="63754" source="Suharto" target="Agriculture Minister" weight="0.0" />
+      <edge id="42228" source="Suharto" target="food" weight="0.0" />
+      <edge id="46449" source="Suharto" target="Joko Widodo" weight="0.0" />
+      <edge id="66162" source="Suharto" target="Indonesia" weight="0.0" />
+      <edge id="16665" source="Suharto" target="United States" weight="0.0" />
+      <edge id="65039" source="Suharto" target="Thailand" weight="0.0" />
+      <edge id="43980" source="Suharto" target="Susilo Bambang Yudhoyono" weight="0.0" />
+      <edge id="66164" source="Suharto" target="damaged irrigation systems" weight="0.0" />
+      <edge id="65079" source="Suharto" target="General" weight="0.0" />
+      <edge id="22475" source="Suharto" target="Cargill" weight="0.0" />
+      <edge id="41608" source="ex-general" target="USD" weight="0.0" />
+      <edge id="41609" source="ex-general" target="Java" weight="0.0" />
+      <edge id="41624" source="ex-general" target="Olam International" weight="0.0" />
+      <edge id="41611" source="ex-general" target="agro-food imports" weight="0.0" />
+      <edge id="41613" source="ex-general" target="Suswono" weight="0.0" />
+      <edge id="41614" source="ex-general" target="Andrew White" weight="0.0" />
+      <edge id="41616" source="ex-general" target="Rabobank International" weight="0.0" />
+      <edge id="41617" source="ex-general" target="Agriculture Minister" weight="0.0" />
+      <edge id="41621" source="ex-general" target="food" weight="0.0" />
+      <edge id="41622" source="ex-general" target="Joko Widodo" weight="0.0" />
+      <edge id="41623" source="ex-general" target="Indonesia" weight="0.0" />
+      <edge id="17207" source="ex-general" target="United States" weight="0.0" />
+      <edge id="41626" source="ex-general" target="Thailand" weight="0.0" />
+      <edge id="41628" source="ex-general" target="Susilo Bambang Yudhoyono" weight="0.0" />
+      <edge id="41629" source="ex-general" target="damaged irrigation systems" weight="0.0" />
+      <edge id="41631" source="ex-general" target="General" weight="0.0" />
+      <edge id="22461" source="ex-general" target="Cargill" weight="0.0" />
+      <edge id="42212" source="food" target="Rabobank International" weight="0.0" />
+      <edge id="42213" source="food" target="Agriculture Minister" weight="0.0" />
+      <edge id="42258" source="food" target="Susilo Bambang Yudhoyono" weight="0.0" />
+      <edge id="42246" source="food" target="Olam International" weight="0.0" />
+      <edge id="42265" source="food" target="Suswono" weight="0.0" />
+      <edge id="42225" source="food" target="Indonesia" weight="0.0" />
+      <edge id="22476" source="food" target="Cargill" weight="0.0" />
+      <edge id="17227" source="food" target="United States" weight="0.0" />
+      <edge id="42252" source="food" target="USD" weight="0.0" />
+      <edge id="42328" source="food" target="Java" weight="0.0" />
+      <edge id="42281" source="food" target="Thailand" weight="0.0" />
+      <edge id="42319" source="food" target="Joko Widodo" weight="0.0" />
+      <edge id="42284" source="food" target="damaged irrigation systems" weight="0.0" />
+      <edge id="42285" source="food" target="General" weight="0.0" />
+      <edge id="42244" source="food" target="Andrew White" weight="0.0" />
+      <edge id="42220" source="food" target="agro-food imports" weight="0.0" />
+      <edge id="17132" source="United States" target="USD" weight="0.0" />
+      <edge id="17312" source="United States" target="Susilo Bambang Yudhoyono" weight="0.0" />
+      <edge id="17354" source="United States" target="damaged irrigation systems" weight="0.0" />
+      <edge id="17400" source="United States" target="Java" weight="0.0" />
+      <edge id="17401" source="United States" target="Olam International" weight="0.0" />
+      <edge id="17419" source="United States" target="Joko Widodo" weight="0.0" />
+      <edge id="17503" source="United States" target="Cargill" weight="0.0" />
+      <edge id="17560" source="United States" target="Rabobank International" weight="0.0" />
+      <edge id="17561" source="United States" target="Agriculture Minister" weight="0.0" />
+      <edge id="17786" source="United States" target="agro-food imports" weight="0.0" />
+      <edge id="17580" source="United States" target="Indonesia" weight="0.0" />
+      <edge id="17626" source="United States" target="Andrew White" weight="0.0" />
+      <edge id="17661" source="United States" target="Suswono" weight="0.0" />
+      <edge id="17686" source="United States" target="Thailand" weight="0.0" />
+      <edge id="17698" source="United States" target="General" weight="0.0" />
+      <edge id="43968" source="Susilo Bambang Yudhoyono" target="USD" weight="0.0" />
+      <edge id="43969" source="Susilo Bambang Yudhoyono" target="Java" weight="0.0" />
+      <edge id="43983" source="Susilo Bambang Yudhoyono" target="Olam International" weight="0.0" />
+      <edge id="43971" source="Susilo Bambang Yudhoyono" target="agro-food imports" weight="0.0" />
+      <edge id="43973" source="Susilo Bambang Yudhoyono" target="Suswono" weight="0.0" />
+      <edge id="43974" source="Susilo Bambang Yudhoyono" target="Andrew White" weight="0.0" />
+      <edge id="43976" source="Susilo Bambang Yudhoyono" target="Rabobank International" weight="0.0" />
+      <edge id="43977" source="Susilo Bambang Yudhoyono" target="Agriculture Minister" weight="0.0" />
+      <edge id="43981" source="Susilo Bambang Yudhoyono" target="Joko Widodo" weight="0.0" />
+      <edge id="43982" source="Susilo Bambang Yudhoyono" target="Indonesia" weight="0.0" />
+      <edge id="43985" source="Susilo Bambang Yudhoyono" target="Thailand" weight="0.0" />
+      <edge id="43987" source="Susilo Bambang Yudhoyono" target="damaged irrigation systems" weight="0.0" />
+      <edge id="43989" source="Susilo Bambang Yudhoyono" target="General" weight="0.0" />
+      <edge id="22484" source="Susilo Bambang Yudhoyono" target="Cargill" weight="0.0" />
+      <edge id="64846" source="damaged irrigation systems" target="USD" weight="0.0" />
+      <edge id="62519" source="damaged irrigation systems" target="Java" weight="0.0" />
+      <edge id="68689" source="damaged irrigation systems" target="Olam International" weight="0.0" />
+      <edge id="68783" source="damaged irrigation systems" target="agro-food imports" weight="0.0" />
+      <edge id="50242" source="damaged irrigation systems" target="Suswono" weight="0.0" />
+      <edge id="64266" source="damaged irrigation systems" target="Andrew White" weight="0.0" />
+      <edge id="68784" source="damaged irrigation systems" target="Rabobank International" weight="0.0" />
+      <edge id="63758" source="damaged irrigation systems" target="Agriculture Minister" weight="0.0" />
+      <edge id="46457" source="damaged irrigation systems" target="Joko Widodo" weight="0.0" />
+      <edge id="68785" source="damaged irrigation systems" target="Indonesia" weight="0.0" />
+      <edge id="65046" source="damaged irrigation systems" target="Thailand" weight="0.0" />
+      <edge id="65073" source="damaged irrigation systems" target="General" weight="0.0" />
+      <edge id="22485" source="damaged irrigation systems" target="Cargill" weight="0.0" />
+      <edge id="62508" source="Java" target="USD" weight="0.0" />
+      <edge id="62509" source="Java" target="Java" weight="2.0" />
+      <edge id="62517" source="Java" target="Olam International" weight="0.0" />
+      <edge id="62510" source="Java" target="agro-food imports" weight="0.0" />
+      <edge id="50226" source="Java" target="Suswono" weight="0.0" />
+      <edge id="62511" source="Java" target="Andrew White" weight="0.0" />
+      <edge id="62512" source="Java" target="Rabobank International" weight="0.0" />
+      <edge id="62513" source="Java" target="Agriculture Minister" weight="0.0" />
+      <edge id="46433" source="Java" target="Joko Widodo" weight="0.0" />
+      <edge id="62516" source="Java" target="Indonesia" weight="0.0" />
+      <edge id="62518" source="Java" target="Thailand" weight="0.0" />
+      <edge id="62521" source="Java" target="General" weight="0.0" />
+      <edge id="22459" source="Java" target="Cargill" weight="0.0" />
+      <edge id="64858" source="Olam International" target="USD" weight="0.0" />
+      <edge id="68686" source="Olam International" target="agro-food imports" weight="0.0" />
+      <edge id="50238" source="Olam International" target="Suswono" weight="0.0" />
+      <edge id="64264" source="Olam International" target="Andrew White" weight="0.0" />
+      <edge id="68687" source="Olam International" target="Rabobank International" weight="0.0" />
+      <edge id="63756" source="Olam International" target="Agriculture Minister" weight="0.0" />
+      <edge id="46452" source="Olam International" target="Joko Widodo" weight="0.0" />
+      <edge id="68688" source="Olam International" target="Indonesia" weight="0.0" />
+      <edge id="65034" source="Olam International" target="Thailand" weight="0.0" />
+      <edge id="65074" source="Olam International" target="General" weight="0.0" />
+      <edge id="22479" source="Olam International" target="Cargill" weight="0.0" />
+      <edge id="46432" source="Joko Widodo" target="USD" weight="0.0" />
+      <edge id="46436" source="Joko Widodo" target="agro-food imports" weight="0.0" />
+      <edge id="46440" source="Joko Widodo" target="Suswono" weight="0.0" />
+      <edge id="46441" source="Joko Widodo" target="Andrew White" weight="0.0" />
+      <edge id="22477" source="Joko Widodo" target="Cargill" weight="0.0" />
+      <edge id="46444" source="Joko Widodo" target="Rabobank International" weight="0.0" />
+      <edge id="46445" source="Joko Widodo" target="Agriculture Minister" weight="0.0" />
+      <edge id="46451" source="Joko Widodo" target="Indonesia" weight="0.0" />
+      <edge id="46454" source="Joko Widodo" target="Thailand" weight="0.0" />
+      <edge id="46459" source="Joko Widodo" target="General" weight="0.0" />
+      <edge id="22458" source="Cargill" target="USD" weight="0.0" />
+      <edge id="22466" source="Cargill" target="agro-food imports" weight="0.0" />
+      <edge id="22468" source="Cargill" target="Suswono" weight="0.0" />
+      <edge id="22469" source="Cargill" target="Andrew White" weight="0.0" />
+      <edge id="22471" source="Cargill" target="Rabobank International" weight="0.0" />
+      <edge id="22472" source="Cargill" target="Agriculture Minister" weight="0.0" />
+      <edge id="22478" source="Cargill" target="Indonesia" weight="0.0" />
+      <edge id="22482" source="Cargill" target="Thailand" weight="0.0" />
+      <edge id="22487" source="Cargill" target="General" weight="0.0" />
+      <edge id="64903" source="Rabobank International" target="USD" weight="0.0" />
+      <edge id="69021" source="Rabobank International" target="agro-food imports" weight="0.0" />
+      <edge id="50232" source="Rabobank International" target="Suswono" weight="0.0" />
+      <edge id="64260" source="Rabobank International" target="Andrew White" weight="0.0" />
+      <edge id="63752" source="Rabobank International" target="Agriculture Minister" weight="0.0" />
+      <edge id="69022" source="Rabobank International" target="Indonesia" weight="0.0" />
+      <edge id="65030" source="Rabobank International" target="Thailand" weight="0.0" />
+      <edge id="65069" source="Rabobank International" target="General" weight="0.0" />
+      <edge id="63749" source="Agriculture Minister" target="USD" weight="0.0" />
+      <edge id="63750" source="Agriculture Minister" target="agro-food imports" weight="0.0" />
+      <edge id="50233" source="Agriculture Minister" target="Suswono" weight="0.0" />
+      <edge id="63751" source="Agriculture Minister" target="Andrew White" weight="0.0" />
+      <edge id="63755" source="Agriculture Minister" target="Indonesia" weight="0.0" />
+      <edge id="63757" source="Agriculture Minister" target="Thailand" weight="0.0" />
+      <edge id="63760" source="Agriculture Minister" target="General" weight="0.0" />
+      <edge id="64907" source="agro-food imports" target="USD" weight="0.0" />
+      <edge id="50228" source="agro-food imports" target="Suswono" weight="0.0" />
+      <edge id="64259" source="agro-food imports" target="Andrew White" weight="0.0" />
+      <edge id="69032" source="agro-food imports" target="Indonesia" weight="0.0" />
+      <edge id="65036" source="agro-food imports" target="Thailand" weight="0.0" />
+      <edge id="65075" source="agro-food imports" target="General" weight="0.0" />
+      <edge id="65038" source="Indonesia" target="Thailand" weight="0.0" />
+      <edge id="65076" source="Indonesia" target="General" weight="0.0" />
+      <edge id="64908" source="Indonesia" target="USD" weight="0.0" />
+      <edge id="64263" source="Indonesia" target="Andrew White" weight="0.0" />
+      <edge id="50237" source="Indonesia" target="Suswono" weight="0.0" />
+      <edge id="64258" source="Andrew White" target="USD" weight="0.0" />
+      <edge id="50230" source="Andrew White" target="Suswono" weight="0.0" />
+      <edge id="64265" source="Andrew White" target="Thailand" weight="0.0" />
+      <edge id="64268" source="Andrew White" target="General" weight="0.0" />
+      <edge id="50225" source="Suswono" target="USD" weight="0.0" />
+      <edge id="50240" source="Suswono" target="Thailand" weight="0.0" />
+      <edge id="50244" source="Suswono" target="General" weight="0.0" />
+      <edge id="64935" source="USD" target="Thailand" weight="0.0" />
+      <edge id="64940" source="USD" target="General" weight="0.0" />
+      <edge id="65047" source="Thailand" target="General" weight="0.0" />
+    </edges>
+  </graph>
+</gexf>

@@ -46,13 +46,18 @@ class EntitiyGraph():
                 if data.empty:
                     print "Found in db - Ticker: %s, Empty" % (ticker)
                     return [ticker]+[0]*3
-                open = data['Open'][self.date_str]
-                close = data['Close'][self.date_str]
-                price_change = float('%.2f' % ( (close-open)*100 / float(open) ))
 
-                self.num_stock_prices += 1
-                print "Found in db - Ticker: %s, Price change: %.2f" % (ticker, price_change)
-                return ticker, open, close, price_change
+                try:
+                    open = data['Open'][self.date_str]
+                    close = data['Close'][self.date_str]
+                    price_change = float('%.2f' % ( (close-open)*100 / float(open) ))
+
+                    self.num_stock_prices += 1
+                    print "Found in db - Ticker: %s, Price change: %.2f" % (ticker, price_change)
+                    return ticker, open, close, price_change
+                except:
+                    print "Found in db - Ticker: %s, Date not found" % (ticker)
+                    return [ticker]+[0]*3
 
 
             # get price change
@@ -198,6 +203,7 @@ class EntitiyGraph():
         # make graph
         #median = np.median(heat_matrix)
         H = self.setEdgeWeights(G, heat_matrix, 0)
+        print "Num stock prices: %d\n" % self.num_stock_prices
 
         nx.write_gexf(G, self.path_to_graph + self.date_str + '.gexf')
         print "Time taken: %s sec" % str(time.time() - start_time)
@@ -205,7 +211,7 @@ class EntitiyGraph():
 
 
 """ ------------------- Main ------------------"""
-for i in [2]:
+for i in [7, 8, 9, 10]:
     my_date = date(2014, 7, i)
     extractor = EntitiyGraph(my_date)
     extractor.run_store()

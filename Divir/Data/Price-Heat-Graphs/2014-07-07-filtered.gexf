@@ -1,0 +1,2127 @@
+<gexf version="1.1" xmlns="http://www.gexf.net/1.1draft" xmlns:viz="http://www.gexf.net/1.1draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="entity" type="string" />
+      <attribute id="1" title="type" type="string" />
+      <attribute id="2" title="size" type="integer" />
+      <attribute id="3" title="open" type="double" />
+      <attribute id="4" title="ticker" type="string" />
+      <attribute id="5" title="price_change" type="double" />
+      <attribute id="6" title="close" type="double" />
+    </attributes>
+    <nodes>
+      <node id="South Korea" label="South Korea">
+        <attvalues>
+          <attvalue for="0" value="{u'relevance': 0.511, '__reference': u'http://d.opencalais.com/genericHasher-1/51cc1098-eebf-3042-b55c-46117974d025', u'_type': u'Country', u'name': u'South Korea', u'resolutions': [{u'latitude': u'36.4692974125', u'id': u'http://d.opencalais.com/er/geo/country/ralg-geo1/3c6cfbc2-415a-ad89-3733-819108cf892c', u'longitude': u'127.624277169', u'name': u'South Korea'}]}" />
+          <attvalue for="1" value="Country" />
+          <attvalue for="2" value="17" />
+        </attvalues>
+      </node>
+      <node id="China Enterprises" label="China Enterprises">
+        <attvalues>
+          <attvalue for="0" value="{u'relevance': 0.299, '__reference': u'http://d.opencalais.com/genericHasher-1/3c048d1b-69d9-3ebf-bd99-b7c27a2d6abb', u'_type': u'MarketIndex', u'name': u'China Enterprises'}" />
+          <attvalue for="1" value="MarketIndex" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="New Zealand" label="New Zealand">
+        <attvalues>
+          <attvalue for="0" value="{u'relevance': 0.097, '__reference': u'http://d.opencalais.com/genericHasher-1/70c799e9-e419-3fad-9f19-d4bd223c5e24', u'_type': u'Country', u'name': u'New Zealand', u'resolutions': [{u'latitude': u'-41.4395424656', u'id': u'http://d.opencalais.com/er/geo/country/ralg-geo1/ea14e587-f5a8-de7b-f397-5099762ce583', u'longitude': u'172.193587359', u'name': u'New Zealand'}]}" />
+          <attvalue for="1" value="Country" />
+          <attvalue for="2" value="11" />
+        </attvalues>
+      </node>
+      <node id="NZX 50" label="NZX 50">
+        <attvalues>
+          <attvalue for="0" value="{u'relevance': 0.083, '__reference': u'http://d.opencalais.com/genericHasher-1/f945a725-35e9-37fa-b0d3-3b81e5af76d4', u'_type': u'MarketIndex', u'name': u'NZX 50'}" />
+          <attvalue for="1" value="MarketIndex" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="steel mill" label="steel mill">
+        <attvalues>
+          <attvalue for="0" value="{u'relevance': 0.167, '__reference': u'http://d.opencalais.com/genericHasher-1/d98fd433-288b-3ea3-ae74-0676b362a89a', u'_type': u'IndustryTerm', u'name': u'steel mill'}" />
+          <attvalue for="1" value="IndustryTerm" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="European Commission" label="European Commission">
+        <attvalues>
+          <attvalue for="0" value="{u'_type': u'Organization', u'name': u'European Commission', '__reference': u'http://d.opencalais.com/genericHasher-1/8113697a-e16f-380d-be84-b13656632e0f', u'relevance': 0.46, u'nationality': u'N/A', u'organizationtype': u'governmental civilian'}" />
+          <attvalue for="1" value="Organization" />
+          <attvalue for="2" value="25" />
+        </attvalues>
+      </node>
+      <node id="S&amp;P/ASX 200" label="S&amp;P/ASX 200">
+        <attvalues>
+          <attvalue for="0" value="{u'relevance': 0.289, '__reference': u'http://d.opencalais.com/genericHasher-1/d6c553ee-4d9e-3c7d-a46c-b68c6f073bad', u'_type': u'MarketIndex', u'name': u'S&amp;P/ASX 200'}" />
+          <attvalue for="1" value="MarketIndex" />
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </node>
+      <node id="International Fragrance Association" label="International Fragrance Association">
+        <attvalues>
+          <attvalue for="0" value="{u'_type': u'Organization', u'name': u'International Fragrance Association', '__reference': u'http://d.opencalais.com/genericHasher-1/675678ae-29aa-376a-aa9b-b10457d2b9bd', u'relevance': 0.433, u'nationality': u'N/A', u'organizationtype': u'N/A'}" />
+          <attvalue for="1" value="Organization" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="Scientific Committee on Consumer Safety" label="Scientific Committee on Consumer Safety">
+        <attvalues>
+          <attvalue for="0" value="{u'_type': u'Organization', u'name': u'Scientific Committee on Consumer Safety', '__reference': u'http://d.opencalais.com/genericHasher-1/ec54b7f1-100b-34c5-a7ee-1162b6339a66', u'relevance': 0.292, u'nationality': u'N/A', u'organizationtype': u'N/A'}" />
+          <attvalue for="1" value="Organization" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="International Flavors &amp; Fragrances" label="International Flavors &amp; Fragrances : 3.03">
+        <attvalues>
+          <attvalue for="3" value="0.33" />
+          <attvalue for="4" value="ISF" />
+          <attvalue for="5" value="3.03" />
+          <attvalue for="0" value="{u'_type': u'Company', u'name': u'International Flavors &amp; Fragrances', '__reference': u'http://d.opencalais.com/comphash-1/80b0c7c7-a624-3d2b-9f84-e8d6c374dca8', u'relevance': 0.28, u'nationality': u'N/A', u'resolutions': [{u'name': u'INTERNATIONAL FLAVORS &amp; FRAGRANCES INC.', u'symbol': u'IFF.N', u'score': 1, u'shortname': u'IFF', u'ticker': u'ISF', u'id': u'http://d.opencalais.com/er/company/ralg-tr1r/13f58af8-5b82-3a5c-bfef-584a3f346f4e'}]}" />
+          <attvalue for="6" value="0.34" />
+          <attvalue for="1" value="Company" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="Galaxy Entertainment Group" label="Galaxy Entertainment Group : 0.0">
+        <attvalues>
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="GALXY" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="0" value="{u'_type': u'Company', u'name': u'Galaxy Entertainment Group', '__reference': u'http://d.opencalais.com/comphash-1/faba94cd-0864-354a-aee1-fad3fde4b600', u'relevance': 0.09, u'nationality': u'N/A', u'resolutions': [{u'name': u'GALAXY ENTERTAINMENT GROUP LIMITED', u'symbol': u'0027.HK', u'score': 1, u'shortname': u'Galaxy Entertain', u'ticker': u'GALXY', u'id': u'http://d.opencalais.com/er/company/ralg-tr1r/f5a634b9-8044-3031-895a-c6fcf1ea854e'}]}" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="1" value="Company" />
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </node>
+      <node id="Brussels" label="Brussels">
+        <attvalues>
+          <attvalue for="0" value="{u'relevance': 0.516, '__reference': u'http://d.opencalais.com/genericHasher-1/d3eabb8a-438c-359a-87ac-39da4e333ccc', u'_type': u'City', u'name': u'Brussels', u'resolutions': [{u'name': u'Brussels,Brussels-Capital Region,Belgium', u'containedbystate': u'Brussels-Capital Region', u'longitude': u'4.35642242432', u'latitude': u'50.8410694286', u'shortname': u'Brussels', u'containedbycountry': u'Belgium', u'id': u'http://d.opencalais.com/er/geo/city/ralg-geo1/c0137620-9f59-7c2e-c1c7-834e05e733a0'}]}" />
+          <attvalue for="1" value="City" />
+          <attvalue for="2" value="17" />
+        </attvalues>
+      </node>
+      <node id="Dior" label="Dior">
+        <attvalues>
+          <attvalue for="0" value="{u'_type': u'Person', u'name': u'Dior', '__reference': u'http://d.opencalais.com/pershash-1/5edbbc00-ec5f-31f7-a3d7-a7e21f2e74d7', u'commonname': u'Dior', u'relevance': 0.442, u'nationality': u'N/A', u'persontype': u'N/A'}" />
+          <attvalue for="1" value="Person" />
+          <attvalue for="2" value="8" />
+        </attvalues>
+      </node>
+      <node id="United States" label="United States">
+        <attvalues>
+          <attvalue for="0" value="{u'relevance': 0.216, '__reference': u'http://d.opencalais.com/genericHasher-1/a54ac18b-a956-3b5c-b235-0609ca899305', u'_type': u'Country', u'name': u'United States', u'resolutions': [{u'latitude': u'40.4230003233', u'id': u'http://d.opencalais.com/er/geo/country/ralg-geo1/152649df-347e-e289-1a9e-acc883e07d17', u'longitude': u'-98.7372244786', u'name': u'United States'}]}" />
+          <attvalue for="1" value="Country" />
+          <attvalue for="2" value="783" />
+        </attvalues>
+      </node>
+      <node id="Hang Seng 40" label="Hang Seng 40">
+        <attvalues>
+          <attvalue for="0" value="{u'relevance': 0.495, '__reference': u'http://d.opencalais.com/genericHasher-1/52550988-9eb1-37f2-a9ae-486d4be8df5a', u'_type': u'MarketIndex', u'name': u'Hang Seng 40'}" />
+          <attvalue for="1" value="MarketIndex" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="Iraq" label="Iraq">
+        <attvalues>
+          <attvalue for="0" value="{u'relevance': 0.138, '__reference': u'http://d.opencalais.com/genericHasher-1/6970d84d-53cb-3b52-9064-063fcda5a5fb', u'_type': u'Country', u'name': u'Iraq', u'resolutions': [{u'latitude': u'33.0', u'id': u'http://d.opencalais.com/er/geo/country/ralg-geo1/d3b1cee2-327c-fa35-7dab-f0289958c024', u'longitude': u'44.0', u'name': u'Iraq'}]}" />
+          <attvalue for="1" value="Country" />
+          <attvalue for="2" value="34" />
+        </attvalues>
+      </node>
+      <node id="New York" label="New York">
+        <attvalues>
+          <attvalue for="0" value="{u'relevance': 0.31, '__reference': u'http://d.opencalais.com/genericHasher-1/9f45e0f5-aa73-39b8-b39e-2a1546da820a', u'_type': u'City', u'name': u'New York', u'resolutions': [{u'name': u'New York City,New York,United States', u'containedbystate': u'New York', u'longitude': u'-74.0064', u'latitude': u'40.7142', u'shortname': u'New York City', u'containedbycountry': u'United States', u'id': u'http://d.opencalais.com/er/geo/city/ralg-geo1/b3719a18-c511-51a8-b3f9-f8480b3b6e48'}]}" />
+          <attvalue for="1" value="City" />
+          <attvalue for="2" value="209" />
+        </attvalues>
+      </node>
+      <node id="Paris" label="Paris">
+        <attvalues>
+          <attvalue for="0" value="{u'relevance': 0.308, '__reference': u'http://d.opencalais.com/genericHasher-1/56fc901f-59a3-3278-addc-b0fc69b283e7', u'_type': u'City', u'name': u'Paris', u'resolutions': [{u'name': u'Paris,France', u'longitude': u'2.346954', u'latitude': u'48.8742', u'shortname': u'Paris', u'containedbycountry': u'France', u'id': u'http://d.opencalais.com/er/geo/city/ralg-geo1/797c999a-d455-520d-e5cf-04ca7fb255c1'}]}" />
+          <attvalue for="1" value="City" />
+          <attvalue for="2" value="36" />
+        </attvalues>
+      </node>
+      <node id="software" label="software">
+        <attvalues>
+          <attvalue for="0" value="{u'relevance': 0.073, '__reference': u'http://d.opencalais.com/genericHasher-1/30c49aa7-f102-3988-8215-2e76315c6ed3', u'_type': u'IndustryTerm', u'name': u'software'}" />
+          <attvalue for="1" value="IndustryTerm" />
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </node>
+      <node id="crude oil fall" label="crude oil fall">
+        <attvalues>
+          <attvalue for="0" value="{u'relevance': 0.071, '__reference': u'http://d.opencalais.com/genericHasher-1/4d0362ec-bf1b-3a65-b963-199f20bbfafd', u'_type': u'IndustryTerm', u'name': u'crude oil fall'}" />
+          <attvalue for="1" value="IndustryTerm" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="Richard Borsuk" label="Richard Borsuk">
+        <attvalues>
+          <attvalue for="0" value="{u'_type': u'Person', u'name': u'Richard Borsuk', '__reference': u'http://d.opencalais.com/pershash-1/ad189f6a-ecf6-3826-a0c3-d95106d869d7', u'commonname': u'Richard Borsuk', u'relevance': 0.051, u'nationality': u'N/A', u'persontype': u'N/A'}" />
+          <attvalue for="1" value="Person" />
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </node>
+      <node id="SEOUL" label="SEOUL">
+        <attvalues>
+          <attvalue for="0" value="{u'relevance': 0.175, '__reference': u'http://d.opencalais.com/genericHasher-1/07232f01-bcd1-38ab-8de6-e48ff801acb3', u'_type': u'City', u'name': u'SEOUL', u'resolutions': [{u'name': u'Seoul,South Korea', u'longitude': u'127.0', u'latitude': u'37.5833333333', u'shortname': u'Seoul', u'containedbycountry': u'South Korea', u'id': u'http://d.opencalais.com/er/geo/city/ralg-geo1/4d5b323a-5e68-2017-b7d6-85abb142afe3'}]}" />
+          <attvalue for="1" value="City" />
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </node>
+      <node id="natural products" label="natural products">
+        <attvalues>
+          <attvalue for="0" value="{u'relevance': 0.138, '__reference': u'http://d.opencalais.com/genericHasher-1/eff141d6-cd17-3685-a909-2ce7ce4070bf', u'_type': u'IndustryTerm', u'name': u'natural products'}" />
+          <attvalue for="1" value="IndustryTerm" />
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </node>
+      <node id="Chongqing" label="Chongqing">
+        <attvalues>
+          <attvalue for="0" value="{u'relevance': 0.255, '__reference': u'http://d.opencalais.com/genericHasher-1/88d5b00a-20c5-3dd7-8bba-66f53b1856f5', u'_type': u'City', u'name': u'Chongqing', u'resolutions': [{u'name': u'Chongqing,China', u'longitude': u'106.506944444', u'latitude': u'29.55', u'shortname': u'Chongqing', u'containedbycountry': u'China', u'id': u'http://d.opencalais.com/er/geo/city/ralg-geo1/46650e53-a847-e46a-e6b4-7dacf8753b41'}]}" />
+          <attvalue for="1" value="City" />
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </node>
+      <node id="optical inspection systems" label="optical inspection systems">
+        <attvalues>
+          <attvalue for="0" value="{u'relevance': 0.325, '__reference': u'http://d.opencalais.com/genericHasher-1/5038d7ae-1524-3816-87c8-b1a1eb312c69', u'_type': u'IndustryTerm', u'name': u'optical inspection systems'}" />
+          <attvalue for="1" value="IndustryTerm" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="China Vanke" label="China Vanke : 0.0">
+        <attvalues>
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="VANKE" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="0" value="{u'_type': u'Company', u'name': u'China Vanke', '__reference': u'http://d.opencalais.com/comphash-1/bb8ba0c3-6334-3bd0-8788-cfc6c6f08065', u'relevance': 0.154, u'nationality': u'N/A', u'resolutions': [{u'name': u'CHINA VANKE CO., LTD.', u'symbol': u'000002.SZ', u'score': 1, u'shortname': u'Vanke', u'ticker': u'VANKE', u'id': u'http://d.opencalais.com/er/company/ralg-tr1r/ca6f1ea7-ac64-350e-8b57-3259ac5ed241'}]}" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="1" value="Company" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="Symrise" label="Symrise : 0.0">
+        <attvalues>
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="SYAG" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="0" value="{u'_type': u'Company', u'name': u'Symrise', '__reference': u'http://d.opencalais.com/comphash-1/4f045015-0cd8-3f64-a864-009f91c45c3a', u'relevance': 0.28, u'nationality': u'N/A', u'resolutions': [{u'name': u'Symrise AG', u'symbol': u'SY1G.DE', u'score': 1, u'shortname': u'Symrise', u'ticker': u'SYAG', u'id': u'http://d.opencalais.com/er/company/ralg-tr1r/6c2b49ca-7397-38d1-90d1-583ba7404498'}]}" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="1" value="Company" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="SPTS" label="SPTS : 0.0">
+        <attvalues>
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="0" value="{u'_type': u'Company', u'name': u'SPTS', '__reference': u'http://d.opencalais.com/comphash-1/b9132554-7ace-3744-b27c-88bdf92bbc38', u'relevance': 0.75, u'nationality': u'British', u'resolutions': [{u'shortname': u'SPTS', u'score': 1, u'id': u'http://d.opencalais.com/er/company/ralg-tr1r/e978f3d2-424d-3dac-a912-6302d0bb7e9b', u'name': u'SPTS TECHNOLOGIES UK LIMITED'}]}" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="1" value="Company" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="Yuan Renminbi" label="Yuan Renminbi">
+        <attvalues>
+          <attvalue for="0" value="{u'_type': u'Person', u'name': u'Yuan Renminbi', '__reference': u'http://d.opencalais.com/pershash-1/3801ee43-fd29-3ad4-b452-248172fa17c5', u'commonname': u'Yuan Renminbi', u'relevance': 0.327, u'nationality': u'Chinese', u'persontype': u'N/A'}" />
+          <attvalue for="1" value="Person" />
+          <attvalue for="2" value="22" />
+        </attvalues>
+      </node>
+      <node id="Israel" label="Israel">
+        <attvalues>
+          <attvalue for="0" value="{u'relevance': 0.335, '__reference': u'http://d.opencalais.com/genericHasher-1/453e9489-cc05-3f29-b6aa-aabd09a1805b', u'_type': u'Country', u'name': u'Israel', u'resolutions': [{u'latitude': u'31.7833', u'id': u'http://d.opencalais.com/er/geo/country/ralg-geo1/3f8454b7-f2c1-2ceb-b162-2b6b0dfd1021', u'longitude': u'35.2167', u'name': u'Israel'}]}" />
+          <attvalue for="1" value="Country" />
+          <attvalue for="2" value="31" />
+        </attvalues>
+      </node>
+      <node id="United Kingdom" label="United Kingdom">
+        <attvalues>
+          <attvalue for="0" value="{u'relevance': 0.045, '__reference': u'http://d.opencalais.com/genericHasher-1/cc88b155-205c-3676-a151-d45f473f0b16', u'_type': u'Country', u'name': u'United Kingdom', u'resolutions': [{u'latitude': u'53.1142456495', u'id': u'http://d.opencalais.com/er/geo/country/ralg-geo1/9cdc126f-6826-0cbd-df3a-00a4032f0e7e', u'longitude': u'-2.57711368423', u'name': u'United Kingdom'}]}" />
+          <attvalue for="1" value="Country" />
+          <attvalue for="2" value="177" />
+        </attvalues>
+      </node>
+      <node id="SYDNEY" label="SYDNEY">
+        <attvalues>
+          <attvalue for="0" value="{u'relevance': 0.335, '__reference': u'http://d.opencalais.com/genericHasher-1/bbc41134-7bd7-3616-8079-65ee8fdbe9f7', u'_type': u'City', u'name': u'SYDNEY', u'resolutions': [{u'name': u'Sydney,New South Wales,Australia', u'containedbystate': u'New South Wales', u'longitude': u'151.2086', u'latitude': u'-33.8683', u'shortname': u'Sydney', u'containedbycountry': u'Australia', u'id': u'http://d.opencalais.com/er/geo/city/ralg-geo1/edbff3b3-cf30-b1f5-4c65-b10a74d6c8af'}]}" />
+          <attvalue for="1" value="City" />
+          <attvalue for="2" value="8" />
+        </attvalues>
+      </node>
+      <node id="Jacques Polge" label="Jacques Polge">
+        <attvalues>
+          <attvalue for="0" value="{u'_type': u'Person', u'name': u'Jacques Polge', '__reference': u'http://d.opencalais.com/pershash-1/d4615ec4-9d93-3785-98a7-0c56a899e2be', u'commonname': u'Jacques Polge', u'relevance': 0.059, u'nationality': u'N/A', u'persontype': u'N/A'}" />
+          <attvalue for="1" value="Person" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="Cosmetics Europe" label="Cosmetics Europe">
+        <attvalues>
+          <attvalue for="0" value="{u'_type': u'Organization', u'name': u'Cosmetics Europe', '__reference': u'http://d.opencalais.com/genericHasher-1/84c55d4a-69cb-3c14-9f11-e0d5f8b367b4', u'relevance': 0.156, u'nationality': u'N/A', u'organizationtype': u'N/A'}" />
+          <attvalue for="1" value="Organization" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="France" label="France">
+        <attvalues>
+          <attvalue for="0" value="{u'relevance': 0.294, '__reference': u'http://d.opencalais.com/genericHasher-1/e1fd0a20-f464-39be-a88f-25038cc7f50c', u'_type': u'Country', u'name': u'France', u'resolutions': [{u'latitude': u'46.0', u'id': u'http://d.opencalais.com/er/geo/country/ralg-geo1/e165d4f2-174b-66a7-d1a9-5cb204d296eb', u'longitude': u'2.0', u'name': u'France'}]}" />
+          <attvalue for="1" value="Country" />
+          <attvalue for="2" value="88" />
+        </attvalues>
+      </node>
+      <node id="sales trader" label="sales trader">
+        <attvalues>
+          <attvalue for="0" value="{u'relevance': 0.261, '__reference': u'http://d.opencalais.com/genericHasher-1/b6c919b1-5944-3042-b841-361cf73a8ae4', u'_type': u'IndustryTerm', u'name': u'sales trader'}" />
+          <attvalue for="1" value="IndustryTerm" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="L'Oreal" label="L'Oreal : 0.0">
+        <attvalues>
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="LOREAL" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="0" value="{u'_type': u'Company', u'name': u&quot;L'Oreal&quot;, '__reference': u'http://d.opencalais.com/comphash-1/78556769-d580-3ef3-95c4-aa92b8897710', u'relevance': 0.279, u'nationality': u'N/A', u'resolutions': [{u'name': u&quot;L'OREAL S.A.&quot;, u'symbol': u'OREP.PA', u'score': 1, u'shortname': u&quot;L'Oreal&quot;, u'ticker': u'LOREAL', u'id': u'http://d.opencalais.com/er/company/ralg-tr1r/e2e160a2-33df-3d49-8bc7-0de3094dd574'}]}" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="1" value="Company" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="Denmark" label="Denmark">
+        <attvalues>
+          <attvalue for="0" value="{u'relevance': 0.314, '__reference': u'http://d.opencalais.com/genericHasher-1/738d99b4-3efc-3311-b796-408f8f66daf4', u'_type': u'Country', u'name': u'Denmark', u'resolutions': [{u'latitude': u'55.72', u'id': u'http://d.opencalais.com/er/geo/country/ralg-geo1/e9375700-acbb-6b42-ae41-01daa00b0c20', u'longitude': u'12.57', u'name': u'Denmark'}]}" />
+          <attvalue for="1" value="Country" />
+          <attvalue for="2" value="18" />
+        </attvalues>
+      </node>
+      <node id="Sunil Nair" label="Sunil Nair">
+        <attvalues>
+          <attvalue for="0" value="{u'_type': u'Person', u'name': u'Sunil Nair', '__reference': u'http://d.opencalais.com/pershash-1/5d1372c8-1cef-3305-b80d-caa6c61cfa93', u'commonname': u'Sunil Nair', u'relevance': 0.052, u'nationality': u'N/A', u'persontype': u'N/A'}" />
+          <attvalue for="1" value="Person" />
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </node>
+      <node id="SSE 50" label="SSE 50">
+        <attvalues>
+          <attvalue for="0" value="{u'relevance': 0.3, '__reference': u'http://d.opencalais.com/genericHasher-1/8a33142e-5253-34ef-bc43-db6a1370f651', u'_type': u'MarketIndex', u'name': u'SSE 50'}" />
+          <attvalue for="1" value="MarketIndex" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="CEO" label="CEO">
+        <attvalues>
+          <attvalue for="0" value="{u'relevance': 0.055, '__reference': u'http://d.opencalais.com/genericHasher-1/7179d419-6f3e-3ac4-a756-2b52b36c7fea', u'_type': u'Position', u'name': u'CEO'}" />
+          <attvalue for="1" value="Position" />
+          <attvalue for="2" value="257" />
+        </attvalues>
+      </node>
+      <node id="Parfums" label="Parfums : 0.0">
+        <attvalues>
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="0" value="{u'_type': u'Company', u'name': u'Parfums', '__reference': u'http://d.opencalais.com/comphash-1/f4fef7c8-bf82-3890-b54f-633796e883b3', u'relevance': 0.121, u'nationality': u'N/A', u'resolutions': [{u'shortname': u'PARFUMS', u'score': 1, u'id': u'http://d.opencalais.com/er/company/ralg-tr1r/1ad2fa47-0081-3e07-857f-7712a6eb9fa8', u'name': u'PARFUMS CHRISTIAN DIOR UK LTD'}]}" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="1" value="Company" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="micro manufacturing applications" label="micro manufacturing applications">
+        <attvalues>
+          <attvalue for="0" value="{u'relevance': 0.223, '__reference': u'http://d.opencalais.com/genericHasher-1/0c667ba7-8acd-3adf-9848-8a0ef643858e', u'_type': u'IndustryTerm', u'name': u'micro manufacturing applications'}" />
+          <attvalue for="1" value="IndustryTerm" />
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </node>
+      <node id="S&amp;P 500" label="S&amp;P 500">
+        <attvalues>
+          <attvalue for="0" value="{u'relevance': 0.051, '__reference': u'http://d.opencalais.com/genericHasher-1/5319b959-90a8-31e0-81bd-ea2ea319fb50', u'_type': u'MarketIndex', u'name': u'S&amp;P 500'}" />
+          <attvalue for="1" value="MarketIndex" />
+          <attvalue for="2" value="52" />
+        </attvalues>
+      </node>
+      <node id="Shanghai" label="Shanghai">
+        <attvalues>
+          <attvalue for="0" value="{u'relevance': 0.721, '__reference': u'http://d.opencalais.com/genericHasher-1/1fb1ff43-cb7c-3741-8552-6c567eab8df6', u'_type': u'City', u'name': u'Shanghai', u'resolutions': [{u'name': u'Shanghai,China', u'longitude': u'121.5', u'latitude': u'31.2', u'shortname': u'Shanghai', u'containedbycountry': u'China', u'id': u'http://d.opencalais.com/er/geo/city/ralg-geo1/42ca3dc3-137a-7030-33f5-f3da75c32d9f'}]}" />
+          <attvalue for="1" value="City" />
+          <attvalue for="2" value="15" />
+        </attvalues>
+      </node>
+      <node id="Posco" label="Posco : 1.2">
+        <attvalues>
+          <attvalue for="3" value="7510.0" />
+          <attvalue for="4" value="POSCO" />
+          <attvalue for="5" value="1.2" />
+          <attvalue for="0" value="{u'_type': u'Company', u'name': u'Posco', '__reference': u'http://d.opencalais.com/comphash-1/4e21101b-3d61-3a67-a26f-e7720230f6ca', u'relevance': 0.529, u'nationality': u'N/A', u'resolutions': [{u'name': u'POSCO', u'symbol': u'005490.KS', u'score': 1, u'shortname': u'Posco', u'ticker': u'POSCO', u'id': u'http://d.opencalais.com/er/company/ralg-tr1r/5ddeade2-f69c-35a1-8a22-83a1c8fb7b05'}]}" />
+          <attvalue for="6" value="7600.0" />
+          <attvalue for="1" value="Company" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="Shenzhen" label="Shenzhen">
+        <attvalues>
+          <attvalue for="0" value="{u'relevance': 0.151, '__reference': u'http://d.opencalais.com/genericHasher-1/fe00d97b-a34d-38ba-b472-32e15603ade4', u'_type': u'City', u'name': u'Shenzhen', u'resolutions': [{u'name': u'Shenzhen,Guangdong Province,China', u'containedbystate': u'Guangdong Province', u'longitude': u'114.1', u'latitude': u'22.55', u'shortname': u'Shenzhen', u'containedbycountry': u'China', u'id': u'http://d.opencalais.com/er/geo/city/ralg-geo1/b39bb23f-8db3-149a-56db-f199d7293028'}]}" />
+          <attvalue for="1" value="City" />
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </node>
+      <node id="Orbotech" label="Orbotech : 3.01">
+        <attvalues>
+          <attvalue for="3" value="15.96" />
+          <attvalue for="4" value="ORBK" />
+          <attvalue for="5" value="3.01" />
+          <attvalue for="0" value="{u'_type': u'Company', u'name': u'Orbotech', '__reference': u'http://d.opencalais.com/comphash-1/91d531bf-dd2f-3bfb-b04c-deeeae76129b', u'relevance': 0.819, u'nationality': u'N/A', u'resolutions': [{u'name': u'ORBOTECH LTD.', u'symbol': u'ORBK.OQ', u'score': 1, u'shortname': u'Orbotech', u'ticker': u'ORBK', u'id': u'http://d.opencalais.com/er/company/ralg-tr1r/62f85c5c-a8be-3688-bc0a-6f26eb9bb69f'}]}" />
+          <attvalue for="6" value="16.44" />
+          <attvalue for="1" value="Company" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="North America" label="North America">
+        <attvalues>
+          <attvalue for="0" value="{u'relevance': 0.076, '__reference': u'http://d.opencalais.com/genericHasher-1/37f0cf6b-b991-3dc8-8018-78338494cd3a', u'_type': u'Continent', u'name': u'North America'}" />
+          <attvalue for="1" value="Continent" />
+          <attvalue for="2" value="129" />
+        </attvalues>
+      </node>
+      <node id="Sweden" label="Sweden">
+        <attvalues>
+          <attvalue for="0" value="{u'relevance': 0.11, '__reference': u'http://d.opencalais.com/genericHasher-1/02300592-c88e-3fca-8aaf-dfa00b85bd99', u'_type': u'Country', u'name': u'Sweden', u'resolutions': [{u'latitude': u'59.2684932684', u'id': u'http://d.opencalais.com/er/geo/country/ralg-geo1/88e52ee4-2fd0-9089-6f69-d0d71e339d94', u'longitude': u'15.7590592807', u'name': u'Sweden'}]}" />
+          <attvalue for="1" value="Country" />
+          <attvalue for="2" value="29" />
+        </attvalues>
+      </node>
+      <node id="analyst" label="analyst">
+        <attvalues>
+          <attvalue for="0" value="{u'relevance': 0.301, '__reference': u'http://d.opencalais.com/genericHasher-1/a12b43d5-d195-35ea-96a9-f710943bdb5a', u'_type': u'Position', u'name': u'analyst'}" />
+          <attvalue for="1" value="Position" />
+          <attvalue for="2" value="45" />
+        </attvalues>
+      </node>
+      <node id="Australia" label="Australia">
+        <attvalues>
+          <attvalue for="0" value="{u'relevance': 0.303, '__reference': u'http://d.opencalais.com/genericHasher-1/84a34c48-25ac-327f-a805-7b81fd570f7d', u'_type': u'Country', u'name': u'Australia', u'resolutions': [{u'latitude': u'-32.34562', u'id': u'http://d.opencalais.com/er/geo/country/ralg-geo1/fb2a54d6-3748-4c4c-a8ad-b2343237b89f', u'longitude': u'141.434598022', u'name': u'Australia'}]}" />
+          <attvalue for="1" value="Country" />
+          <attvalue for="2" value="64" />
+        </attvalues>
+      </node>
+      <node id="AUD" label="AUD">
+        <attvalues>
+          <attvalue for="0" value="{u'relevance': 0.749, '__reference': u'http://d.opencalais.com/genericHasher-1/f547b338-55e1-3702-b355-e10de1655fde', u'_type': u'Currency', u'name': u'AUD'}" />
+          <attvalue for="1" value="Currency" />
+          <attvalue for="2" value="9" />
+        </attvalues>
+      </node>
+      <node id="mining" label="mining">
+        <attvalues>
+          <attvalue for="0" value="{u'relevance': 0.155, '__reference': u'http://d.opencalais.com/genericHasher-1/7118950c-c257-3ade-8c76-b63d5f58af50', u'_type': u'IndustryTerm', u'name': u'mining'}" />
+          <attvalue for="1" value="IndustryTerm" />
+          <attvalue for="2" value="28" />
+        </attvalues>
+      </node>
+      <node id="oil" label="oil">
+        <attvalues>
+          <attvalue for="0" value="{u'relevance': 0.521, '__reference': u'http://d.opencalais.com/genericHasher-1/31ec6404-85fe-33f5-af02-cb37fec6b170', u'_type': u'IndustryTerm', u'name': u'oil'}" />
+          <attvalue for="1" value="IndustryTerm" />
+          <attvalue for="2" value="56" />
+        </attvalues>
+      </node>
+      <node id="Givaudan" label="Givaudan : 0.0">
+        <attvalues>
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="GIVN" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="0" value="{u'_type': u'Company', u'name': u'Givaudan', '__reference': u'http://d.opencalais.com/comphash-1/29d66f49-1d20-3475-8e50-70e4439b4823', u'relevance': 0.28, u'nationality': u'N/A', u'resolutions': [{u'name': u'Givaudan Ltd', u'symbol': u'GIVN.VX', u'score': 1, u'shortname': u'Givaudan', u'ticker': u'GIVN', u'id': u'http://d.opencalais.com/er/company/ralg-tr1r/c17b66a7-5abb-38f7-ae60-cc125cadfe5e'}]}" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="1" value="Company" />
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </node>
+      <node id="David Hudson" label="David Hudson">
+        <attvalues>
+          <attvalue for="0" value="{u'_type': u'Person', u'name': u'David Hudson', '__reference': u'http://d.opencalais.com/pershash-1/b0ee8aeb-1c04-373d-860f-cdc9c6069988', u'commonname': u'David Hudson', u'relevance': 0.105, u'nationality': u'N/A', u'persontype': u'political'}" />
+          <attvalue for="1" value="Person" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="USD" label="USD">
+        <attvalues>
+          <attvalue for="0" value="{u'relevance': 0.486, '__reference': u'http://d.opencalais.com/genericHasher-1/736a403d-157b-3e80-86a7-acc404607cb2', u'_type': u'Currency', u'name': u'USD'}" />
+          <attvalue for="1" value="Currency" />
+          <attvalue for="2" value="913" />
+        </attvalues>
+      </node>
+      <node id="Europe" label="Europe">
+        <attvalues>
+          <attvalue for="0" value="{u'relevance': 0.586, '__reference': u'http://d.opencalais.com/genericHasher-1/09bebb87-1ef5-373d-bd01-263e77470c65', u'_type': u'Continent', u'name': u'Europe'}" />
+          <attvalue for="1" value="Continent" />
+          <attvalue for="2" value="225" />
+        </attvalues>
+      </node>
+      <node id="oil producer" label="oil producer">
+        <attvalues>
+          <attvalue for="0" value="{u'relevance': 0.251, '__reference': u'http://d.opencalais.com/genericHasher-1/1666264f-75b7-3229-9b96-17acd9510dfb', u'_type': u'IndustryTerm', u'name': u'oil producer'}" />
+          <attvalue for="1" value="IndustryTerm" />
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </node>
+      <node id="Patricia de Nicolaï" label="Patricia de Nicolaï">
+        <attvalues>
+          <attvalue for="0" value="{u'_type': u'Person', u'name': u'Patricia de Nicolaï', '__reference': u'http://d.opencalais.com/pershash-1/23e5f823-86f6-3035-a2a5-247365cc80f6', u'commonname': u'Patricia de Nicola', u'relevance': 0.219, u'nationality': u'N/A', u'persontype': u'N/A'}" />
+          <attvalue for="1" value="Person" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="Asher Lev" label="Asher Lev">
+        <attvalues>
+          <attvalue for="0" value="{u'_type': u'Person', u'name': u'Asher Lev', '__reference': u'http://d.opencalais.com/pershash-1/aac1ab82-e1d5-3ab0-a5c6-be7548b72b37', u'commonname': u'Asher Lev', u'relevance': 0.145, u'nationality': u'N/A', u'persontype': u'economic'}" />
+          <attvalue for="1" value="Person" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="Beijing" label="Beijing">
+        <attvalues>
+          <attvalue for="0" value="{u'relevance': 0.131, '__reference': u'http://d.opencalais.com/genericHasher-1/74ece01a-7ee9-36a2-9732-ffab82e7eb9a', u'_type': u'City', u'name': u'Beijing', u'resolutions': [{u'name': u'Beijing,China', u'longitude': u'116.4', u'latitude': u'39.91', u'shortname': u'Beijing', u'containedbycountry': u'China', u'id': u'http://d.opencalais.com/er/geo/city/ralg-geo1/028cb65f-4709-3631-75ef-c7a06c317eb7'}]}" />
+          <attvalue for="1" value="City" />
+          <attvalue for="2" value="34" />
+        </attvalues>
+      </node>
+      <node id="western China" label="western China">
+        <attvalues>
+          <attvalue for="0" value="{u'relevance': 0.304, '__reference': u'http://d.opencalais.com/genericHasher-1/ac00060e-9ebb-3d37-a73d-311403f1b73f', u'_type': u'Region', u'name': u'western China'}" />
+          <attvalue for="1" value="Region" />
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </node>
+      <node id="chief" label="chief">
+        <attvalues>
+          <attvalue for="0" value="{u'relevance': 0.227, '__reference': u'http://d.opencalais.com/genericHasher-1/dfba6002-ef9b-3da4-918b-6fcc774da615', u'_type': u'Position', u'name': u'chief'}" />
+          <attvalue for="1" value="Position" />
+          <attvalue for="2" value="18" />
+        </attvalues>
+      </node>
+      <node id="Maurice Roucel" label="Maurice Roucel">
+        <attvalues>
+          <attvalue for="0" value="{u'_type': u'Person', u'name': u'Maurice Roucel', '__reference': u'http://d.opencalais.com/pershash-1/d0c96c44-77ea-3ca2-b337-3ef77f0a60cb', u'commonname': u'Maurice Roucel', u'relevance': 0.204, u'nationality': u'N/A', u'persontype': u'N/A'}" />
+          <attvalue for="1" value="Person" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="China" label="China">
+        <attvalues>
+          <attvalue for="0" value="{u'relevance': 0.429, '__reference': u'http://d.opencalais.com/genericHasher-1/3d1db47c-b851-32ab-af0b-0bffa4dad5d1', u'_type': u'Country', u'name': u'China', u'resolutions': [{u'latitude': u'32.9042932784', u'id': u'http://d.opencalais.com/er/geo/country/ralg-geo1/8a7d7ba2-88ca-0f0e-a1ec-f975b026e8e1', u'longitude': u'110.467708512', u'name': u'China'}]}" />
+          <attvalue for="1" value="Country" />
+          <attvalue for="2" value="176" />
+        </attvalues>
+      </node>
+      <node id="Tova Cohen" label="Tova Cohen">
+        <attvalues>
+          <attvalue for="0" value="{u'_type': u'Person', u'name': u'Tova Cohen', '__reference': u'http://d.opencalais.com/pershash-1/5acf5c39-4c1e-3f3f-9146-19b45f672437', u'commonname': u'Tova Cohen', u'relevance': 0.131, u'nationality': u'N/A', u'persontype': u'N/A'}" />
+          <attvalue for="1" value="Person" />
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </node>
+      <node id="EUR" label="EUR">
+        <attvalues>
+          <attvalue for="0" value="{u'relevance': 0.582, '__reference': u'http://d.opencalais.com/genericHasher-1/14d13f7a-3038-3271-84c0-913d58cf911e', u'_type': u'Currency', u'name': u'EUR'}" />
+          <attvalue for="1" value="Currency" />
+          <attvalue for="2" value="134" />
+        </attvalues>
+      </node>
+      <node id="metal" label="metal">
+        <attvalues>
+          <attvalue for="0" value="{u'relevance': 0.312, '__reference': u'http://d.opencalais.com/genericHasher-1/f0de9606-a91f-3290-8e58-29c0b3c3aeab', u'_type': u'IndustryTerm', u'name': u'metal'}" />
+          <attvalue for="1" value="IndustryTerm" />
+          <attvalue for="2" value="12" />
+        </attvalues>
+      </node>
+      <node id="Thuy Ong" label="Thuy Ong">
+        <attvalues>
+          <attvalue for="0" value="{u'_type': u'Person', u'name': u'Thuy Ong', '__reference': u'http://d.opencalais.com/pershash-1/ff63f21c-cf05-3070-adb6-9f571648d3cf', u'commonname': u'Thuy Ong', u'relevance': 0.051, u'nationality': u'N/A', u'persontype': u'N/A'}" />
+          <attvalue for="1" value="Person" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="Mediterranean" label="Mediterranean">
+        <attvalues>
+          <attvalue for="0" value="{u'relevance': 0.086, '__reference': u'http://d.opencalais.com/genericHasher-1/08434796-22ad-3f7f-8eaf-7821af12ec22', u'_type': u'Region', u'name': u'Mediterranean'}" />
+          <attvalue for="1" value="Region" />
+          <attvalue for="2" value="8" />
+        </attvalues>
+      </node>
+      <node id="Grasse" label="Grasse">
+        <attvalues>
+          <attvalue for="0" value="{u'relevance': 0.137, '__reference': u'http://d.opencalais.com/genericHasher-1/73e939c3-8f42-3d55-b921-1179f5ff9bb1', u'_type': u'City', u'name': u'Grasse', u'resolutions': [{u'latitude': u'43.6589', u'shortname': u'Grasse', u'id': u'http://d.opencalais.com/er/geo/city/ralg-geo1/c93f668a-3fd-e01-7e4-8cf63ba9232', u'longitude': u'6.9258', u'name': u'Grasse'}]}" />
+          <attvalue for="1" value="City" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="head" label="head">
+        <attvalues>
+          <attvalue for="0" value="{u'relevance': 0.121, '__reference': u'http://d.opencalais.com/genericHasher-1/c14241b6-5f57-315c-9d5e-aa617f57bfc1', u'_type': u'Position', u'name': u'head'}" />
+          <attvalue for="1" value="Position" />
+          <attvalue for="2" value="36" />
+        </attvalues>
+      </node>
+      <node id="Eau d'Ete" label="Eau d'Ete : 0.0">
+        <attvalues>
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="0" value="{u'relevance': 0.196, '__reference': u'http://d.opencalais.com/comphash-1/eb0e60ea-9f87-39f9-ba1b-d1c7d84557b7', u'_type': u'Company', u'name': u&quot;Eau d'Ete&quot;, u'nationality': u'N/A'}" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="1" value="Company" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="National Australia Bank" label="National Australia Bank : 0.0">
+        <attvalues>
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="NAB" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="0" value="{u'_type': u'Company', u'name': u'National Australia Bank', '__reference': u'http://d.opencalais.com/comphash-1/c0617a2f-e109-3894-b94b-efb3f1d88955', u'relevance': 0.299, u'nationality': u'N/A', u'resolutions': [{u'name': u'NATIONAL AUSTRALIA BANK LIMITED', u'symbol': u'NAB.AX', u'score': 1, u'shortname': u'National AU BK', u'ticker': u'NAB', u'id': u'http://d.opencalais.com/er/company/ralg-tr1r/c317232d-a448-3416-b6a3-84dbb30a2f89'}]}" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="1" value="Company" />
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </node>
+      <node id="spokesman for consumer policy" label="spokesman for consumer policy">
+        <attvalues>
+          <attvalue for="0" value="{u'relevance': 0.105, '__reference': u'http://d.opencalais.com/genericHasher-1/d1a384a7-04fa-380e-9281-cc51c53bc015', u'_type': u'Position', u'name': u'spokesman for consumer policy'}" />
+          <attvalue for="1" value="Position" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="LVMH" label="LVMH : 0.0">
+        <attvalues>
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="LVMH" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="0" value="{u'_type': u'Company', u'name': u'LVMH', '__reference': u'http://d.opencalais.com/comphash-1/7688910b-dc5d-30e2-9849-a041288af1c0', u'relevance': 0.302, u'nationality': u'N/A', u'resolutions': [{u'name': u'LVMH MOET HENNESSY LOUIS VUITTON S.A.', u'symbol': u'LVMH.PA', u'score': 1, u'shortname': u'LVMH', u'ticker': u'LVMH', u'id': u'http://d.opencalais.com/er/company/ralg-tr1r/94d39fc3-aed4-35dd-9d75-fce81c6cd2d6'}]}" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="1" value="Company" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="European Union" label="European Union">
+        <attvalues>
+          <attvalue for="0" value="{u'_type': u'Organization', u'name': u'European Union', '__reference': u'http://d.opencalais.com/genericHasher-1/b6266543-b3c0-362e-a7f1-4dddf0ba792f', u'relevance': 0.758, u'nationality': u'N/A', u'organizationtype': u'governmental civilian'}" />
+          <attvalue for="1" value="Organization" />
+          <attvalue for="2" value="88" />
+        </attvalues>
+      </node>
+      <node id="northern Europe" label="northern Europe">
+        <attvalues>
+          <attvalue for="0" value="{u'relevance': 0.112, '__reference': u'http://d.opencalais.com/genericHasher-1/27a9fab7-bd74-3858-8adb-985e093d726b', u'_type': u'Region', u'name': u'northern Europe'}" />
+          <attvalue for="1" value="Region" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="CNY" label="CNY">
+        <attvalues>
+          <attvalue for="0" value="{u'relevance': 0.468, '__reference': u'http://d.opencalais.com/genericHasher-1/93e02e87-6cf3-3c36-9265-cb80a7634bc0', u'_type': u'Currency', u'name': u'CNY'}" />
+          <attvalue for="1" value="Currency" />
+          <attvalue for="2" value="34" />
+        </attvalues>
+      </node>
+      <node id="Olivier Maure" label="Olivier Maure">
+        <attvalues>
+          <attvalue for="0" value="{u'_type': u'Person', u'name': u'Olivier Maure', '__reference': u'http://d.opencalais.com/pershash-1/16bf3d12-8a2e-34ce-83c9-068d5ece9c71', u'commonname': u'Olivier Maure', u'relevance': 0.121, u'nationality': u'N/A', u'persontype': u'economic'}" />
+          <attvalue for="1" value="Person" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="Macau" label="Macau">
+        <attvalues>
+          <attvalue for="0" value="{u'relevance': 0.314, '__reference': u'http://d.opencalais.com/genericHasher-1/dc7fcb20-0baf-3970-a51e-6b9f3a574c88', u'_type': u'Country', u'name': u'Macau', u'resolutions': [{u'latitude': u'22.1667', u'id': u'http://d.opencalais.com/er/geo/country/ralg-geo1/ae7dcaf1-51b3-fd18-d9f2-46f78d56282f', u'longitude': u'113.55', u'name': u'Macau'}]}" />
+          <attvalue for="1" value="Country" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="Organization of Petroleum-Exporting Countries" label="Organization of Petroleum-Exporting Countries">
+        <attvalues>
+          <attvalue for="0" value="{u'_type': u'Organization', u'name': u'Organization of Petroleum-Exporting Countries', '__reference': u'http://d.opencalais.com/genericHasher-1/04dd90de-9af4-3fb1-85df-059d81b47885', u'relevance': 0.208, u'nationality': u'N/A', u'organizationtype': u'governmental civilian'}" />
+          <attvalue for="1" value="Organization" />
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </node>
+      <node id="Germany" label="Germany">
+        <attvalues>
+          <attvalue for="0" value="{u'relevance': 0.315, '__reference': u'http://d.opencalais.com/genericHasher-1/398f0f7f-7b2f-3363-bda4-f09b836ed062', u'_type': u'Country', u'name': u'Germany', u'resolutions': [{u'latitude': u'51.0', u'id': u'http://d.opencalais.com/er/geo/country/ralg-geo1/28ef36b3-5ae8-cb1f-5425-78f03408b512', u'longitude': u'9.0', u'name': u'Germany'}]}" />
+          <attvalue for="1" value="Country" />
+          <attvalue for="2" value="136" />
+        </attvalues>
+      </node>
+      <node id="Marc-Antoine Corticchiato" label="Marc-Antoine Corticchiato">
+        <attvalues>
+          <attvalue for="0" value="{u'_type': u'Person', u'name': u'Marc-Antoine Corticchiato', '__reference': u'http://d.opencalais.com/pershash-1/6318f75a-9e58-3148-82d3-fe3ff264ab89', u'commonname': u'Marc-Antoine Corticchiato', u'relevance': 0.538, u'nationality': u'N/A', u'persontype': u'N/A'}" />
+          <attvalue for="1" value="Person" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="self-developed steel making technology" label="self-developed steel making technology">
+        <attvalues>
+          <attvalue for="0" value="{u'relevance': 0.317, '__reference': u'http://d.opencalais.com/genericHasher-1/84b7b6e2-b951-3056-9188-73c708a74814', u'_type': u'Technology', u'name': u'self-developed steel making technology'}" />
+          <attvalue for="1" value="Technology" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="CSI China Mainland Real Estate" label="CSI China Mainland Real Estate">
+        <attvalues>
+          <attvalue for="0" value="{u'relevance': 0.173, '__reference': u'http://d.opencalais.com/genericHasher-1/c6e24334-0fb6-3708-b151-5f77ed8bf546', u'_type': u'MarketIndex', u'name': u'CSI China Mainland Real Estate'}" />
+          <attvalue for="1" value="MarketIndex" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="Indonesia" label="Indonesia">
+        <attvalues>
+          <attvalue for="0" value="{u'relevance': 0.292, '__reference': u'http://d.opencalais.com/genericHasher-1/31920b2e-1c01-38e1-8a7d-fb9e30666d21', u'_type': u'Country', u'name': u'Indonesia', u'resolutions': [{u'latitude': u'-3.25906772689', u'id': u'http://d.opencalais.com/er/geo/country/ralg-geo1/cda2c99f-bf5e-19f2-0d33-1299c15a4491', u'longitude': u'109.702752248', u'name': u'Indonesia'}]}" />
+          <attvalue for="1" value="Country" />
+          <attvalue for="2" value="15" />
+        </attvalues>
+      </node>
+      <node id="Chief Executive" label="Chief Executive">
+        <attvalues>
+          <attvalue for="0" value="{u'relevance': 0.145, '__reference': u'http://d.opencalais.com/genericHasher-1/2d67e2d7-fdad-3e4c-a84e-825badc0aa0c', u'_type': u'Position', u'name': u'Chief Executive'}" />
+          <attvalue for="1" value="Position" />
+          <attvalue for="2" value="39" />
+        </attvalues>
+      </node>
+      <node id="JPY" label="JPY">
+        <attvalues>
+          <attvalue for="0" value="{u'relevance': 0.749, '__reference': u'http://d.opencalais.com/genericHasher-1/95fbcdbf-f90a-31cb-b5bc-9541d729e371', u'_type': u'Currency', u'name': u'JPY'}" />
+          <attvalue for="1" value="Currency" />
+          <attvalue for="2" value="17" />
+        </attvalues>
+      </node>
+      <node id="Altona Mining Ltd" label="Altona Mining Ltd : 6.25">
+        <attvalues>
+          <attvalue for="3" value="0.16" />
+          <attvalue for="4" value="AOH" />
+          <attvalue for="5" value="6.25" />
+          <attvalue for="0" value="{u'_type': u'Company', u'name': u'Altona Mining Ltd', '__reference': u'http://d.opencalais.com/comphash-1/fe925cc8-280b-347d-827e-adaaeda81bb1', u'relevance': 0.112, u'nationality': u'N/A', u'resolutions': [{u'name': u'ALTONA MINING LIMITED', u'symbol': u'AOH.AX', u'score': 1, u'shortname': u'Altona Mining', u'ticker': u'AOH', u'id': u'http://d.opencalais.com/er/company/ralg-tr1r/87db45b0-0341-3a15-ab1a-585c0c250493'}]}" />
+          <attvalue for="6" value="0.17" />
+          <attvalue for="1" value="Company" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="56305" source="South Korea" target="Paris" weight="0.0" />
+      <edge id="51264" source="South Korea" target="China" weight="0.0" />
+      <edge id="48162" source="South Korea" target="EUR" weight="0.0" />
+      <edge id="56331" source="South Korea" target="European Union" weight="0.0" />
+      <edge id="56337" source="South Korea" target="South Korea" weight="1.0" />
+      <edge id="56322" source="South Korea" target="Germany" weight="0.0" />
+      <edge id="56378" source="South Korea" target="Europe" weight="0.0" />
+      <edge id="56362" source="South Korea" target="Indonesia" weight="0.0" />
+      <edge id="56364" source="South Korea" target="United States" weight="0.0" />
+      <edge id="56365" source="South Korea" target="Australia" weight="0.0" />
+      <edge id="56443" source="South Korea" target="software" weight="0.0" />
+      <edge id="56379" source="South Korea" target="steel mill" weight="0.0" />
+      <edge id="19863" source="South Korea" target="SEOUL" weight="0.0" />
+      <edge id="56388" source="South Korea" target="mining" weight="0.0" />
+      <edge id="30236" source="South Korea" target="France" weight="0.0" />
+      <edge id="42366" source="South Korea" target="analyst" weight="0.0" />
+      <edge id="56399" source="South Korea" target="western China" weight="0.0" />
+      <edge id="56406" source="South Korea" target="self-developed steel making technology" weight="0.0" />
+      <edge id="33275" source="South Korea" target="Sunil Nair" weight="0.0" />
+      <edge id="56420" source="South Korea" target="Chongqing" weight="0.0" />
+      <edge id="56425" source="South Korea" target="Posco" weight="0.0" />
+      <edge id="56404" source="South Korea" target="USD" weight="0.0" />
+      <edge id="33698" source="South Korea" target="CEO" weight="0.0" />
+      <edge id="50010" source="China Enterprises" target="Beijing" weight="0.0" />
+      <edge id="140270" source="China Enterprises" target="USD" weight="0.0" />
+      <edge id="134930" source="China Enterprises" target="SSE 50" weight="0.0" />
+      <edge id="150351" source="China Enterprises" target="Macau" weight="0.0" />
+      <edge id="96146" source="China Enterprises" target="Posco" weight="0.0" />
+      <edge id="89308" source="China Enterprises" target="Richard Borsuk" weight="0.0" />
+      <edge id="63413" source="China Enterprises" target="Shanghai" weight="0.0" />
+      <edge id="150350" source="China Enterprises" target="CNY" weight="0.0" />
+      <edge id="150352" source="China Enterprises" target="China Vanke" weight="0.0" />
+      <edge id="51303" source="China Enterprises" target="China" weight="0.0" />
+      <edge id="149285" source="China Enterprises" target="CSI China Mainland Real Estate" weight="0.0" />
+      <edge id="112572" source="China Enterprises" target="Hang Seng 40" weight="0.0" />
+      <edge id="148384" source="China Enterprises" target="Galaxy Entertainment Group" weight="0.0" />
+      <edge id="42300" source="China Enterprises" target="analyst" weight="0.0" />
+      <edge id="86502" source="China Enterprises" target="Yuan Renminbi" weight="0.0" />
+      <edge id="98322" source="China Enterprises" target="Shenzhen" weight="0.0" />
+      <edge id="71210" source="New Zealand" target="Thuy Ong" weight="0.0" />
+      <edge id="71211" source="New Zealand" target="Paris" weight="0.0" />
+      <edge id="71218" source="New Zealand" target="Organization of Petroleum-Exporting Countries" weight="0.0" />
+      <edge id="71220" source="New Zealand" target="SYDNEY" weight="0.0" />
+      <edge id="22084" source="New Zealand" target="NZX 50" weight="0.0" />
+      <edge id="71226" source="New Zealand" target="Richard Borsuk" weight="0.0" />
+      <edge id="71230" source="New Zealand" target="oil producer" weight="0.0" />
+      <edge id="71231" source="New Zealand" target="sales trader" weight="0.0" />
+      <edge id="61176" source="New Zealand" target="National Australia Bank" weight="0.0" />
+      <edge id="30295" source="New Zealand" target="France" weight="0.0" />
+      <edge id="33953" source="New Zealand" target="CEO" weight="0.0" />
+      <edge id="71256" source="New Zealand" target="Indonesia" weight="0.0" />
+      <edge id="41088" source="New Zealand" target="North America" weight="0.0" />
+      <edge id="71257" source="New Zealand" target="Sweden" weight="0.0" />
+      <edge id="71260" source="New Zealand" target="United States" weight="0.0" />
+      <edge id="71268" source="New Zealand" target="software" weight="0.0" />
+      <edge id="71277" source="New Zealand" target="Europe" weight="0.0" />
+      <edge id="71278" source="New Zealand" target="Australia" weight="0.0" />
+      <edge id="15547" source="New Zealand" target="Iraq" weight="0.0" />
+      <edge id="43371" source="New Zealand" target="AUD" weight="0.0" />
+      <edge id="48276" source="New Zealand" target="EUR" weight="0.0" />
+      <edge id="71293" source="New Zealand" target="New York" weight="0.0" />
+      <edge id="71294" source="New Zealand" target="USD" weight="0.0" />
+      <edge id="71298" source="New Zealand" target="Altona Mining Ltd" weight="0.0" />
+      <edge id="71299" source="New Zealand" target="S&amp;P/ASX 200" weight="0.0" />
+      <edge id="71303" source="New Zealand" target="Germany" weight="0.0" />
+      <edge id="71304" source="New Zealand" target="oil" weight="0.0" />
+      <edge id="71309" source="New Zealand" target="metal" weight="0.0" />
+      <edge id="71310" source="New Zealand" target="United Kingdom" weight="0.0" />
+      <edge id="22083" source="NZX 50" target="United States" weight="0.0" />
+      <edge id="22082" source="NZX 50" target="oil producer" weight="0.0" />
+      <edge id="22075" source="NZX 50" target="Australia" weight="0.0" />
+      <edge id="22071" source="NZX 50" target="Thuy Ong" weight="0.0" />
+      <edge id="22080" source="NZX 50" target="AUD" weight="0.0" />
+      <edge id="22076" source="NZX 50" target="Organization of Petroleum-Exporting Countries" weight="0.0" />
+      <edge id="22085" source="NZX 50" target="sales trader" weight="0.0" />
+      <edge id="22078" source="NZX 50" target="Richard Borsuk" weight="0.0" />
+      <edge id="22081" source="NZX 50" target="Indonesia" weight="0.0" />
+      <edge id="22086" source="NZX 50" target="metal" weight="0.0" />
+      <edge id="22079" source="NZX 50" target="oil" weight="0.0" />
+      <edge id="22077" source="NZX 50" target="SYDNEY" weight="0.0" />
+      <edge id="22074" source="NZX 50" target="S&amp;P/ASX 200" weight="0.0" />
+      <edge id="22073" source="NZX 50" target="Altona Mining Ltd" weight="0.0" />
+      <edge id="22088" source="NZX 50" target="National Australia Bank" weight="0.0" />
+      <edge id="15549" source="NZX 50" target="Iraq" weight="0.0" />
+      <edge id="22089" source="NZX 50" target="software" weight="0.0" />
+      <edge id="71397" source="steel mill" target="mining" weight="0.0" />
+      <edge id="71389" source="steel mill" target="USD" weight="0.0" />
+      <edge id="19895" source="steel mill" target="SEOUL" weight="0.0" />
+      <edge id="65859" source="steel mill" target="self-developed steel making technology" weight="0.0" />
+      <edge id="33258" source="steel mill" target="Sunil Nair" weight="0.0" />
+      <edge id="71398" source="steel mill" target="Posco" weight="0.0" />
+      <edge id="51557" source="steel mill" target="China" weight="0.0" />
+      <edge id="71399" source="steel mill" target="western China" weight="0.0" />
+      <edge id="48291" source="steel mill" target="EUR" weight="0.0" />
+      <edge id="71395" source="steel mill" target="Chongqing" weight="0.0" />
+      <edge id="120222" source="European Commission" target="Paris" weight="0.0" />
+      <edge id="106207" source="European Commission" target="Maurice Roucel" weight="0.0" />
+      <edge id="11204" source="European Commission" target="Brussels" weight="0.0" />
+      <edge id="120248" source="European Commission" target="Givaudan" weight="0.0" />
+      <edge id="48305" source="European Commission" target="EUR" weight="0.0" />
+      <edge id="32123" source="European Commission" target="L'Oreal" weight="0.0" />
+      <edge id="120250" source="European Commission" target="European Union" weight="0.0" />
+      <edge id="14118" source="European Commission" target="Jacques Polge" weight="0.0" />
+      <edge id="58134" source="European Commission" target="Mediterranean" weight="0.0" />
+      <edge id="104458" source="European Commission" target="Patricia de Nicolaï" weight="0.0" />
+      <edge id="120253" source="European Commission" target="northern Europe" weight="0.0" />
+      <edge id="30329" source="European Commission" target="France" weight="0.0" />
+      <edge id="75363" source="European Commission" target="Scientific Committee on Consumer Safety" weight="0.0" />
+      <edge id="34021" source="European Commission" target="CEO" weight="0.0" />
+      <edge id="120231" source="European Commission" target="LVMH" weight="0.0" />
+      <edge id="80184" source="European Commission" target="New York" weight="0.0" />
+      <edge id="51493" source="European Commission" target="China" weight="0.0" />
+      <edge id="120205" source="European Commission" target="Dior" weight="0.0" />
+      <edge id="86176" source="European Commission" target="Symrise" weight="0.0" />
+      <edge id="98494" source="European Commission" target="Sweden" weight="0.0" />
+      <edge id="120206" source="European Commission" target="United States" weight="0.0" />
+      <edge id="116645" source="European Commission" target="Chief Executive" weight="0.0" />
+      <edge id="120211" source="European Commission" target="Parfums" weight="0.0" />
+      <edge id="120181" source="European Commission" target="Europe" weight="0.0" />
+      <edge id="10190" source="European Commission" target="International Flavors &amp; Fragrances" weight="0.0" />
+      <edge id="84139" source="European Commission" target="natural products" weight="0.0" />
+      <edge id="109922" source="European Commission" target="head" weight="0.0" />
+      <edge id="93637" source="European Commission" target="Denmark" weight="0.0" />
+      <edge id="120262" source="European Commission" target="David Hudson" weight="0.0" />
+      <edge id="120246" source="European Commission" target="Marc-Antoine Corticchiato" weight="0.0" />
+      <edge id="42208" source="European Commission" target="analyst" weight="0.0" />
+      <edge id="112351" source="European Commission" target="spokesman for consumer policy" weight="0.0" />
+      <edge id="9258" source="European Commission" target="International Fragrance Association" weight="0.0" />
+      <edge id="120263" source="European Commission" target="USD" weight="0.0" />
+      <edge id="33254" source="European Commission" target="Sunil Nair" weight="0.0" />
+      <edge id="120217" source="European Commission" target="Germany" weight="0.0" />
+      <edge id="111841" source="European Commission" target="Eau d'Ete" weight="0.0" />
+      <edge id="120183" source="European Commission" target="Cosmetics Europe" weight="0.0" />
+      <edge id="120239" source="European Commission" target="Israel" weight="0.0" />
+      <edge id="120258" source="European Commission" target="Grasse" weight="0.0" />
+      <edge id="120266" source="European Commission" target="Olivier Maure" weight="0.0" />
+      <edge id="120243" source="European Commission" target="United Kingdom" weight="0.0" />
+      <edge id="120197" source="European Commission" target="chief" weight="0.0" />
+      <edge id="122102" source="S&amp;P/ASX 200" target="USD" weight="0.0" />
+      <edge id="109008" source="S&amp;P/ASX 200" target="Thuy Ong" weight="0.0" />
+      <edge id="63216" source="S&amp;P/ASX 200" target="S&amp;P 500" weight="0.0" />
+      <edge id="122103" source="S&amp;P/ASX 200" target="Altona Mining Ltd" weight="0.0" />
+      <edge id="122104" source="S&amp;P/ASX 200" target="Australia" weight="0.0" />
+      <edge id="122105" source="S&amp;P/ASX 200" target="Organization of Petroleum-Exporting Countries" weight="0.0" />
+      <edge id="34446" source="S&amp;P/ASX 200" target="CEO" weight="0.0" />
+      <edge id="122106" source="S&amp;P/ASX 200" target="SYDNEY" weight="0.0" />
+      <edge id="15511" source="S&amp;P/ASX 200" target="Iraq" weight="0.0" />
+      <edge id="83134" source="S&amp;P/ASX 200" target="crude oil fall" weight="0.0" />
+      <edge id="122107" source="S&amp;P/ASX 200" target="oil" weight="0.0" />
+      <edge id="43423" source="S&amp;P/ASX 200" target="AUD" weight="0.0" />
+      <edge id="89306" source="S&amp;P/ASX 200" target="Richard Borsuk" weight="0.0" />
+      <edge id="122108" source="S&amp;P/ASX 200" target="Indonesia" weight="0.0" />
+      <edge id="122110" source="S&amp;P/ASX 200" target="United States" weight="0.0" />
+      <edge id="122109" source="S&amp;P/ASX 200" target="oil producer" weight="0.0" />
+      <edge id="122111" source="S&amp;P/ASX 200" target="sales trader" weight="0.0" />
+      <edge id="122112" source="S&amp;P/ASX 200" target="metal" weight="0.0" />
+      <edge id="66418" source="S&amp;P/ASX 200" target="JPY" weight="0.0" />
+      <edge id="61157" source="S&amp;P/ASX 200" target="National Australia Bank" weight="0.0" />
+      <edge id="122113" source="S&amp;P/ASX 200" target="software" weight="0.0" />
+      <edge id="9254" source="International Fragrance Association" target="USD" weight="0.0" />
+      <edge id="9262" source="International Fragrance Association" target="northern Europe" weight="0.0" />
+      <edge id="9256" source="International Fragrance Association" target="Paris" weight="0.0" />
+      <edge id="9257" source="International Fragrance Association" target="France" weight="0.0" />
+      <edge id="9263" source="International Fragrance Association" target="LVMH" weight="0.0" />
+      <edge id="9260" source="International Fragrance Association" target="Scientific Committee on Consumer Safety" weight="0.0" />
+      <edge id="9261" source="International Fragrance Association" target="Maurice Roucel" weight="0.0" />
+      <edge id="9271" source="International Fragrance Association" target="Parfums" weight="0.0" />
+      <edge id="9264" source="International Fragrance Association" target="Germany" weight="0.0" />
+      <edge id="9265" source="International Fragrance Association" target="Dior" weight="0.0" />
+      <edge id="9266" source="International Fragrance Association" target="International Flavors &amp; Fragrances" weight="0.0" />
+      <edge id="9267" source="International Fragrance Association" target="Brussels" weight="0.0" />
+      <edge id="9268" source="International Fragrance Association" target="Jacques Polge" weight="0.0" />
+      <edge id="9269" source="International Fragrance Association" target="Givaudan" weight="0.0" />
+      <edge id="9270" source="International Fragrance Association" target="head" weight="0.0" />
+      <edge id="9272" source="International Fragrance Association" target="Denmark" weight="0.0" />
+      <edge id="9273" source="International Fragrance Association" target="Cosmetics Europe" weight="0.0" />
+      <edge id="9274" source="International Fragrance Association" target="Eau d'Ete" weight="0.0" />
+      <edge id="9275" source="International Fragrance Association" target="Patricia de Nicolaï" weight="0.0" />
+      <edge id="9276" source="International Fragrance Association" target="Symrise" weight="0.0" />
+      <edge id="9277" source="International Fragrance Association" target="Sweden" weight="0.0" />
+      <edge id="9278" source="International Fragrance Association" target="David Hudson" weight="0.0" />
+      <edge id="9279" source="International Fragrance Association" target="European Union" weight="0.0" />
+      <edge id="9280" source="International Fragrance Association" target="EUR" weight="0.0" />
+      <edge id="9281" source="International Fragrance Association" target="L'Oreal" weight="0.0" />
+      <edge id="9282" source="International Fragrance Association" target="spokesman for consumer policy" weight="0.0" />
+      <edge id="9283" source="International Fragrance Association" target="Mediterranean" weight="0.0" />
+      <edge id="9284" source="International Fragrance Association" target="Olivier Maure" weight="0.0" />
+      <edge id="9285" source="International Fragrance Association" target="chief" weight="0.0" />
+      <edge id="9286" source="International Fragrance Association" target="New York" weight="0.0" />
+      <edge id="9287" source="International Fragrance Association" target="Grasse" weight="0.0" />
+      <edge id="9259" source="International Fragrance Association" target="Marc-Antoine Corticchiato" weight="0.0" />
+      <edge id="9255" source="International Fragrance Association" target="natural products" weight="0.0" />
+      <edge id="75360" source="Scientific Committee on Consumer Safety" target="USD" weight="0.0" />
+      <edge id="75367" source="Scientific Committee on Consumer Safety" target="northern Europe" weight="0.0" />
+      <edge id="75362" source="Scientific Committee on Consumer Safety" target="Paris" weight="0.0" />
+      <edge id="30532" source="Scientific Committee on Consumer Safety" target="France" weight="0.0" />
+      <edge id="75368" source="Scientific Committee on Consumer Safety" target="LVMH" weight="0.0" />
+      <edge id="75365" source="Scientific Committee on Consumer Safety" target="Patricia de Nicolaï" weight="0.0" />
+      <edge id="75366" source="Scientific Committee on Consumer Safety" target="Maurice Roucel" weight="0.0" />
+      <edge id="75373" source="Scientific Committee on Consumer Safety" target="Parfums" weight="0.0" />
+      <edge id="75369" source="Scientific Committee on Consumer Safety" target="Germany" weight="0.0" />
+      <edge id="75370" source="Scientific Committee on Consumer Safety" target="Dior" weight="0.0" />
+      <edge id="75376" source="Scientific Committee on Consumer Safety" target="Eau d'Ete" weight="0.0" />
+      <edge id="11255" source="Scientific Committee on Consumer Safety" target="Brussels" weight="0.0" />
+      <edge id="14120" source="Scientific Committee on Consumer Safety" target="Jacques Polge" weight="0.0" />
+      <edge id="75371" source="Scientific Committee on Consumer Safety" target="Givaudan" weight="0.0" />
+      <edge id="75372" source="Scientific Committee on Consumer Safety" target="head" weight="0.0" />
+      <edge id="75374" source="Scientific Committee on Consumer Safety" target="Denmark" weight="0.0" />
+      <edge id="75375" source="Scientific Committee on Consumer Safety" target="Cosmetics Europe" weight="0.0" />
+      <edge id="10192" source="Scientific Committee on Consumer Safety" target="International Flavors &amp; Fragrances" weight="0.0" />
+      <edge id="75377" source="Scientific Committee on Consumer Safety" target="Symrise" weight="0.0" />
+      <edge id="75378" source="Scientific Committee on Consumer Safety" target="Sweden" weight="0.0" />
+      <edge id="75379" source="Scientific Committee on Consumer Safety" target="David Hudson" weight="0.0" />
+      <edge id="75380" source="Scientific Committee on Consumer Safety" target="European Union" weight="0.0" />
+      <edge id="48229" source="Scientific Committee on Consumer Safety" target="EUR" weight="0.0" />
+      <edge id="32125" source="Scientific Committee on Consumer Safety" target="L'Oreal" weight="0.0" />
+      <edge id="75381" source="Scientific Committee on Consumer Safety" target="spokesman for consumer policy" weight="0.0" />
+      <edge id="58146" source="Scientific Committee on Consumer Safety" target="Mediterranean" weight="0.0" />
+      <edge id="75382" source="Scientific Committee on Consumer Safety" target="Olivier Maure" weight="0.0" />
+      <edge id="75383" source="Scientific Committee on Consumer Safety" target="chief" weight="0.0" />
+      <edge id="75384" source="Scientific Committee on Consumer Safety" target="New York" weight="0.0" />
+      <edge id="75385" source="Scientific Committee on Consumer Safety" target="Grasse" weight="0.0" />
+      <edge id="75364" source="Scientific Committee on Consumer Safety" target="Marc-Antoine Corticchiato" weight="0.0" />
+      <edge id="75361" source="Scientific Committee on Consumer Safety" target="natural products" weight="0.0" />
+      <edge id="10186" source="International Flavors &amp; Fragrances" target="USD" weight="0.0" />
+      <edge id="10194" source="International Flavors &amp; Fragrances" target="northern Europe" weight="0.0" />
+      <edge id="10188" source="International Flavors &amp; Fragrances" target="Paris" weight="0.0" />
+      <edge id="10189" source="International Flavors &amp; Fragrances" target="France" weight="0.0" />
+      <edge id="10195" source="International Flavors &amp; Fragrances" target="LVMH" weight="0.0" />
+      <edge id="10193" source="International Flavors &amp; Fragrances" target="Maurice Roucel" weight="0.0" />
+      <edge id="10203" source="International Flavors &amp; Fragrances" target="Parfums" weight="0.0" />
+      <edge id="10196" source="International Flavors &amp; Fragrances" target="Germany" weight="0.0" />
+      <edge id="10197" source="International Flavors &amp; Fragrances" target="Dior" weight="0.0" />
+      <edge id="10198" source="International Flavors &amp; Fragrances" target="Eau d'Ete" weight="0.0" />
+      <edge id="10199" source="International Flavors &amp; Fragrances" target="Brussels" weight="0.0" />
+      <edge id="10200" source="International Flavors &amp; Fragrances" target="Jacques Polge" weight="0.0" />
+      <edge id="10201" source="International Flavors &amp; Fragrances" target="Givaudan" weight="0.0" />
+      <edge id="10202" source="International Flavors &amp; Fragrances" target="head" weight="0.0" />
+      <edge id="10204" source="International Flavors &amp; Fragrances" target="Denmark" weight="0.0" />
+      <edge id="10205" source="International Flavors &amp; Fragrances" target="Cosmetics Europe" weight="0.0" />
+      <edge id="10206" source="International Flavors &amp; Fragrances" target="Patricia de Nicolaï" weight="0.0" />
+      <edge id="10207" source="International Flavors &amp; Fragrances" target="Symrise" weight="0.0" />
+      <edge id="10208" source="International Flavors &amp; Fragrances" target="Sweden" weight="0.0" />
+      <edge id="10209" source="International Flavors &amp; Fragrances" target="David Hudson" weight="0.0" />
+      <edge id="10210" source="International Flavors &amp; Fragrances" target="European Union" weight="0.0" />
+      <edge id="10211" source="International Flavors &amp; Fragrances" target="EUR" weight="0.0" />
+      <edge id="10212" source="International Flavors &amp; Fragrances" target="L'Oreal" weight="0.0" />
+      <edge id="10213" source="International Flavors &amp; Fragrances" target="spokesman for consumer policy" weight="0.0" />
+      <edge id="10214" source="International Flavors &amp; Fragrances" target="Mediterranean" weight="0.0" />
+      <edge id="10215" source="International Flavors &amp; Fragrances" target="Olivier Maure" weight="0.0" />
+      <edge id="10216" source="International Flavors &amp; Fragrances" target="chief" weight="0.0" />
+      <edge id="10217" source="International Flavors &amp; Fragrances" target="New York" weight="0.0" />
+      <edge id="10218" source="International Flavors &amp; Fragrances" target="Grasse" weight="0.0" />
+      <edge id="10191" source="International Flavors &amp; Fragrances" target="Marc-Antoine Corticchiato" weight="0.0" />
+      <edge id="10187" source="International Flavors &amp; Fragrances" target="natural products" weight="0.0" />
+      <edge id="140746" source="Galaxy Entertainment Group" target="USD" weight="0.0" />
+      <edge id="63310" source="Galaxy Entertainment Group" target="Shanghai" weight="0.0" />
+      <edge id="148383" source="Galaxy Entertainment Group" target="CSI China Mainland Real Estate" weight="0.0" />
+      <edge id="98321" source="Galaxy Entertainment Group" target="Shenzhen" weight="0.0" />
+      <edge id="116773" source="Galaxy Entertainment Group" target="Chief Executive" weight="0.0" />
+      <edge id="52165" source="Galaxy Entertainment Group" target="China" weight="0.0" />
+      <edge id="89283" source="Galaxy Entertainment Group" target="Richard Borsuk" weight="0.0" />
+      <edge id="148385" source="Galaxy Entertainment Group" target="CNY" weight="0.0" />
+      <edge id="124599" source="Galaxy Entertainment Group" target="United States" weight="0.0" />
+      <edge id="96144" source="Galaxy Entertainment Group" target="Posco" weight="0.0" />
+      <edge id="42551" source="Galaxy Entertainment Group" target="analyst" weight="0.0" />
+      <edge id="50172" source="Galaxy Entertainment Group" target="Beijing" weight="0.0" />
+      <edge id="134929" source="Galaxy Entertainment Group" target="SSE 50" weight="0.0" />
+      <edge id="148387" source="Galaxy Entertainment Group" target="Macau" weight="0.0" />
+      <edge id="148388" source="Galaxy Entertainment Group" target="China Vanke" weight="0.0" />
+      <edge id="86497" source="Galaxy Entertainment Group" target="Yuan Renminbi" weight="0.0" />
+      <edge id="112571" source="Galaxy Entertainment Group" target="Hang Seng 40" weight="0.0" />
+      <edge id="11199" source="Brussels" target="Paris" weight="0.0" />
+      <edge id="11208" source="Brussels" target="Marc-Antoine Corticchiato" weight="0.0" />
+      <edge id="11213" source="Brussels" target="Maurice Roucel" weight="0.0" />
+      <edge id="11222" source="Brussels" target="Givaudan" weight="0.0" />
+      <edge id="11330" source="Brussels" target="L'Oreal" weight="0.0" />
+      <edge id="11225" source="Brussels" target="Eau d'Ete" weight="0.0" />
+      <edge id="11232" source="Brussels" target="European Union" weight="0.0" />
+      <edge id="11239" source="Brussels" target="Mediterranean" weight="0.0" />
+      <edge id="11247" source="Brussels" target="northern Europe" weight="0.0" />
+      <edge id="11250" source="Brussels" target="France" weight="0.0" />
+      <edge id="11257" source="Brussels" target="CEO" weight="0.0" />
+      <edge id="11260" source="Brussels" target="LVMH" weight="0.0" />
+      <edge id="11263" source="Brussels" target="China" weight="0.0" />
+      <edge id="11265" source="Brussels" target="Dior" weight="0.0" />
+      <edge id="11268" source="Brussels" target="Jacques Polge" weight="0.0" />
+      <edge id="11273" source="Brussels" target="United States" weight="0.0" />
+      <edge id="11274" source="Brussels" target="Symrise" weight="0.0" />
+      <edge id="11275" source="Brussels" target="Sweden" weight="0.0" />
+      <edge id="11291" source="Brussels" target="Grasse" weight="0.0" />
+      <edge id="11305" source="Brussels" target="Parfums" weight="0.0" />
+      <edge id="11307" source="Brussels" target="Europe" weight="0.0" />
+      <edge id="11318" source="Brussels" target="natural products" weight="0.0" />
+      <edge id="11319" source="Brussels" target="head" weight="0.0" />
+      <edge id="11320" source="Brussels" target="Denmark" weight="0.0" />
+      <edge id="11321" source="Brussels" target="Cosmetics Europe" weight="0.0" />
+      <edge id="11327" source="Brussels" target="David Hudson" weight="0.0" />
+      <edge id="11328" source="Brussels" target="analyst" weight="0.0" />
+      <edge id="11329" source="Brussels" target="EUR" weight="0.0" />
+      <edge id="11292" source="Brussels" target="Beijing" weight="0.0" />
+      <edge id="11331" source="Brussels" target="spokesman for consumer policy" weight="0.0" />
+      <edge id="11337" source="Brussels" target="New York" weight="0.0" />
+      <edge id="11342" source="Brussels" target="USD" weight="0.0" />
+      <edge id="11367" source="Brussels" target="Patricia de Nicolaï" weight="0.0" />
+      <edge id="11361" source="Brussels" target="Germany" weight="0.0" />
+      <edge id="11382" source="Brussels" target="Olivier Maure" weight="0.0" />
+      <edge id="11384" source="Brussels" target="United Kingdom" weight="0.0" />
+      <edge id="11385" source="Brussels" target="chief" weight="0.0" />
+      <edge id="140394" source="Dior" target="USD" weight="0.0" />
+      <edge id="127233" source="Dior" target="Paris" weight="0.0" />
+      <edge id="30583" source="Dior" target="France" weight="0.0" />
+      <edge id="135117" source="Dior" target="Parfums" weight="0.0" />
+      <edge id="106212" source="Dior" target="Maurice Roucel" weight="0.0" />
+      <edge id="140256" source="Dior" target="David Hudson" weight="0.0" />
+      <edge id="152669" source="Dior" target="northern Europe" weight="0.0" />
+      <edge id="152667" source="Dior" target="Marc-Antoine Corticchiato" weight="0.0" />
+      <edge id="116700" source="Dior" target="Chief Executive" weight="0.0" />
+      <edge id="148117" source="Dior" target="Germany" weight="0.0" />
+      <edge id="152671" source="Dior" target="Dior" weight="4.0" />
+      <edge id="14125" source="Dior" target="Jacques Polge" weight="0.0" />
+      <edge id="132880" source="Dior" target="Cosmetics Europe" weight="0.0" />
+      <edge id="147127" source="Dior" target="European Union" weight="0.0" />
+      <edge id="140155" source="Dior" target="Givaudan" weight="0.0" />
+      <edge id="110004" source="Dior" target="head" weight="0.0" />
+      <edge id="93670" source="Dior" target="Denmark" weight="0.0" />
+      <edge id="104464" source="Dior" target="Patricia de Nicolaï" weight="0.0" />
+      <edge id="86182" source="Dior" target="Symrise" weight="0.0" />
+      <edge id="98542" source="Dior" target="Sweden" weight="0.0" />
+      <edge id="152670" source="Dior" target="LVMH" weight="0.0" />
+      <edge id="48531" source="Dior" target="EUR" weight="0.0" />
+      <edge id="32130" source="Dior" target="L'Oreal" weight="0.0" />
+      <edge id="112356" source="Dior" target="spokesman for consumer policy" weight="0.0" />
+      <edge id="111846" source="Dior" target="Eau d'Ete" weight="0.0" />
+      <edge id="58148" source="Dior" target="Mediterranean" weight="0.0" />
+      <edge id="147519" source="Dior" target="Olivier Maure" weight="0.0" />
+      <edge id="152673" source="Dior" target="chief" weight="0.0" />
+      <edge id="80451" source="Dior" target="New York" weight="0.0" />
+      <edge id="145869" source="Dior" target="Grasse" weight="0.0" />
+      <edge id="84145" source="Dior" target="natural products" weight="0.0" />
+      <edge id="83142" source="United States" target="crude oil fall" weight="0.0" />
+      <edge id="19878" source="United States" target="SEOUL" weight="0.0" />
+      <edge id="66455" source="United States" target="JPY" weight="0.0" />
+      <edge id="48535" source="United States" target="EUR" weight="0.0" />
+      <edge id="89294" source="United States" target="Richard Borsuk" weight="0.0" />
+      <edge id="124366" source="United States" target="metal" weight="0.0" />
+      <edge id="98546" source="United States" target="Sweden" weight="0.0" />
+      <edge id="110005" source="United States" target="head" weight="0.0" />
+      <edge id="42362" source="United States" target="analyst" weight="0.0" />
+      <edge id="41384" source="United States" target="North America" weight="0.0" />
+      <edge id="124014" source="United States" target="Australia" weight="0.0" />
+      <edge id="43401" source="United States" target="AUD" weight="0.0" />
+      <edge id="124043" source="United States" target="mining" weight="0.0" />
+      <edge id="61175" source="United States" target="National Australia Bank" weight="0.0" />
+      <edge id="122913" source="United States" target="Israel" weight="0.0" />
+      <edge id="124077" source="United States" target="oil" weight="0.0" />
+      <edge id="123684" source="United States" target="United Kingdom" weight="0.0" />
+      <edge id="124101" source="United States" target="USD" weight="0.0" />
+      <edge id="124438" source="United States" target="CNY" weight="0.0" />
+      <edge id="124122" source="United States" target="Europe" weight="0.0" />
+      <edge id="124555" source="United States" target="Organization of Petroleum-Exporting Countries" weight="0.0" />
+      <edge id="124139" source="United States" target="oil producer" weight="0.0" />
+      <edge id="123283" source="United States" target="United States" weight="2.0" />
+      <edge id="124580" source="United States" target="Germany" weight="0.0" />
+      <edge id="30586" source="United States" target="France" weight="0.0" />
+      <edge id="123688" source="United States" target="SYDNEY" weight="0.0" />
+      <edge id="50056" source="United States" target="Beijing" weight="0.0" />
+      <edge id="109015" source="United States" target="Thuy Ong" weight="0.0" />
+      <edge id="93672" source="United States" target="Denmark" weight="0.0" />
+      <edge id="124222" source="United States" target="chief" weight="0.0" />
+      <edge id="124499" source="United States" target="European Union" weight="0.0" />
+      <edge id="34494" source="United States" target="CEO" weight="0.0" />
+      <edge id="51796" source="United States" target="China" weight="0.0" />
+      <edge id="124678" source="United States" target="Indonesia" weight="0.0" />
+      <edge id="116705" source="United States" target="Chief Executive" weight="0.0" />
+      <edge id="15402" source="United States" target="Iraq" weight="0.0" />
+      <edge id="124085" source="United States" target="Givaudan" weight="0.0" />
+      <edge id="80515" source="United States" target="New York" weight="0.0" />
+      <edge id="123421" source="United States" target="Paris" weight="0.0" />
+      <edge id="35698" source="United States" target="micro manufacturing applications" weight="0.0" />
+      <edge id="63122" source="United States" target="S&amp;P 500" weight="0.0" />
+      <edge id="63357" source="United States" target="Shanghai" weight="0.0" />
+      <edge id="123463" source="United States" target="sales trader" weight="0.0" />
+      <edge id="123471" source="United States" target="software" weight="0.0" />
+      <edge id="124733" source="United States" target="Altona Mining Ltd" weight="0.0" />
+      <edge id="50202" source="Hang Seng 40" target="Beijing" weight="0.0" />
+      <edge id="112569" source="Hang Seng 40" target="USD" weight="0.0" />
+      <edge id="112574" source="Hang Seng 40" target="SSE 50" weight="0.0" />
+      <edge id="112575" source="Hang Seng 40" target="Macau" weight="0.0" />
+      <edge id="96153" source="Hang Seng 40" target="Posco" weight="0.0" />
+      <edge id="89296" source="Hang Seng 40" target="Richard Borsuk" weight="0.0" />
+      <edge id="63420" source="Hang Seng 40" target="Shanghai" weight="0.0" />
+      <edge id="42602" source="Hang Seng 40" target="analyst" weight="0.0" />
+      <edge id="112576" source="Hang Seng 40" target="China Vanke" weight="0.0" />
+      <edge id="52000" source="Hang Seng 40" target="China" weight="0.0" />
+      <edge id="112570" source="Hang Seng 40" target="CSI China Mainland Real Estate" weight="0.0" />
+      <edge id="112573" source="Hang Seng 40" target="CNY" weight="0.0" />
+      <edge id="86511" source="Hang Seng 40" target="Yuan Renminbi" weight="0.0" />
+      <edge id="98331" source="Hang Seng 40" target="Shenzhen" weight="0.0" />
+      <edge id="15445" source="Iraq" target="Thuy Ong" weight="0.0" />
+      <edge id="15370" source="Iraq" target="Organization of Petroleum-Exporting Countries" weight="0.0" />
+      <edge id="15542" source="Iraq" target="SYDNEY" weight="0.0" />
+      <edge id="15308" source="Iraq" target="Richard Borsuk" weight="0.0" />
+      <edge id="15380" source="Iraq" target="oil producer" weight="0.0" />
+      <edge id="15551" source="Iraq" target="sales trader" weight="0.0" />
+      <edge id="15461" source="Iraq" target="National Australia Bank" weight="0.0" />
+      <edge id="15407" source="Iraq" target="France" weight="0.0" />
+      <edge id="15566" source="Iraq" target="North America" weight="0.0" />
+      <edge id="15389" source="Iraq" target="CEO" weight="0.0" />
+      <edge id="15326" source="Iraq" target="crude oil fall" weight="0.0" />
+      <edge id="15399" source="Iraq" target="Indonesia" weight="0.0" />
+      <edge id="15393" source="Iraq" target="China" weight="0.0" />
+      <edge id="15573" source="Iraq" target="software" weight="0.0" />
+      <edge id="15591" source="Iraq" target="USD" weight="0.0" />
+      <edge id="15561" source="Iraq" target="Europe" weight="0.0" />
+      <edge id="15343" source="Iraq" target="Australia" weight="0.0" />
+      <edge id="15443" source="Iraq" target="JPY" weight="0.0" />
+      <edge id="15346" source="Iraq" target="AUD" weight="0.0" />
+      <edge id="15585" source="Iraq" target="analyst" weight="0.0" />
+      <edge id="15586" source="Iraq" target="Beijing" weight="0.0" />
+      <edge id="15581" source="Iraq" target="head" weight="0.0" />
+      <edge id="15593" source="Iraq" target="Altona Mining Ltd" weight="0.0" />
+      <edge id="15512" source="Iraq" target="Israel" weight="0.0" />
+      <edge id="15543" source="Iraq" target="Germany" weight="0.0" />
+      <edge id="15521" source="Iraq" target="oil" weight="0.0" />
+      <edge id="15508" source="Iraq" target="S&amp;P 500" weight="0.0" />
+      <edge id="15592" source="Iraq" target="metal" weight="0.0" />
+      <edge id="15527" source="Iraq" target="United Kingdom" weight="0.0" />
+      <edge id="80189" source="New York" target="Paris" weight="0.0" />
+      <edge id="14143" source="New York" target="Jacques Polge" weight="0.0" />
+      <edge id="80470" source="New York" target="Europe" weight="0.0" />
+      <edge id="63144" source="New York" target="S&amp;P 500" weight="0.0" />
+      <edge id="43389" source="New York" target="AUD" weight="0.0" />
+      <edge id="50076" source="New York" target="Beijing" weight="0.0" />
+      <edge id="80245" source="New York" target="Grasse" weight="0.0" />
+      <edge id="80692" source="New York" target="chief" weight="0.0" />
+      <edge id="80695" source="New York" target="software" weight="0.0" />
+      <edge id="80702" source="New York" target="Maurice Roucel" weight="0.0" />
+      <edge id="34905" source="New York" target="CEO" weight="0.0" />
+      <edge id="80478" source="New York" target="Cosmetics Europe" weight="0.0" />
+      <edge id="80738" source="New York" target="Parfums" weight="0.0" />
+      <edge id="80740" source="New York" target="Chief Executive" weight="0.0" />
+      <edge id="80743" source="New York" target="natural products" weight="0.0" />
+      <edge id="80283" source="New York" target="mining" weight="0.0" />
+      <edge id="48712" source="New York" target="EUR" weight="0.0" />
+      <edge id="80751" source="New York" target="New York" weight="48.0" />
+      <edge id="80536" source="New York" target="Germany" weight="0.0" />
+      <edge id="80298" source="New York" target="Eau d'Ete" weight="0.0" />
+      <edge id="66499" source="New York" target="JPY" weight="0.0" />
+      <edge id="52058" source="New York" target="China" weight="0.0" />
+      <edge id="80419" source="New York" target="David Hudson" weight="0.0" />
+      <edge id="80670" source="New York" target="Denmark" weight="0.0" />
+      <edge id="58175" source="New York" target="Mediterranean" weight="0.0" />
+      <edge id="80762" source="New York" target="Patricia de Nicolaï" weight="0.0" />
+      <edge id="80206" source="New York" target="Symrise" weight="0.0" />
+      <edge id="30774" source="New York" target="France" weight="0.0" />
+      <edge id="80818" source="New York" target="Marc-Antoine Corticchiato" weight="0.0" />
+      <edge id="80361" source="New York" target="spokesman for consumer policy" weight="0.0" />
+      <edge id="63397" source="New York" target="Shanghai" weight="0.0" />
+      <edge id="80367" source="New York" target="Israel" weight="0.0" />
+      <edge id="80374" source="New York" target="oil" weight="0.0" />
+      <edge id="80381" source="New York" target="United Kingdom" weight="0.0" />
+      <edge id="80386" source="New York" target="Givaudan" weight="0.0" />
+      <edge id="80393" source="New York" target="northern Europe" weight="0.0" />
+      <edge id="41583" source="New York" target="North America" weight="0.0" />
+      <edge id="80155" source="New York" target="Sweden" weight="0.0" />
+      <edge id="80217" source="New York" target="Australia" weight="0.0" />
+      <edge id="80384" source="New York" target="LVMH" weight="0.0" />
+      <edge id="80163" source="New York" target="head" weight="0.0" />
+      <edge id="42402" source="New York" target="analyst" weight="0.0" />
+      <edge id="32147" source="New York" target="L'Oreal" weight="0.0" />
+      <edge id="80422" source="New York" target="USD" weight="0.0" />
+      <edge id="80727" source="New York" target="Indonesia" weight="0.0" />
+      <edge id="80389" source="New York" target="European Union" weight="0.0" />
+      <edge id="80443" source="New York" target="Olivier Maure" weight="0.0" />
+      <edge id="86175" source="Paris" target="Symrise" weight="0.0" />
+      <edge id="127203" source="Paris" target="Europe" weight="0.0" />
+      <edge id="127204" source="Paris" target="Australia" weight="0.0" />
+      <edge id="93691" source="Paris" target="Denmark" weight="0.0" />
+      <edge id="127208" source="Paris" target="Cosmetics Europe" weight="0.0" />
+      <edge id="127213" source="Paris" target="Grasse" weight="0.0" />
+      <edge id="127217" source="Paris" target="chief" weight="0.0" />
+      <edge id="58133" source="Paris" target="Mediterranean" weight="0.0" />
+      <edge id="34932" source="Paris" target="CEO" weight="0.0" />
+      <edge id="52079" source="Paris" target="China" weight="0.0" />
+      <edge id="127241" source="Paris" target="Parfums" weight="0.0" />
+      <edge id="116735" source="Paris" target="Chief Executive" weight="0.0" />
+      <edge id="84138" source="Paris" target="natural products" weight="0.0" />
+      <edge id="48724" source="Paris" target="EUR" weight="0.0" />
+      <edge id="127253" source="Paris" target="Germany" weight="0.0" />
+      <edge id="111840" source="Paris" target="Eau d'Ete" weight="0.0" />
+      <edge id="104457" source="Paris" target="Patricia de Nicolaï" weight="0.0" />
+      <edge id="30788" source="Paris" target="France" weight="0.0" />
+      <edge id="127305" source="Paris" target="Marc-Antoine Corticchiato" weight="0.0" />
+      <edge id="106206" source="Paris" target="Maurice Roucel" weight="0.0" />
+      <edge id="112350" source="Paris" target="spokesman for consumer policy" weight="0.0" />
+      <edge id="127300" source="Paris" target="United Kingdom" weight="0.0" />
+      <edge id="127273" source="Paris" target="LVMH" weight="0.0" />
+      <edge id="127307" source="Paris" target="Givaudan" weight="0.0" />
+      <edge id="127310" source="Paris" target="European Union" weight="0.0" />
+      <edge id="127315" source="Paris" target="northern Europe" weight="0.0" />
+      <edge id="14116" source="Paris" target="Jacques Polge" weight="0.0" />
+      <edge id="41600" source="Paris" target="North America" weight="0.0" />
+      <edge id="98583" source="Paris" target="Sweden" weight="0.0" />
+      <edge id="110034" source="Paris" target="head" weight="0.0" />
+      <edge id="127338" source="Paris" target="David Hudson" weight="0.0" />
+      <edge id="42440" source="Paris" target="analyst" weight="0.0" />
+      <edge id="32122" source="Paris" target="L'Oreal" weight="0.0" />
+      <edge id="127344" source="Paris" target="USD" weight="0.0" />
+      <edge id="127349" source="Paris" target="Olivier Maure" weight="0.0" />
+      <edge id="109018" source="software" target="Thuy Ong" weight="0.0" />
+      <edge id="128179" source="software" target="Organization of Petroleum-Exporting Countries" weight="0.0" />
+      <edge id="125583" source="software" target="SYDNEY" weight="0.0" />
+      <edge id="52197" source="software" target="China" weight="0.0" />
+      <edge id="89297" source="software" target="Richard Borsuk" weight="0.0" />
+      <edge id="128184" source="software" target="European Union" weight="0.0" />
+      <edge id="128187" source="software" target="oil producer" weight="0.0" />
+      <edge id="128190" source="software" target="sales trader" weight="0.0" />
+      <edge id="61187" source="software" target="National Australia Bank" weight="0.0" />
+      <edge id="30864" source="software" target="France" weight="0.0" />
+      <edge id="128202" source="software" target="Indonesia" weight="0.0" />
+      <edge id="98639" source="software" target="Sweden" weight="0.0" />
+      <edge id="128208" source="software" target="Europe" weight="0.0" />
+      <edge id="128209" source="software" target="Australia" weight="0.0" />
+      <edge id="43403" source="software" target="AUD" weight="0.0" />
+      <edge id="42604" source="software" target="analyst" weight="0.0" />
+      <edge id="48789" source="software" target="EUR" weight="0.0" />
+      <edge id="128219" source="software" target="USD" weight="0.0" />
+      <edge id="128222" source="software" target="Altona Mining Ltd" weight="0.0" />
+      <edge id="128224" source="software" target="Germany" weight="0.0" />
+      <edge id="128228" source="software" target="oil" weight="0.0" />
+      <edge id="128233" source="software" target="metal" weight="0.0" />
+      <edge id="128234" source="software" target="United Kingdom" weight="0.0" />
+      <edge id="83130" source="crude oil fall" target="USD" weight="0.0" />
+      <edge id="83133" source="crude oil fall" target="Altona Mining Ltd" weight="0.0" />
+      <edge id="83136" source="crude oil fall" target="Australia" weight="0.0" />
+      <edge id="33709" source="crude oil fall" target="CEO" weight="0.0" />
+      <edge id="63071" source="crude oil fall" target="S&amp;P 500" weight="0.0" />
+      <edge id="83139" source="crude oil fall" target="oil" weight="0.0" />
+      <edge id="43394" source="crude oil fall" target="AUD" weight="0.0" />
+      <edge id="42247" source="crude oil fall" target="analyst" weight="0.0" />
+      <edge id="83141" source="crude oil fall" target="Organization of Petroleum-Exporting Countries" weight="0.0" />
+      <edge id="66450" source="crude oil fall" target="JPY" weight="0.0" />
+      <edge id="61170" source="crude oil fall" target="National Australia Bank" weight="0.0" />
+      <edge id="89302" source="Richard Borsuk" target="USD" weight="0.0" />
+      <edge id="89281" source="Richard Borsuk" target="Thuy Ong" weight="0.0" />
+      <edge id="63322" source="Richard Borsuk" target="Shanghai" weight="0.0" />
+      <edge id="89305" source="Richard Borsuk" target="CSI China Mainland Real Estate" weight="0.0" />
+      <edge id="89303" source="Richard Borsuk" target="Altona Mining Ltd" weight="0.0" />
+      <edge id="89284" source="Richard Borsuk" target="Shenzhen" weight="0.0" />
+      <edge id="89299" source="Richard Borsuk" target="Australia" weight="0.0" />
+      <edge id="89285" source="Richard Borsuk" target="Organization of Petroleum-Exporting Countries" weight="0.0" />
+      <edge id="51730" source="Richard Borsuk" target="China" weight="0.0" />
+      <edge id="89286" source="Richard Borsuk" target="SYDNEY" weight="0.0" />
+      <edge id="89307" source="Richard Borsuk" target="Germany" weight="0.0" />
+      <edge id="86501" source="Richard Borsuk" target="Yuan Renminbi" weight="0.0" />
+      <edge id="89309" source="Richard Borsuk" target="oil" weight="0.0" />
+      <edge id="43367" source="Richard Borsuk" target="AUD" weight="0.0" />
+      <edge id="49968" source="Richard Borsuk" target="Beijing" weight="0.0" />
+      <edge id="89293" source="Richard Borsuk" target="Indonesia" weight="0.0" />
+      <edge id="89310" source="Richard Borsuk" target="CNY" weight="0.0" />
+      <edge id="89311" source="Richard Borsuk" target="Posco" weight="0.0" />
+      <edge id="42220" source="Richard Borsuk" target="analyst" weight="0.0" />
+      <edge id="89288" source="Richard Borsuk" target="oil producer" weight="0.0" />
+      <edge id="89312" source="Richard Borsuk" target="SSE 50" weight="0.0" />
+      <edge id="89289" source="Richard Borsuk" target="Macau" weight="0.0" />
+      <edge id="89290" source="Richard Borsuk" target="sales trader" weight="0.0" />
+      <edge id="89313" source="Richard Borsuk" target="metal" weight="0.0" />
+      <edge id="89301" source="Richard Borsuk" target="China Vanke" weight="0.0" />
+      <edge id="61168" source="Richard Borsuk" target="National Australia Bank" weight="0.0" />
+      <edge id="19855" source="SEOUL" target="European Union" weight="0.0" />
+      <edge id="19875" source="SEOUL" target="China" weight="0.0" />
+      <edge id="19877" source="SEOUL" target="Europe" weight="0.0" />
+      <edge id="19900" source="SEOUL" target="mining" weight="0.0" />
+      <edge id="19907" source="SEOUL" target="EUR" weight="0.0" />
+      <edge id="19912" source="SEOUL" target="western China" weight="0.0" />
+      <edge id="19916" source="SEOUL" target="USD" weight="0.0" />
+      <edge id="19918" source="SEOUL" target="self-developed steel making technology" weight="0.0" />
+      <edge id="19906" source="SEOUL" target="Sunil Nair" weight="0.0" />
+      <edge id="19930" source="SEOUL" target="Germany" weight="0.0" />
+      <edge id="19934" source="SEOUL" target="Chongqing" weight="0.0" />
+      <edge id="19882" source="SEOUL" target="Posco" weight="0.0" />
+      <edge id="19947" source="SEOUL" target="United Kingdom" weight="0.0" />
+      <edge id="84136" source="natural products" target="USD" weight="0.0" />
+      <edge id="84137" source="natural products" target="northern Europe" weight="0.0" />
+      <edge id="30768" source="natural products" target="France" weight="0.0" />
+      <edge id="84141" source="natural products" target="Marc-Antoine Corticchiato" weight="0.0" />
+      <edge id="34899" source="natural products" target="CEO" weight="0.0" />
+      <edge id="84143" source="natural products" target="LVMH" weight="0.0" />
+      <edge id="84144" source="natural products" target="Germany" weight="0.0" />
+      <edge id="14115" source="natural products" target="Jacques Polge" weight="0.0" />
+      <edge id="84147" source="natural products" target="Givaudan" weight="0.0" />
+      <edge id="84148" source="natural products" target="head" weight="0.0" />
+      <edge id="84149" source="natural products" target="Parfums" weight="0.0" />
+      <edge id="32121" source="natural products" target="L'Oreal" weight="0.0" />
+      <edge id="84150" source="natural products" target="Denmark" weight="0.0" />
+      <edge id="84151" source="natural products" target="Cosmetics Europe" weight="0.0" />
+      <edge id="84152" source="natural products" target="Eau d'Ete" weight="0.0" />
+      <edge id="84153" source="natural products" target="Patricia de Nicolaï" weight="0.0" />
+      <edge id="84154" source="natural products" target="Symrise" weight="0.0" />
+      <edge id="84155" source="natural products" target="Sweden" weight="0.0" />
+      <edge id="84156" source="natural products" target="David Hudson" weight="0.0" />
+      <edge id="84157" source="natural products" target="European Union" weight="0.0" />
+      <edge id="48706" source="natural products" target="EUR" weight="0.0" />
+      <edge id="84159" source="natural products" target="spokesman for consumer policy" weight="0.0" />
+      <edge id="58164" source="natural products" target="Mediterranean" weight="0.0" />
+      <edge id="84160" source="natural products" target="Olivier Maure" weight="0.0" />
+      <edge id="84142" source="natural products" target="Maurice Roucel" weight="0.0" />
+      <edge id="84163" source="natural products" target="chief" weight="0.0" />
+      <edge id="84164" source="natural products" target="Grasse" weight="0.0" />
+      <edge id="140527" source="Chongqing" target="USD" weight="0.0" />
+      <edge id="65860" source="Chongqing" target="self-developed steel making technology" weight="0.0" />
+      <edge id="63414" source="Chongqing" target="Shanghai" weight="0.0" />
+      <edge id="33263" source="Chongqing" target="Sunil Nair" weight="0.0" />
+      <edge id="51370" source="Chongqing" target="China" weight="0.0" />
+      <edge id="154795" source="Chongqing" target="mining" weight="0.0" />
+      <edge id="154797" source="Chongqing" target="CNY" weight="0.0" />
+      <edge id="96147" source="Chongqing" target="Posco" weight="0.0" />
+      <edge id="50087" source="Chongqing" target="Beijing" weight="0.0" />
+      <edge id="143716" source="Chongqing" target="western China" weight="0.0" />
+      <edge id="130018" source="optical inspection systems" target="Europe" weight="0.0" />
+      <edge id="41048" source="optical inspection systems" target="North America" weight="0.0" />
+      <edge id="122939" source="optical inspection systems" target="Israel" weight="0.0" />
+      <edge id="130019" source="optical inspection systems" target="USD" weight="0.0" />
+      <edge id="130020" source="optical inspection systems" target="Tova Cohen" weight="0.0" />
+      <edge id="130021" source="optical inspection systems" target="United Kingdom" weight="0.0" />
+      <edge id="116746" source="optical inspection systems" target="Chief Executive" weight="0.0" />
+      <edge id="51396" source="optical inspection systems" target="China" weight="0.0" />
+      <edge id="24174" source="optical inspection systems" target="SPTS" weight="0.0" />
+      <edge id="35669" source="optical inspection systems" target="micro manufacturing applications" weight="0.0" />
+      <edge id="6194" source="optical inspection systems" target="Asher Lev" weight="0.0" />
+      <edge id="98336" source="optical inspection systems" target="Orbotech" weight="0.0" />
+      <edge id="50143" source="China Vanke" target="Beijing" weight="0.0" />
+      <edge id="140537" source="China Vanke" target="USD" weight="0.0" />
+      <edge id="134933" source="China Vanke" target="SSE 50" weight="0.0" />
+      <edge id="154931" source="China Vanke" target="Macau" weight="0.0" />
+      <edge id="98330" source="China Vanke" target="Shenzhen" weight="0.0" />
+      <edge id="63396" source="China Vanke" target="Shanghai" weight="0.0" />
+      <edge id="154930" source="China Vanke" target="CNY" weight="0.0" />
+      <edge id="42517" source="China Vanke" target="analyst" weight="0.0" />
+      <edge id="96152" source="China Vanke" target="Posco" weight="0.0" />
+      <edge id="51429" source="China Vanke" target="China" weight="0.0" />
+      <edge id="149288" source="China Vanke" target="CSI China Mainland Real Estate" weight="0.0" />
+      <edge id="86510" source="China Vanke" target="Yuan Renminbi" weight="0.0" />
+      <edge id="86174" source="Symrise" target="USD" weight="0.0" />
+      <edge id="86179" source="Symrise" target="northern Europe" weight="0.0" />
+      <edge id="30348" source="Symrise" target="France" weight="0.0" />
+      <edge id="86183" source="Symrise" target="Givaudan" weight="0.0" />
+      <edge id="86185" source="Symrise" target="Parfums" weight="0.0" />
+      <edge id="86178" source="Symrise" target="Maurice Roucel" weight="0.0" />
+      <edge id="86192" source="Symrise" target="European Union" weight="0.0" />
+      <edge id="86177" source="Symrise" target="Marc-Antoine Corticchiato" weight="0.0" />
+      <edge id="86181" source="Symrise" target="Germany" weight="0.0" />
+      <edge id="14133" source="Symrise" target="Jacques Polge" weight="0.0" />
+      <edge id="86184" source="Symrise" target="head" weight="0.0" />
+      <edge id="86186" source="Symrise" target="Denmark" weight="0.0" />
+      <edge id="86187" source="Symrise" target="Cosmetics Europe" weight="0.0" />
+      <edge id="86188" source="Symrise" target="Eau d'Ete" weight="0.0" />
+      <edge id="86189" source="Symrise" target="Patricia de Nicolaï" weight="0.0" />
+      <edge id="86190" source="Symrise" target="Sweden" weight="0.0" />
+      <edge id="86191" source="Symrise" target="David Hudson" weight="0.0" />
+      <edge id="86180" source="Symrise" target="LVMH" weight="0.0" />
+      <edge id="48321" source="Symrise" target="EUR" weight="0.0" />
+      <edge id="32138" source="Symrise" target="L'Oreal" weight="0.0" />
+      <edge id="86193" source="Symrise" target="spokesman for consumer policy" weight="0.0" />
+      <edge id="58151" source="Symrise" target="Mediterranean" weight="0.0" />
+      <edge id="86194" source="Symrise" target="Olivier Maure" weight="0.0" />
+      <edge id="86195" source="Symrise" target="chief" weight="0.0" />
+      <edge id="86196" source="Symrise" target="Grasse" weight="0.0" />
+      <edge id="24169" source="SPTS" target="Europe" weight="0.0" />
+      <edge id="24170" source="SPTS" target="North America" weight="0.0" />
+      <edge id="24171" source="SPTS" target="Israel" weight="0.0" />
+      <edge id="24172" source="SPTS" target="USD" weight="0.0" />
+      <edge id="24173" source="SPTS" target="Tova Cohen" weight="0.0" />
+      <edge id="24175" source="SPTS" target="United Kingdom" weight="0.0" />
+      <edge id="24176" source="SPTS" target="Chief Executive" weight="0.0" />
+      <edge id="24177" source="SPTS" target="China" weight="0.0" />
+      <edge id="24178" source="SPTS" target="micro manufacturing applications" weight="0.0" />
+      <edge id="6198" source="SPTS" target="Asher Lev" weight="0.0" />
+      <edge id="24179" source="SPTS" target="Orbotech" weight="0.0" />
+      <edge id="86495" source="Yuan Renminbi" target="USD" weight="0.0" />
+      <edge id="86496" source="Yuan Renminbi" target="CSI China Mainland Real Estate" weight="0.0" />
+      <edge id="86498" source="Yuan Renminbi" target="Shenzhen" weight="0.0" />
+      <edge id="51560" source="Yuan Renminbi" target="China" weight="0.0" />
+      <edge id="63336" source="Yuan Renminbi" target="Shanghai" weight="0.0" />
+      <edge id="86504" source="Yuan Renminbi" target="CNY" weight="0.0" />
+      <edge id="86505" source="Yuan Renminbi" target="Posco" weight="0.0" />
+      <edge id="42301" source="Yuan Renminbi" target="analyst" weight="0.0" />
+      <edge id="50011" source="Yuan Renminbi" target="Beijing" weight="0.0" />
+      <edge id="86507" source="Yuan Renminbi" target="SSE 50" weight="0.0" />
+      <edge id="86508" source="Yuan Renminbi" target="Macau" weight="0.0" />
+      <edge id="86509" source="Yuan Renminbi" target="metal" weight="0.0" />
+      <edge id="51658" source="Israel" target="China" weight="0.0" />
+      <edge id="48426" source="Israel" target="EUR" weight="0.0" />
+      <edge id="122964" source="Israel" target="European Union" weight="0.0" />
+      <edge id="30467" source="Israel" target="France" weight="0.0" />
+      <edge id="41257" source="Israel" target="North America" weight="0.0" />
+      <edge id="35672" source="Israel" target="micro manufacturing applications" weight="0.0" />
+      <edge id="34268" source="Israel" target="CEO" weight="0.0" />
+      <edge id="98612" source="Israel" target="Sweden" weight="0.0" />
+      <edge id="6191" source="Israel" target="Asher Lev" weight="0.0" />
+      <edge id="122981" source="Israel" target="USD" weight="0.0" />
+      <edge id="122890" source="Israel" target="Europe" weight="0.0" />
+      <edge id="122893" source="Israel" target="Australia" weight="0.0" />
+      <edge id="116763" source="Israel" target="Chief Executive" weight="0.0" />
+      <edge id="122965" source="Israel" target="Tova Cohen" weight="0.0" />
+      <edge id="98333" source="Israel" target="Orbotech" weight="0.0" />
+      <edge id="122886" source="Israel" target="Indonesia" weight="0.0" />
+      <edge id="122924" source="Israel" target="Germany" weight="0.0" />
+      <edge id="122959" source="Israel" target="United Kingdom" weight="0.0" />
+      <edge id="51672" source="United Kingdom" target="China" weight="0.0" />
+      <edge id="142086" source="United Kingdom" target="Europe" weight="0.0" />
+      <edge id="155784" source="United Kingdom" target="Australia" weight="0.0" />
+      <edge id="93719" source="United Kingdom" target="Denmark" weight="0.0" />
+      <edge id="155833" source="United Kingdom" target="Organization of Petroleum-Exporting Countries" weight="0.0" />
+      <edge id="34288" source="United Kingdom" target="CEO" weight="0.0" />
+      <edge id="149443" source="United Kingdom" target="Indonesia" weight="0.0" />
+      <edge id="155901" source="United Kingdom" target="chief" weight="0.0" />
+      <edge id="148087" source="United Kingdom" target="Germany" weight="0.0" />
+      <edge id="140601" source="United Kingdom" target="USD" weight="0.0" />
+      <edge id="66510" source="United Kingdom" target="JPY" weight="0.0" />
+      <edge id="35696" source="United Kingdom" target="micro manufacturing applications" weight="0.0" />
+      <edge id="48434" source="United Kingdom" target="EUR" weight="0.0" />
+      <edge id="30480" source="United Kingdom" target="France" weight="0.0" />
+      <edge id="98337" source="United Kingdom" target="Orbotech" weight="0.0" />
+      <edge id="155794" source="United Kingdom" target="mining" weight="0.0" />
+      <edge id="63424" source="United Kingdom" target="Shanghai" weight="0.0" />
+      <edge id="140062" source="United Kingdom" target="oil" weight="0.0" />
+      <edge id="147196" source="United Kingdom" target="European Union" weight="0.0" />
+      <edge id="41267" source="United Kingdom" target="North America" weight="0.0" />
+      <edge id="98616" source="United Kingdom" target="Sweden" weight="0.0" />
+      <edge id="6195" source="United Kingdom" target="Asher Lev" weight="0.0" />
+      <edge id="110078" source="United Kingdom" target="head" weight="0.0" />
+      <edge id="155928" source="United Kingdom" target="Tova Cohen" weight="0.0" />
+      <edge id="42543" source="United Kingdom" target="analyst" weight="0.0" />
+      <edge id="50167" source="United Kingdom" target="Beijing" weight="0.0" />
+      <edge id="116767" source="United Kingdom" target="Chief Executive" weight="0.0" />
+      <edge id="155819" source="United Kingdom" target="CNY" weight="0.0" />
+      <edge id="109011" source="SYDNEY" target="Thuy Ong" weight="0.0" />
+      <edge id="125559" source="SYDNEY" target="oil producer" weight="0.0" />
+      <edge id="125560" source="SYDNEY" target="sales trader" weight="0.0" />
+      <edge id="30487" source="SYDNEY" target="France" weight="0.0" />
+      <edge id="34299" source="SYDNEY" target="CEO" weight="0.0" />
+      <edge id="51870" source="SYDNEY" target="China" weight="0.0" />
+      <edge id="61167" source="SYDNEY" target="National Australia Bank" weight="0.0" />
+      <edge id="125553" source="SYDNEY" target="Organization of Petroleum-Exporting Countries" weight="0.0" />
+      <edge id="125587" source="SYDNEY" target="Europe" weight="0.0" />
+      <edge id="125588" source="SYDNEY" target="Australia" weight="0.0" />
+      <edge id="43363" source="SYDNEY" target="AUD" weight="0.0" />
+      <edge id="50175" source="SYDNEY" target="Beijing" weight="0.0" />
+      <edge id="125600" source="SYDNEY" target="USD" weight="0.0" />
+      <edge id="63235" source="SYDNEY" target="S&amp;P 500" weight="0.0" />
+      <edge id="125602" source="SYDNEY" target="Altona Mining Ltd" weight="0.0" />
+      <edge id="125574" source="SYDNEY" target="Indonesia" weight="0.0" />
+      <edge id="125609" source="SYDNEY" target="Germany" weight="0.0" />
+      <edge id="125612" source="SYDNEY" target="oil" weight="0.0" />
+      <edge id="125621" source="SYDNEY" target="metal" weight="0.0" />
+      <edge id="66403" source="SYDNEY" target="JPY" weight="0.0" />
+      <edge id="14114" source="Jacques Polge" target="USD" weight="0.0" />
+      <edge id="14122" source="Jacques Polge" target="northern Europe" weight="0.0" />
+      <edge id="14117" source="Jacques Polge" target="France" weight="0.0" />
+      <edge id="14126" source="Jacques Polge" target="Givaudan" weight="0.0" />
+      <edge id="14128" source="Jacques Polge" target="Parfums" weight="0.0" />
+      <edge id="14121" source="Jacques Polge" target="Maurice Roucel" weight="0.0" />
+      <edge id="14123" source="Jacques Polge" target="LVMH" weight="0.0" />
+      <edge id="14124" source="Jacques Polge" target="Germany" weight="0.0" />
+      <edge id="14131" source="Jacques Polge" target="Eau d'Ete" weight="0.0" />
+      <edge id="14119" source="Jacques Polge" target="Marc-Antoine Corticchiato" weight="0.0" />
+      <edge id="14127" source="Jacques Polge" target="head" weight="0.0" />
+      <edge id="14129" source="Jacques Polge" target="Denmark" weight="0.0" />
+      <edge id="14130" source="Jacques Polge" target="Cosmetics Europe" weight="0.0" />
+      <edge id="14132" source="Jacques Polge" target="Patricia de Nicolaï" weight="0.0" />
+      <edge id="14134" source="Jacques Polge" target="Sweden" weight="0.0" />
+      <edge id="14135" source="Jacques Polge" target="David Hudson" weight="0.0" />
+      <edge id="14136" source="Jacques Polge" target="European Union" weight="0.0" />
+      <edge id="14137" source="Jacques Polge" target="EUR" weight="0.0" />
+      <edge id="14138" source="Jacques Polge" target="L'Oreal" weight="0.0" />
+      <edge id="14139" source="Jacques Polge" target="spokesman for consumer policy" weight="0.0" />
+      <edge id="14140" source="Jacques Polge" target="Mediterranean" weight="0.0" />
+      <edge id="14141" source="Jacques Polge" target="Olivier Maure" weight="0.0" />
+      <edge id="14142" source="Jacques Polge" target="chief" weight="0.0" />
+      <edge id="14144" source="Jacques Polge" target="Grasse" weight="0.0" />
+      <edge id="132875" source="Cosmetics Europe" target="USD" weight="0.0" />
+      <edge id="132877" source="Cosmetics Europe" target="northern Europe" weight="0.0" />
+      <edge id="30545" source="Cosmetics Europe" target="France" weight="0.0" />
+      <edge id="132881" source="Cosmetics Europe" target="Givaudan" weight="0.0" />
+      <edge id="132882" source="Cosmetics Europe" target="Parfums" weight="0.0" />
+      <edge id="106216" source="Cosmetics Europe" target="Maurice Roucel" weight="0.0" />
+      <edge id="132884" source="Cosmetics Europe" target="European Union" weight="0.0" />
+      <edge id="132878" source="Cosmetics Europe" target="LVMH" weight="0.0" />
+      <edge id="132879" source="Cosmetics Europe" target="Germany" weight="0.0" />
+      <edge id="111849" source="Cosmetics Europe" target="Eau d'Ete" weight="0.0" />
+      <edge id="109959" source="Cosmetics Europe" target="head" weight="0.0" />
+      <edge id="93646" source="Cosmetics Europe" target="Denmark" weight="0.0" />
+      <edge id="104468" source="Cosmetics Europe" target="Patricia de Nicolaï" weight="0.0" />
+      <edge id="98512" source="Cosmetics Europe" target="Sweden" weight="0.0" />
+      <edge id="132883" source="Cosmetics Europe" target="David Hudson" weight="0.0" />
+      <edge id="132876" source="Cosmetics Europe" target="Marc-Antoine Corticchiato" weight="0.0" />
+      <edge id="48495" source="Cosmetics Europe" target="EUR" weight="0.0" />
+      <edge id="32135" source="Cosmetics Europe" target="L'Oreal" weight="0.0" />
+      <edge id="112359" source="Cosmetics Europe" target="spokesman for consumer policy" weight="0.0" />
+      <edge id="58167" source="Cosmetics Europe" target="Mediterranean" weight="0.0" />
+      <edge id="132885" source="Cosmetics Europe" target="Olivier Maure" weight="0.0" />
+      <edge id="132886" source="Cosmetics Europe" target="chief" weight="0.0" />
+      <edge id="132887" source="Cosmetics Europe" target="Grasse" weight="0.0" />
+      <edge id="30194" source="France" target="Indonesia" weight="0.0" />
+      <edge id="30541" source="France" target="Europe" weight="0.0" />
+      <edge id="30354" source="France" target="Australia" weight="0.0" />
+      <edge id="30724" source="France" target="Denmark" weight="0.0" />
+      <edge id="30369" source="France" target="Grasse" weight="0.0" />
+      <edge id="30741" source="France" target="chief" weight="0.0" />
+      <edge id="30887" source="France" target="CEO" weight="0.0" />
+      <edge id="30760" source="France" target="China" weight="0.0" />
+      <edge id="30766" source="France" target="Parfums" weight="0.0" />
+      <edge id="30242" source="France" target="Chief Executive" weight="0.0" />
+      <edge id="30243" source="France" target="EUR" weight="0.0" />
+      <edge id="30415" source="France" target="Eau d'Ete" weight="0.0" />
+      <edge id="30301" source="France" target="North America" weight="0.0" />
+      <edge id="30753" source="France" target="Mediterranean" weight="0.0" />
+      <edge id="30629" source="France" target="Patricia de Nicolaï" weight="0.0" />
+      <edge id="30486" source="France" target="LVMH" weight="0.0" />
+      <edge id="30431" source="France" target="L'Oreal" weight="0.0" />
+      <edge id="30460" source="France" target="spokesman for consumer policy" weight="0.0" />
+      <edge id="30289" source="France" target="Givaudan" weight="0.0" />
+      <edge id="30837" source="France" target="Marc-Antoine Corticchiato" weight="0.0" />
+      <edge id="30607" source="France" target="Germany" weight="0.0" />
+      <edge id="30492" source="France" target="European Union" weight="0.0" />
+      <edge id="30497" source="France" target="northern Europe" weight="0.0" />
+      <edge id="30302" source="France" target="Sweden" weight="0.0" />
+      <edge id="30310" source="France" target="head" weight="0.0" />
+      <edge id="30474" source="France" target="oil" weight="0.0" />
+      <edge id="30746" source="France" target="Maurice Roucel" weight="0.0" />
+      <edge id="30792" source="France" target="David Hudson" weight="0.0" />
+      <edge id="30312" source="France" target="analyst" weight="0.0" />
+      <edge id="30691" source="France" target="Beijing" weight="0.0" />
+      <edge id="30515" source="France" target="USD" weight="0.0" />
+      <edge id="30786" source="France" target="JPY" weight="0.0" />
+      <edge id="30520" source="France" target="Olivier Maure" weight="0.0" />
+      <edge id="142507" source="sales trader" target="oil producer" weight="0.0" />
+      <edge id="140073" source="sales trader" target="oil" weight="0.0" />
+      <edge id="109016" source="sales trader" target="Thuy Ong" weight="0.0" />
+      <edge id="43375" source="sales trader" target="AUD" weight="0.0" />
+      <edge id="156766" source="sales trader" target="Organization of Petroleum-Exporting Countries" weight="0.0" />
+      <edge id="156767" source="sales trader" target="sales trader" weight="1.0" />
+      <edge id="149402" source="sales trader" target="Indonesia" weight="0.0" />
+      <edge id="156768" source="sales trader" target="metal" weight="0.0" />
+      <edge id="156765" source="sales trader" target="Australia" weight="0.0" />
+      <edge id="61180" source="sales trader" target="National Australia Bank" weight="0.0" />
+      <edge id="150109" source="sales trader" target="Altona Mining Ltd" weight="0.0" />
+      <edge id="32120" source="L'Oreal" target="USD" weight="0.0" />
+      <edge id="32127" source="L'Oreal" target="northern Europe" weight="0.0" />
+      <edge id="32131" source="L'Oreal" target="Givaudan" weight="0.0" />
+      <edge id="32133" source="L'Oreal" target="Parfums" weight="0.0" />
+      <edge id="32126" source="L'Oreal" target="Maurice Roucel" weight="0.0" />
+      <edge id="32128" source="L'Oreal" target="LVMH" weight="0.0" />
+      <edge id="32129" source="L'Oreal" target="Germany" weight="0.0" />
+      <edge id="32132" source="L'Oreal" target="head" weight="0.0" />
+      <edge id="32134" source="L'Oreal" target="Denmark" weight="0.0" />
+      <edge id="32136" source="L'Oreal" target="Eau d'Ete" weight="0.0" />
+      <edge id="32137" source="L'Oreal" target="Patricia de Nicolaï" weight="0.0" />
+      <edge id="32139" source="L'Oreal" target="Sweden" weight="0.0" />
+      <edge id="32140" source="L'Oreal" target="David Hudson" weight="0.0" />
+      <edge id="32141" source="L'Oreal" target="European Union" weight="0.0" />
+      <edge id="32142" source="L'Oreal" target="EUR" weight="0.0" />
+      <edge id="32143" source="L'Oreal" target="spokesman for consumer policy" weight="0.0" />
+      <edge id="32144" source="L'Oreal" target="Mediterranean" weight="0.0" />
+      <edge id="32145" source="L'Oreal" target="Olivier Maure" weight="0.0" />
+      <edge id="32146" source="L'Oreal" target="chief" weight="0.0" />
+      <edge id="32148" source="L'Oreal" target="Grasse" weight="0.0" />
+      <edge id="32124" source="L'Oreal" target="Marc-Antoine Corticchiato" weight="0.0" />
+      <edge id="93662" source="Denmark" target="Maurice Roucel" weight="0.0" />
+      <edge id="51983" source="Denmark" target="China" weight="0.0" />
+      <edge id="93724" source="Denmark" target="Givaudan" weight="0.0" />
+      <edge id="93726" source="Denmark" target="European Union" weight="0.0" />
+      <edge id="93727" source="Denmark" target="northern Europe" weight="0.0" />
+      <edge id="58166" source="Denmark" target="Mediterranean" weight="0.0" />
+      <edge id="93717" source="Denmark" target="oil" weight="0.0" />
+      <edge id="34794" source="Denmark" target="CEO" weight="0.0" />
+      <edge id="93720" source="Denmark" target="Marc-Antoine Corticchiato" weight="0.0" />
+      <edge id="93704" source="Denmark" target="LVMH" weight="0.0" />
+      <edge id="93732" source="Denmark" target="Sweden" weight="0.0" />
+      <edge id="41529" source="Denmark" target="North America" weight="0.0" />
+      <edge id="93680" source="Denmark" target="Parfums" weight="0.0" />
+      <edge id="93643" source="Denmark" target="Europe" weight="0.0" />
+      <edge id="93644" source="Denmark" target="Australia" weight="0.0" />
+      <edge id="93739" source="Denmark" target="head" weight="0.0" />
+      <edge id="93743" source="Denmark" target="David Hudson" weight="0.0" />
+      <edge id="48660" source="Denmark" target="EUR" weight="0.0" />
+      <edge id="93712" source="Denmark" target="spokesman for consumer policy" weight="0.0" />
+      <edge id="93746" source="Denmark" target="USD" weight="0.0" />
+      <edge id="93702" source="Denmark" target="Patricia de Nicolaï" weight="0.0" />
+      <edge id="93689" source="Denmark" target="Germany" weight="0.0" />
+      <edge id="93690" source="Denmark" target="Eau d'Ete" weight="0.0" />
+      <edge id="93736" source="Denmark" target="Grasse" weight="0.0" />
+      <edge id="93747" source="Denmark" target="Olivier Maure" weight="0.0" />
+      <edge id="93655" source="Denmark" target="chief" weight="0.0" />
+      <edge id="33252" source="Sunil Nair" target="USD" weight="0.0" />
+      <edge id="33253" source="Sunil Nair" target="self-developed steel making technology" weight="0.0" />
+      <edge id="33257" source="Sunil Nair" target="Europe" weight="0.0" />
+      <edge id="33260" source="Sunil Nair" target="Chief Executive" weight="0.0" />
+      <edge id="33261" source="Sunil Nair" target="China" weight="0.0" />
+      <edge id="33264" source="Sunil Nair" target="mining" weight="0.0" />
+      <edge id="33265" source="Sunil Nair" target="Posco" weight="0.0" />
+      <edge id="33266" source="Sunil Nair" target="analyst" weight="0.0" />
+      <edge id="33267" source="Sunil Nair" target="EUR" weight="0.0" />
+      <edge id="33271" source="Sunil Nair" target="western China" weight="0.0" />
+      <edge id="50019" source="SSE 50" target="Beijing" weight="0.0" />
+      <edge id="134927" source="SSE 50" target="USD" weight="0.0" />
+      <edge id="134932" source="SSE 50" target="Macau" weight="0.0" />
+      <edge id="96150" source="SSE 50" target="Posco" weight="0.0" />
+      <edge id="98327" source="SSE 50" target="Shenzhen" weight="0.0" />
+      <edge id="63421" source="SSE 50" target="Shanghai" weight="0.0" />
+      <edge id="134931" source="SSE 50" target="CNY" weight="0.0" />
+      <edge id="42312" source="SSE 50" target="analyst" weight="0.0" />
+      <edge id="52001" source="SSE 50" target="China" weight="0.0" />
+      <edge id="134928" source="SSE 50" target="CSI China Mainland Real Estate" weight="0.0" />
+      <edge id="33720" source="CEO" target="head" weight="0.0" />
+      <edge id="33834" source="CEO" target="EUR" weight="0.0" />
+      <edge id="33970" source="CEO" target="North America" weight="0.0" />
+      <edge id="33990" source="CEO" target="analyst" weight="0.0" />
+      <edge id="34496" source="CEO" target="Sweden" weight="0.0" />
+      <edge id="34072" source="CEO" target="Australia" weight="0.0" />
+      <edge id="34075" source="CEO" target="AUD" weight="0.0" />
+      <edge id="34165" source="CEO" target="mining" weight="0.0" />
+      <edge id="34221" source="CEO" target="National Australia Bank" weight="0.0" />
+      <edge id="34277" source="CEO" target="oil" weight="0.0" />
+      <edge id="34308" source="CEO" target="European Union" weight="0.0" />
+      <edge id="34356" source="CEO" target="USD" weight="0.0" />
+      <edge id="34422" source="CEO" target="Europe" weight="0.0" />
+      <edge id="33684" source="CEO" target="Organization of Petroleum-Exporting Countries" weight="0.0" />
+      <edge id="34534" source="CEO" target="Germany" weight="0.0" />
+      <edge id="34214" source="CEO" target="Beijing" weight="0.0" />
+      <edge id="34014" source="CEO" target="Mediterranean" weight="0.0" />
+      <edge id="34859" source="CEO" target="China" weight="0.0" />
+      <edge id="34866" source="CEO" target="Indonesia" weight="0.0" />
+      <edge id="34894" source="CEO" target="Chief Executive" weight="0.0" />
+      <edge id="34005" source="CEO" target="JPY" weight="0.0" />
+      <edge id="34045" source="CEO" target="micro manufacturing applications" weight="0.0" />
+      <edge id="35001" source="CEO" target="S&amp;P 500" weight="0.0" />
+      <edge id="35093" source="CEO" target="Altona Mining Ltd" weight="0.0" />
+      <edge id="135112" source="Parfums" target="USD" weight="0.0" />
+      <edge id="135114" source="Parfums" target="northern Europe" weight="0.0" />
+      <edge id="135118" source="Parfums" target="Givaudan" weight="0.0" />
+      <edge id="135115" source="Parfums" target="LVMH" weight="0.0" />
+      <edge id="106215" source="Parfums" target="Maurice Roucel" weight="0.0" />
+      <edge id="135113" source="Parfums" target="Marc-Antoine Corticchiato" weight="0.0" />
+      <edge id="135116" source="Parfums" target="Germany" weight="0.0" />
+      <edge id="110014" source="Parfums" target="head" weight="0.0" />
+      <edge id="111848" source="Parfums" target="Eau d'Ete" weight="0.0" />
+      <edge id="104467" source="Parfums" target="Patricia de Nicolaï" weight="0.0" />
+      <edge id="98647" source="Parfums" target="Sweden" weight="0.0" />
+      <edge id="135119" source="Parfums" target="David Hudson" weight="0.0" />
+      <edge id="135120" source="Parfums" target="European Union" weight="0.0" />
+      <edge id="48701" source="Parfums" target="EUR" weight="0.0" />
+      <edge id="112358" source="Parfums" target="spokesman for consumer policy" weight="0.0" />
+      <edge id="58158" source="Parfums" target="Mediterranean" weight="0.0" />
+      <edge id="135121" source="Parfums" target="Olivier Maure" weight="0.0" />
+      <edge id="135122" source="Parfums" target="chief" weight="0.0" />
+      <edge id="135123" source="Parfums" target="Grasse" weight="0.0" />
+      <edge id="35668" source="micro manufacturing applications" target="USD" weight="0.0" />
+      <edge id="35670" source="micro manufacturing applications" target="Europe" weight="0.0" />
+      <edge id="35674" source="micro manufacturing applications" target="Chief Executive" weight="0.0" />
+      <edge id="35675" source="micro manufacturing applications" target="China" weight="0.0" />
+      <edge id="35679" source="micro manufacturing applications" target="Orbotech" weight="0.0" />
+      <edge id="35687" source="micro manufacturing applications" target="North America" weight="0.0" />
+      <edge id="35693" source="micro manufacturing applications" target="Tova Cohen" weight="0.0" />
+      <edge id="6199" source="micro manufacturing applications" target="Asher Lev" weight="0.0" />
+      <edge id="63086" source="S&amp;P 500" target="Australia" weight="0.0" />
+      <edge id="61163" source="S&amp;P 500" target="National Australia Bank" weight="0.0" />
+      <edge id="41639" source="S&amp;P 500" target="North America" weight="0.0" />
+      <edge id="43419" source="S&amp;P 500" target="AUD" weight="0.0" />
+      <edge id="63084" source="S&amp;P 500" target="Europe" weight="0.0" />
+      <edge id="63102" source="S&amp;P 500" target="JPY" weight="0.0" />
+      <edge id="63269" source="S&amp;P 500" target="head" weight="0.0" />
+      <edge id="42521" source="S&amp;P 500" target="analyst" weight="0.0" />
+      <edge id="50145" source="S&amp;P 500" target="Beijing" weight="0.0" />
+      <edge id="63275" source="S&amp;P 500" target="USD" weight="0.0" />
+      <edge id="63276" source="S&amp;P 500" target="Altona Mining Ltd" weight="0.0" />
+      <edge id="63236" source="S&amp;P 500" target="Germany" weight="0.0" />
+      <edge id="63220" source="S&amp;P 500" target="oil" weight="0.0" />
+      <edge id="52136" source="S&amp;P 500" target="China" weight="0.0" />
+      <edge id="63312" source="Shanghai" target="Shenzhen" weight="0.0" />
+      <edge id="52137" source="Shanghai" target="China" weight="0.0" />
+      <edge id="63328" source="Shanghai" target="Macau" weight="0.0" />
+      <edge id="63376" source="Shanghai" target="Europe" weight="0.0" />
+      <edge id="42523" source="Shanghai" target="analyst" weight="0.0" />
+      <edge id="50148" source="Shanghai" target="Beijing" weight="0.0" />
+      <edge id="63394" source="Shanghai" target="western China" weight="0.0" />
+      <edge id="63403" source="Shanghai" target="CSI China Mainland Real Estate" weight="0.0" />
+      <edge id="63416" source="Shanghai" target="CNY" weight="0.0" />
+      <edge id="63417" source="Shanghai" target="Posco" weight="0.0" />
+      <edge id="63373" source="Shanghai" target="USD" weight="0.0" />
+      <edge id="63423" source="Shanghai" target="metal" weight="0.0" />
+      <edge id="96141" source="Posco" target="USD" weight="0.0" />
+      <edge id="65858" source="Posco" target="self-developed steel making technology" weight="0.0" />
+      <edge id="96143" source="Posco" target="CSI China Mainland Real Estate" weight="0.0" />
+      <edge id="96145" source="Posco" target="Shenzhen" weight="0.0" />
+      <edge id="52147" source="Posco" target="China" weight="0.0" />
+      <edge id="96148" source="Posco" target="mining" weight="0.0" />
+      <edge id="96149" source="Posco" target="CNY" weight="0.0" />
+      <edge id="42537" source="Posco" target="analyst" weight="0.0" />
+      <edge id="50164" source="Posco" target="Beijing" weight="0.0" />
+      <edge id="96151" source="Posco" target="Macau" weight="0.0" />
+      <edge id="96142" source="Posco" target="western China" weight="0.0" />
+      <edge id="98318" source="Shenzhen" target="USD" weight="0.0" />
+      <edge id="98320" source="Shenzhen" target="CSI China Mainland Real Estate" weight="0.0" />
+      <edge id="51448" source="Shenzhen" target="China" weight="0.0" />
+      <edge id="98325" source="Shenzhen" target="CNY" weight="0.0" />
+      <edge id="42552" source="Shenzhen" target="analyst" weight="0.0" />
+      <edge id="50173" source="Shenzhen" target="Beijing" weight="0.0" />
+      <edge id="98328" source="Shenzhen" target="Macau" weight="0.0" />
+      <edge id="98329" source="Shenzhen" target="metal" weight="0.0" />
+      <edge id="98332" source="Orbotech" target="Europe" weight="0.0" />
+      <edge id="41071" source="Orbotech" target="North America" weight="0.0" />
+      <edge id="98334" source="Orbotech" target="USD" weight="0.0" />
+      <edge id="98335" source="Orbotech" target="Tova Cohen" weight="0.0" />
+      <edge id="98338" source="Orbotech" target="Chief Executive" weight="0.0" />
+      <edge id="51450" source="Orbotech" target="China" weight="0.0" />
+      <edge id="6200" source="Orbotech" target="Asher Lev" weight="0.0" />
+      <edge id="41225" source="North America" target="Beijing" weight="0.0" />
+      <edge id="41098" source="North America" target="North America" weight="2.0" />
+      <edge id="41152" source="North America" target="AUD" weight="0.0" />
+      <edge id="41151" source="North America" target="Australia" weight="0.0" />
+      <edge id="41560" source="North America" target="China" weight="0.0" />
+      <edge id="41565" source="North America" target="Indonesia" weight="0.0" />
+      <edge id="41572" source="North America" target="Chief Executive" weight="0.0" />
+      <edge id="41206" source="North America" target="mining" weight="0.0" />
+      <edge id="41017" source="North America" target="EUR" weight="0.0" />
+      <edge id="41405" source="North America" target="Germany" weight="0.0" />
+      <edge id="6190" source="North America" target="Asher Lev" weight="0.0" />
+      <edge id="41346" source="North America" target="Europe" weight="0.0" />
+      <edge id="41310" source="North America" target="USD" weight="0.0" />
+      <edge id="41261" source="North America" target="oil" weight="0.0" />
+      <edge id="41279" source="North America" target="European Union" weight="0.0" />
+      <edge id="41477" source="North America" target="Tova Cohen" weight="0.0" />
+      <edge id="41147" source="North America" target="Sweden" weight="0.0" />
+      <edge id="41108" source="North America" target="head" weight="0.0" />
+      <edge id="41112" source="North America" target="analyst" weight="0.0" />
+      <edge id="41319" source="North America" target="CNY" weight="0.0" />
+      <edge id="98599" source="Sweden" target="LVMH" weight="0.0" />
+      <edge id="98531" source="Sweden" target="Maurice Roucel" weight="0.0" />
+      <edge id="51467" source="Sweden" target="China" weight="0.0" />
+      <edge id="98496" source="Sweden" target="spokesman for consumer policy" weight="0.0" />
+      <edge id="98627" source="Sweden" target="European Union" weight="0.0" />
+      <edge id="58152" source="Sweden" target="Mediterranean" weight="0.0" />
+      <edge id="98620" source="Sweden" target="Marc-Antoine Corticchiato" weight="0.0" />
+      <edge id="98509" source="Sweden" target="Europe" weight="0.0" />
+      <edge id="98511" source="Sweden" target="Australia" weight="0.0" />
+      <edge id="98585" source="Sweden" target="David Hudson" weight="0.0" />
+      <edge id="98631" source="Sweden" target="northern Europe" weight="0.0" />
+      <edge id="98559" source="Sweden" target="Chief Executive" weight="0.0" />
+      <edge id="98562" source="Sweden" target="mining" weight="0.0" />
+      <edge id="42591" source="Sweden" target="analyst" weight="0.0" />
+      <edge id="48325" source="Sweden" target="EUR" weight="0.0" />
+      <edge id="98657" source="Sweden" target="USD" weight="0.0" />
+      <edge id="98625" source="Sweden" target="Givaudan" weight="0.0" />
+      <edge id="98646" source="Sweden" target="head" weight="0.0" />
+      <edge id="98573" source="Sweden" target="Germany" weight="0.0" />
+      <edge id="98575" source="Sweden" target="Eau d'Ete" weight="0.0" />
+      <edge id="98598" source="Sweden" target="Patricia de Nicolaï" weight="0.0" />
+      <edge id="98666" source="Sweden" target="Olivier Maure" weight="0.0" />
+      <edge id="98520" source="Sweden" target="Grasse" weight="0.0" />
+      <edge id="98523" source="Sweden" target="chief" weight="0.0" />
+      <edge id="42226" source="analyst" target="Macau" weight="0.0" />
+      <edge id="42266" source="analyst" target="Europe" weight="0.0" />
+      <edge id="42277" source="analyst" target="AUD" weight="0.0" />
+      <edge id="42292" source="analyst" target="CSI China Mainland Real Estate" weight="0.0" />
+      <edge id="42285" source="analyst" target="chief" weight="0.0" />
+      <edge id="42213" source="analyst" target="Organization of Petroleum-Exporting Countries" weight="0.0" />
+      <edge id="42357" source="analyst" target="China" weight="0.0" />
+      <edge id="42385" source="analyst" target="Chief Executive" weight="0.0" />
+      <edge id="42394" source="analyst" target="EUR" weight="0.0" />
+      <edge id="42435" source="analyst" target="metal" weight="0.0" />
+      <edge id="42533" source="analyst" target="oil" weight="0.0" />
+      <edge id="42554" source="analyst" target="Germany" weight="0.0" />
+      <edge id="42563" source="analyst" target="European Union" weight="0.0" />
+      <edge id="42592" source="analyst" target="Australia" weight="0.0" />
+      <edge id="42617" source="analyst" target="head" weight="0.0" />
+      <edge id="42624" source="analyst" target="Beijing" weight="0.0" />
+      <edge id="42630" source="analyst" target="USD" weight="0.0" />
+      <edge id="42436" source="analyst" target="JPY" weight="0.0" />
+      <edge id="42639" source="analyst" target="CNY" weight="0.0" />
+      <edge id="51522" source="Australia" target="China" weight="0.0" />
+      <edge id="43409" source="Australia" target="AUD" weight="0.0" />
+      <edge id="157987" source="Australia" target="Organization of Petroleum-Exporting Countries" weight="0.0" />
+      <edge id="149417" source="Australia" target="Indonesia" weight="0.0" />
+      <edge id="157994" source="Australia" target="mining" weight="0.0" />
+      <edge id="48329" source="Australia" target="EUR" weight="0.0" />
+      <edge id="148043" source="Australia" target="Germany" weight="0.0" />
+      <edge id="157999" source="Australia" target="metal" weight="0.0" />
+      <edge id="109009" source="Australia" target="Thuy Ong" weight="0.0" />
+      <edge id="61161" source="Australia" target="National Australia Bank" weight="0.0" />
+      <edge id="139964" source="Australia" target="oil" weight="0.0" />
+      <edge id="140152" source="Australia" target="Givaudan" weight="0.0" />
+      <edge id="142512" source="Australia" target="oil producer" weight="0.0" />
+      <edge id="147086" source="Australia" target="European Union" weight="0.0" />
+      <edge id="142017" source="Australia" target="Europe" weight="0.0" />
+      <edge id="109955" source="Australia" target="head" weight="0.0" />
+      <edge id="49993" source="Australia" target="Beijing" weight="0.0" />
+      <edge id="140827" source="Australia" target="USD" weight="0.0" />
+      <edge id="66479" source="Australia" target="JPY" weight="0.0" />
+      <edge id="158025" source="Australia" target="CNY" weight="0.0" />
+      <edge id="150107" source="Australia" target="Altona Mining Ltd" weight="0.0" />
+      <edge id="43355" source="AUD" target="Thuy Ong" weight="0.0" />
+      <edge id="43390" source="AUD" target="China" weight="0.0" />
+      <edge id="43372" source="AUD" target="European Union" weight="0.0" />
+      <edge id="43374" source="AUD" target="oil producer" weight="0.0" />
+      <edge id="43381" source="AUD" target="National Australia Bank" weight="0.0" />
+      <edge id="43396" source="AUD" target="Indonesia" weight="0.0" />
+      <edge id="43360" source="AUD" target="Organization of Petroleum-Exporting Countries" weight="0.0" />
+      <edge id="43407" source="AUD" target="Europe" weight="0.0" />
+      <edge id="43412" source="AUD" target="head" weight="0.0" />
+      <edge id="43414" source="AUD" target="EUR" weight="0.0" />
+      <edge id="43417" source="AUD" target="USD" weight="0.0" />
+      <edge id="43428" source="AUD" target="Germany" weight="0.0" />
+      <edge id="43430" source="AUD" target="oil" weight="0.0" />
+      <edge id="43422" source="AUD" target="Altona Mining Ltd" weight="0.0" />
+      <edge id="43436" source="AUD" target="metal" weight="0.0" />
+      <edge id="43437" source="AUD" target="JPY" weight="0.0" />
+      <edge id="61178" source="mining" target="National Australia Bank" weight="0.0" />
+      <edge id="149421" source="mining" target="Indonesia" weight="0.0" />
+      <edge id="140843" source="mining" target="USD" weight="0.0" />
+      <edge id="142047" source="mining" target="Europe" weight="0.0" />
+      <edge id="143717" source="mining" target="western China" weight="0.0" />
+      <edge id="65854" source="mining" target="self-developed steel making technology" weight="0.0" />
+      <edge id="140015" source="mining" target="oil" weight="0.0" />
+      <edge id="51586" source="mining" target="China" weight="0.0" />
+      <edge id="51788" source="oil" target="China" weight="0.0" />
+      <edge id="110072" source="oil" target="head" weight="0.0" />
+      <edge id="139963" source="oil" target="Europe" weight="0.0" />
+      <edge id="139984" source="oil" target="Organization of Petroleum-Exporting Countries" weight="0.0" />
+      <edge id="139993" source="oil" target="oil producer" weight="0.0" />
+      <edge id="140004" source="oil" target="Indonesia" weight="0.0" />
+      <edge id="48430" source="oil" target="EUR" weight="0.0" />
+      <edge id="140016" source="oil" target="Germany" weight="0.0" />
+      <edge id="140021" source="oil" target="metal" weight="0.0" />
+      <edge id="109012" source="oil" target="Thuy Ong" weight="0.0" />
+      <edge id="61171" source="oil" target="National Australia Bank" weight="0.0" />
+      <edge id="140101" source="oil" target="USD" weight="0.0" />
+      <edge id="140072" source="oil" target="European Union" weight="0.0" />
+      <edge id="50161" source="oil" target="Beijing" weight="0.0" />
+      <edge id="140104" source="oil" target="Altona Mining Ltd" weight="0.0" />
+      <edge id="66521" source="oil" target="JPY" weight="0.0" />
+      <edge id="140108" source="oil" target="CNY" weight="0.0" />
+      <edge id="140148" source="Givaudan" target="USD" weight="0.0" />
+      <edge id="140149" source="Givaudan" target="northern Europe" weight="0.0" />
+      <edge id="106213" source="Givaudan" target="Maurice Roucel" weight="0.0" />
+      <edge id="140156" source="Givaudan" target="David Hudson" weight="0.0" />
+      <edge id="140151" source="Givaudan" target="Marc-Antoine Corticchiato" weight="0.0" />
+      <edge id="140154" source="Givaudan" target="Germany" weight="0.0" />
+      <edge id="110083" source="Givaudan" target="head" weight="0.0" />
+      <edge id="140153" source="Givaudan" target="LVMH" weight="0.0" />
+      <edge id="111847" source="Givaudan" target="Eau d'Ete" weight="0.0" />
+      <edge id="104465" source="Givaudan" target="Patricia de Nicolaï" weight="0.0" />
+      <edge id="140157" source="Givaudan" target="European Union" weight="0.0" />
+      <edge id="48271" source="Givaudan" target="EUR" weight="0.0" />
+      <edge id="112357" source="Givaudan" target="spokesman for consumer policy" weight="0.0" />
+      <edge id="58139" source="Givaudan" target="Mediterranean" weight="0.0" />
+      <edge id="140159" source="Givaudan" target="Olivier Maure" weight="0.0" />
+      <edge id="140160" source="Givaudan" target="chief" weight="0.0" />
+      <edge id="140161" source="Givaudan" target="Grasse" weight="0.0" />
+      <edge id="140251" source="David Hudson" target="USD" weight="0.0" />
+      <edge id="140252" source="David Hudson" target="Marc-Antoine Corticchiato" weight="0.0" />
+      <edge id="106218" source="David Hudson" target="Maurice Roucel" weight="0.0" />
+      <edge id="140253" source="David Hudson" target="northern Europe" weight="0.0" />
+      <edge id="140255" source="David Hudson" target="Germany" weight="0.0" />
+      <edge id="110116" source="David Hudson" target="head" weight="0.0" />
+      <edge id="140254" source="David Hudson" target="LVMH" weight="0.0" />
+      <edge id="111850" source="David Hudson" target="Eau d'Ete" weight="0.0" />
+      <edge id="104470" source="David Hudson" target="Patricia de Nicolaï" weight="0.0" />
+      <edge id="140257" source="David Hudson" target="European Union" weight="0.0" />
+      <edge id="48460" source="David Hudson" target="EUR" weight="0.0" />
+      <edge id="112360" source="David Hudson" target="spokesman for consumer policy" weight="0.0" />
+      <edge id="58168" source="David Hudson" target="Mediterranean" weight="0.0" />
+      <edge id="140258" source="David Hudson" target="Olivier Maure" weight="0.0" />
+      <edge id="140259" source="David Hudson" target="chief" weight="0.0" />
+      <edge id="140260" source="David Hudson" target="Grasse" weight="0.0" />
+      <edge id="116803" source="USD" target="Chief Executive" weight="0.0" />
+      <edge id="48464" source="USD" target="EUR" weight="0.0" />
+      <edge id="141144" source="USD" target="metal" weight="0.0" />
+      <edge id="111839" source="USD" target="Eau d'Ete" weight="0.0" />
+      <edge id="110123" source="USD" target="head" weight="0.0" />
+      <edge id="141183" source="USD" target="Grasse" weight="0.0" />
+      <edge id="50219" source="USD" target="Beijing" weight="0.0" />
+      <edge id="61149" source="USD" target="National Australia Bank" weight="0.0" />
+      <edge id="141362" source="USD" target="Organization of Petroleum-Exporting Countries" weight="0.0" />
+      <edge id="141296" source="USD" target="northern Europe" weight="0.0" />
+      <edge id="141320" source="USD" target="CNY" weight="0.0" />
+      <edge id="112349" source="USD" target="spokesman for consumer policy" weight="0.0" />
+      <edge id="141329" source="USD" target="Macau" weight="0.0" />
+      <edge id="140896" source="USD" target="Europe" weight="0.0" />
+      <edge id="140907" source="USD" target="oil producer" weight="0.0" />
+      <edge id="58178" source="USD" target="Mediterranean" weight="0.0" />
+      <edge id="141386" source="USD" target="Germany" weight="0.0" />
+      <edge id="104456" source="USD" target="Patricia de Nicolaï" weight="0.0" />
+      <edge id="141294" source="USD" target="European Union" weight="0.0" />
+      <edge id="141290" source="USD" target="LVMH" weight="0.0" />
+      <edge id="6192" source="USD" target="Asher Lev" weight="0.0" />
+      <edge id="140963" source="USD" target="western China" weight="0.0" />
+      <edge id="65855" source="USD" target="self-developed steel making technology" weight="0.0" />
+      <edge id="141467" source="USD" target="CSI China Mainland Real Estate" weight="0.0" />
+      <edge id="140996" source="USD" target="chief" weight="0.0" />
+      <edge id="106205" source="USD" target="Maurice Roucel" weight="0.0" />
+      <edge id="51712" source="USD" target="China" weight="0.0" />
+      <edge id="141485" source="USD" target="Indonesia" weight="0.0" />
+      <edge id="66503" source="USD" target="JPY" weight="0.0" />
+      <edge id="141402" source="USD" target="Marc-Antoine Corticchiato" weight="0.0" />
+      <edge id="141066" source="USD" target="Tova Cohen" weight="0.0" />
+      <edge id="141326" source="USD" target="Olivier Maure" weight="0.0" />
+      <edge id="141559" source="USD" target="Altona Mining Ltd" weight="0.0" />
+      <edge id="48493" source="Europe" target="EUR" weight="0.0" />
+      <edge id="109954" source="Europe" target="head" weight="0.0" />
+      <edge id="61160" source="Europe" target="National Australia Bank" weight="0.0" />
+      <edge id="142093" source="Europe" target="European Union" weight="0.0" />
+      <edge id="142116" source="Europe" target="CNY" weight="0.0" />
+      <edge id="142130" source="Europe" target="Europe" weight="1.0" />
+      <edge id="142144" source="Europe" target="oil producer" weight="0.0" />
+      <edge id="142171" source="Europe" target="Germany" weight="0.0" />
+      <edge id="6189" source="Europe" target="Asher Lev" weight="0.0" />
+      <edge id="49991" source="Europe" target="Beijing" weight="0.0" />
+      <edge id="142273" source="Europe" target="chief" weight="0.0" />
+      <edge id="58159" source="Europe" target="Mediterranean" weight="0.0" />
+      <edge id="51754" source="Europe" target="China" weight="0.0" />
+      <edge id="141908" source="Europe" target="Indonesia" weight="0.0" />
+      <edge id="116665" source="Europe" target="Chief Executive" weight="0.0" />
+      <edge id="66478" source="Europe" target="JPY" weight="0.0" />
+      <edge id="142210" source="Europe" target="Tova Cohen" weight="0.0" />
+      <edge id="109014" source="oil producer" target="Thuy Ong" weight="0.0" />
+      <edge id="142501" source="oil producer" target="metal" weight="0.0" />
+      <edge id="142503" source="oil producer" target="Altona Mining Ltd" weight="0.0" />
+      <edge id="51783" source="oil producer" target="China" weight="0.0" />
+      <edge id="142511" source="oil producer" target="Indonesia" weight="0.0" />
+      <edge id="142510" source="oil producer" target="Organization of Petroleum-Exporting Countries" weight="0.0" />
+      <edge id="61174" source="oil producer" target="National Australia Bank" weight="0.0" />
+      <edge id="104461" source="Patricia de Nicolaï" target="northern Europe" weight="0.0" />
+      <edge id="104459" source="Patricia de Nicolaï" target="Marc-Antoine Corticchiato" weight="0.0" />
+      <edge id="104460" source="Patricia de Nicolaï" target="Maurice Roucel" weight="0.0" />
+      <edge id="104471" source="Patricia de Nicolaï" target="European Union" weight="0.0" />
+      <edge id="104463" source="Patricia de Nicolaï" target="Germany" weight="0.0" />
+      <edge id="104466" source="Patricia de Nicolaï" target="head" weight="0.0" />
+      <edge id="104469" source="Patricia de Nicolaï" target="Eau d'Ete" weight="0.0" />
+      <edge id="104462" source="Patricia de Nicolaï" target="LVMH" weight="0.0" />
+      <edge id="48570" source="Patricia de Nicolaï" target="EUR" weight="0.0" />
+      <edge id="104472" source="Patricia de Nicolaï" target="spokesman for consumer policy" weight="0.0" />
+      <edge id="58191" source="Patricia de Nicolaï" target="Mediterranean" weight="0.0" />
+      <edge id="104473" source="Patricia de Nicolaï" target="Olivier Maure" weight="0.0" />
+      <edge id="104474" source="Patricia de Nicolaï" target="chief" weight="0.0" />
+      <edge id="104475" source="Patricia de Nicolaï" target="Grasse" weight="0.0" />
+      <edge id="6193" source="Asher Lev" target="Tova Cohen" weight="0.0" />
+      <edge id="6196" source="Asher Lev" target="Chief Executive" weight="0.0" />
+      <edge id="6197" source="Asher Lev" target="China" weight="0.0" />
+      <edge id="50084" source="Beijing" target="Germany" weight="0.0" />
+      <edge id="48622" source="Beijing" target="EUR" weight="0.0" />
+      <edge id="50093" source="Beijing" target="JPY" weight="0.0" />
+      <edge id="50216" source="Beijing" target="western China" weight="0.0" />
+      <edge id="50178" source="Beijing" target="European Union" weight="0.0" />
+      <edge id="50212" source="Beijing" target="Beijing" weight="1.0" />
+      <edge id="49994" source="Beijing" target="chief" weight="0.0" />
+      <edge id="49970" source="Beijing" target="Macau" weight="0.0" />
+      <edge id="50003" source="Beijing" target="CSI China Mainland Real Estate" weight="0.0" />
+      <edge id="50227" source="Beijing" target="CNY" weight="0.0" />
+      <edge id="50069" source="Beijing" target="Chief Executive" weight="0.0" />
+      <edge id="50049" source="Beijing" target="China" weight="0.0" />
+      <edge id="65857" source="western China" target="self-developed steel making technology" weight="0.0" />
+      <edge id="51930" source="western China" target="China" weight="0.0" />
+      <edge id="157308" source="chief" target="Marc-Antoine Corticchiato" weight="0.0" />
+      <edge id="106222" source="chief" target="Maurice Roucel" weight="0.0" />
+      <edge id="52004" source="chief" target="China" weight="0.0" />
+      <edge id="148187" source="chief" target="Germany" weight="0.0" />
+      <edge id="112363" source="chief" target="spokesman for consumer policy" weight="0.0" />
+      <edge id="147108" source="chief" target="European Union" weight="0.0" />
+      <edge id="58196" source="chief" target="Mediterranean" weight="0.0" />
+      <edge id="153045" source="chief" target="LVMH" weight="0.0" />
+      <edge id="109981" source="chief" target="head" weight="0.0" />
+      <edge id="116681" source="chief" target="Chief Executive" weight="0.0" />
+      <edge id="158883" source="chief" target="northern Europe" weight="0.0" />
+      <edge id="48676" source="chief" target="EUR" weight="0.0" />
+      <edge id="111854" source="chief" target="Eau d'Ete" weight="0.0" />
+      <edge id="147520" source="chief" target="Olivier Maure" weight="0.0" />
+      <edge id="145872" source="chief" target="Grasse" weight="0.0" />
+      <edge id="106208" source="Maurice Roucel" target="Marc-Antoine Corticchiato" weight="0.0" />
+      <edge id="106219" source="Maurice Roucel" target="European Union" weight="0.0" />
+      <edge id="106209" source="Maurice Roucel" target="northern Europe" weight="0.0" />
+      <edge id="106211" source="Maurice Roucel" target="Germany" weight="0.0" />
+      <edge id="106214" source="Maurice Roucel" target="head" weight="0.0" />
+      <edge id="106217" source="Maurice Roucel" target="Eau d'Ete" weight="0.0" />
+      <edge id="106210" source="Maurice Roucel" target="LVMH" weight="0.0" />
+      <edge id="48682" source="Maurice Roucel" target="EUR" weight="0.0" />
+      <edge id="106220" source="Maurice Roucel" target="spokesman for consumer policy" weight="0.0" />
+      <edge id="58137" source="Maurice Roucel" target="Mediterranean" weight="0.0" />
+      <edge id="106221" source="Maurice Roucel" target="Olivier Maure" weight="0.0" />
+      <edge id="106223" source="Maurice Roucel" target="Grasse" weight="0.0" />
+      <edge id="48695" source="China" target="EUR" weight="0.0" />
+      <edge id="51478" source="China" target="head" weight="0.0" />
+      <edge id="51989" source="China" target="self-developed steel making technology" weight="0.0" />
+      <edge id="51625" source="China" target="National Australia Bank" weight="0.0" />
+      <edge id="51991" source="China" target="CSI China Mainland Real Estate" weight="0.0" />
+      <edge id="51731" source="China" target="Macau" weight="0.0" />
+      <edge id="52027" source="China" target="China" weight="1.0" />
+      <edge id="52047" source="China" target="Chief Executive" weight="0.0" />
+      <edge id="51719" source="China" target="CNY" weight="0.0" />
+      <edge id="51828" source="China" target="Germany" weight="0.0" />
+      <edge id="52076" source="China" target="JPY" weight="0.0" />
+      <edge id="51683" source="China" target="European Union" weight="0.0" />
+      <edge id="51896" source="China" target="Tova Cohen" weight="0.0" />
+      <edge id="51378" source="China" target="metal" weight="0.0" />
+      <edge id="52032" source="China" target="Indonesia" weight="0.0" />
+      <edge id="116779" source="Tova Cohen" target="Chief Executive" weight="0.0" />
+      <edge id="148149" source="Tova Cohen" target="Germany" weight="0.0" />
+      <edge id="147205" source="Tova Cohen" target="European Union" weight="0.0" />
+      <edge id="48422" source="EUR" target="spokesman for consumer policy" weight="0.0" />
+      <edge id="48690" source="EUR" target="Mediterranean" weight="0.0" />
+      <edge id="48803" source="EUR" target="Indonesia" weight="0.0" />
+      <edge id="48705" source="EUR" target="Chief Executive" weight="0.0" />
+      <edge id="48378" source="EUR" target="Eau d'Ete" weight="0.0" />
+      <edge id="48289" source="EUR" target="Grasse" weight="0.0" />
+      <edge id="48402" source="EUR" target="National Australia Bank" weight="0.0" />
+      <edge id="48437" source="EUR" target="LVMH" weight="0.0" />
+      <edge id="48769" source="EUR" target="Marc-Antoine Corticchiato" weight="0.0" />
+      <edge id="48442" source="EUR" target="European Union" weight="0.0" />
+      <edge id="48446" source="EUR" target="northern Europe" weight="0.0" />
+      <edge id="48294" source="EUR" target="head" weight="0.0" />
+      <edge id="48553" source="EUR" target="Germany" weight="0.0" />
+      <edge id="48721" source="EUR" target="JPY" weight="0.0" />
+      <edge id="48474" source="EUR" target="Olivier Maure" weight="0.0" />
+      <edge id="109017" source="metal" target="Thuy Ong" weight="0.0" />
+      <edge id="159405" source="metal" target="Organization of Petroleum-Exporting Countries" weight="0.0" />
+      <edge id="61182" source="metal" target="National Australia Bank" weight="0.0" />
+      <edge id="149440" source="metal" target="Indonesia" weight="0.0" />
+      <edge id="150110" source="metal" target="Altona Mining Ltd" weight="0.0" />
+      <edge id="159413" source="metal" target="CNY" weight="0.0" />
+      <edge id="109010" source="Thuy Ong" target="Organization of Petroleum-Exporting Countries" weight="0.0" />
+      <edge id="109013" source="Thuy Ong" target="Indonesia" weight="0.0" />
+      <edge id="61150" source="Thuy Ong" target="National Australia Bank" weight="0.0" />
+      <edge id="109007" source="Thuy Ong" target="Altona Mining Ltd" weight="0.0" />
+      <edge id="58165" source="Mediterranean" target="head" weight="0.0" />
+      <edge id="58186" source="Mediterranean" target="Germany" weight="0.0" />
+      <edge id="58142" source="Mediterranean" target="European Union" weight="0.0" />
+      <edge id="58147" source="Mediterranean" target="LVMH" weight="0.0" />
+      <edge id="58136" source="Mediterranean" target="Marc-Antoine Corticchiato" weight="0.0" />
+      <edge id="58187" source="Mediterranean" target="Eau d'Ete" weight="0.0" />
+      <edge id="58144" source="Mediterranean" target="northern Europe" weight="0.0" />
+      <edge id="58171" source="Mediterranean" target="spokesman for consumer policy" weight="0.0" />
+      <edge id="58195" source="Mediterranean" target="Olivier Maure" weight="0.0" />
+      <edge id="58155" source="Mediterranean" target="Grasse" weight="0.0" />
+      <edge id="145865" source="Grasse" target="Marc-Antoine Corticchiato" weight="0.0" />
+      <edge id="145866" source="Grasse" target="northern Europe" weight="0.0" />
+      <edge id="145868" source="Grasse" target="Germany" weight="0.0" />
+      <edge id="110100" source="Grasse" target="head" weight="0.0" />
+      <edge id="145867" source="Grasse" target="LVMH" weight="0.0" />
+      <edge id="111855" source="Grasse" target="Eau d'Ete" weight="0.0" />
+      <edge id="145870" source="Grasse" target="European Union" weight="0.0" />
+      <edge id="112364" source="Grasse" target="spokesman for consumer policy" weight="0.0" />
+      <edge id="145871" source="Grasse" target="Olivier Maure" weight="0.0" />
+      <edge id="109941" source="head" target="Indonesia" weight="0.0" />
+      <edge id="110025" source="head" target="Germany" weight="0.0" />
+      <edge id="110027" source="head" target="Eau d'Ete" weight="0.0" />
+      <edge id="110047" source="head" target="LVMH" weight="0.0" />
+      <edge id="109926" source="head" target="spokesman for consumer policy" weight="0.0" />
+      <edge id="110081" source="head" target="Marc-Antoine Corticchiato" weight="0.0" />
+      <edge id="110086" source="head" target="European Union" weight="0.0" />
+      <edge id="110091" source="head" target="northern Europe" weight="0.0" />
+      <edge id="110134" source="head" target="Olivier Maure" weight="0.0" />
+      <edge id="111842" source="Eau d'Ete" target="Marc-Antoine Corticchiato" weight="0.0" />
+      <edge id="111851" source="Eau d'Ete" target="European Union" weight="0.0" />
+      <edge id="111843" source="Eau d'Ete" target="northern Europe" weight="0.0" />
+      <edge id="111845" source="Eau d'Ete" target="Germany" weight="0.0" />
+      <edge id="111844" source="Eau d'Ete" target="LVMH" weight="0.0" />
+      <edge id="111852" source="Eau d'Ete" target="spokesman for consumer policy" weight="0.0" />
+      <edge id="111853" source="Eau d'Ete" target="Olivier Maure" weight="0.0" />
+      <edge id="61156" source="National Australia Bank" target="Altona Mining Ltd" weight="0.0" />
+      <edge id="61162" source="National Australia Bank" target="Organization of Petroleum-Exporting Countries" weight="0.0" />
+      <edge id="61169" source="National Australia Bank" target="Germany" weight="0.0" />
+      <edge id="61173" source="National Australia Bank" target="Indonesia" weight="0.0" />
+      <edge id="61183" source="National Australia Bank" target="JPY" weight="0.0" />
+      <edge id="112352" source="spokesman for consumer policy" target="Marc-Antoine Corticchiato" weight="0.0" />
+      <edge id="112361" source="spokesman for consumer policy" target="European Union" weight="0.0" />
+      <edge id="112353" source="spokesman for consumer policy" target="northern Europe" weight="0.0" />
+      <edge id="112355" source="spokesman for consumer policy" target="Germany" weight="0.0" />
+      <edge id="112354" source="spokesman for consumer policy" target="LVMH" weight="0.0" />
+      <edge id="112362" source="spokesman for consumer policy" target="Olivier Maure" weight="0.0" />
+      <edge id="153043" source="LVMH" target="Marc-Antoine Corticchiato" weight="0.0" />
+      <edge id="153044" source="LVMH" target="northern Europe" weight="0.0" />
+      <edge id="148155" source="LVMH" target="Germany" weight="0.0" />
+      <edge id="147199" source="LVMH" target="European Union" weight="0.0" />
+      <edge id="147517" source="LVMH" target="Olivier Maure" weight="0.0" />
+      <edge id="116777" source="European Union" target="Chief Executive" weight="0.0" />
+      <edge id="147146" source="European Union" target="Germany" weight="0.0" />
+      <edge id="147172" source="European Union" target="Marc-Antoine Corticchiato" weight="0.0" />
+      <edge id="147203" source="European Union" target="European Union" weight="1.0" />
+      <edge id="147207" source="European Union" target="northern Europe" weight="0.0" />
+      <edge id="147228" source="European Union" target="Olivier Maure" weight="0.0" />
+      <edge id="157307" source="northern Europe" target="Marc-Antoine Corticchiato" weight="0.0" />
+      <edge id="148091" source="northern Europe" target="Germany" weight="0.0" />
+      <edge id="147516" source="northern Europe" target="Olivier Maure" weight="0.0" />
+      <edge id="159656" source="CNY" target="Macau" weight="0.0" />
+      <edge id="149286" source="CNY" target="CSI China Mainland Real Estate" weight="0.0" />
+      <edge id="148101" source="CNY" target="Germany" weight="0.0" />
+      <edge id="147515" source="Olivier Maure" target="Marc-Antoine Corticchiato" weight="0.0" />
+      <edge id="147518" source="Olivier Maure" target="Germany" weight="0.0" />
+      <edge id="149287" source="Macau" target="CSI China Mainland Real Estate" weight="0.0" />
+      <edge id="149399" source="Organization of Petroleum-Exporting Countries" target="Indonesia" weight="0.0" />
+      <edge id="150108" source="Organization of Petroleum-Exporting Countries" target="Altona Mining Ltd" weight="0.0" />
+      <edge id="147979" source="Germany" target="Indonesia" weight="0.0" />
+      <edge id="66519" source="Germany" target="JPY" weight="0.0" />
+      <edge id="148131" source="Germany" target="Marc-Antoine Corticchiato" weight="0.0" />
+      <edge id="116775" source="Germany" target="Chief Executive" weight="0.0" />
+      <edge id="65856" source="self-developed steel making technology" target="self-developed steel making technology" weight="1.0" />
+      <edge id="149433" source="Indonesia" target="Altona Mining Ltd" weight="0.0" />
+      <edge id="66512" source="JPY" target="Altona Mining Ltd" weight="0.0" />
+    </edges>
+  </graph>
+</gexf>
